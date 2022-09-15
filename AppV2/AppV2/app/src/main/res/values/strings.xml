@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppV2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Change_folder">Cambiar de carpeta</string>
+    <string name="Search_database">Buscar base de datos</string>
+    <string name="Close">Cerrar</string>
+    <string name="Nothing">No hay archivos</string>
+
+
+    <string name="permiso">Permiso</string>
+    <string name="requerido">Requerido</string>
+    <string name="start">Start</string>
+    <string name="Missing">Faltan</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_start_game">PERMISOS</string>
+
+
+
+    <string name="upload_excel_file">Upload Excel File</string>
+    <string name="TAG">TAG</string>
+
+</resources>
