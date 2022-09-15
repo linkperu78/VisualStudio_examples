@@ -60,6 +60,7 @@ public class Scan extends Fragment {
 
                 if(!file_path.equals("")){
                     Log.d("TAG", " ----------- SE ESTAN INTENTANDO CREAR LA TABLA PERO NO SALE: ONCREATED");
+                 /*
                     TableRow row = new TableRow(getContext());
                     for (int j = 0; j < 4 ; j++){
                         txtCell = new TextView(getContext());
@@ -71,6 +72,8 @@ public class Scan extends Fragment {
                     }
                     table_data.addView(row);
 
+
+                  */
                 }
                 else {
                     Log.d("TAG", " ----------- NO SE LOGRO ONCREATED");
