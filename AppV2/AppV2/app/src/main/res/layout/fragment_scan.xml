@@ -7,6 +7,7 @@
     tools:context=".fragments.Scan">
 
     <ScrollView
+        android:id="@+id/ScrollV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
@@ -16,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <HorizontalScrollView
+            android:id="@+id/ScrollH"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
