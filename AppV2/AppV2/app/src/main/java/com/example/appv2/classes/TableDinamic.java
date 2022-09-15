@@ -10,33 +10,83 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class TableDinamic extends TableRow {
-    public TableDinamic(Context context, String user, String date, String score){
+    private TableLayout tableLayout;
+    private Context context;
+    private String[] header;
+    private ArrayList<String[]> data;
+    private TableRow tableRow;
+    private TextView txtCell;
+    private int indexC;
+    private int indexR;
+
+
+    public TableDinamic(TableLayout tableLayout, Context context) {
         super(context);
+        this.tableLayout = tableLayout;
+        this.context = context;
+    }
 
-        TextView userView = new TextView(context);
-        userView.setLayoutParams(new TableLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 1f));
-        userView.setText(user);
-        userView.setTextColor(0);
-        userView.setTextSize(22);
+    public void addHeader(String[] header){
+        this.header=header;
+        CreateHeader();
+    }
 
-        TextView dateView = new TextView(context);
-        dateView.setLayoutParams(new TableLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 1f));
-        dateView.setText(date);
-        dateView.setTextColor(0);
-        dateView.setTextSize(22);
+    public void addData(ArrayList<String[]> data){
+        this.data = data;
+        createDataTable();
+    }
 
-        TextView scoreView = new TextView(context);
-        scoreView.setLayoutParams(new TableLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 1f));
-        scoreView.setText(score);
-        scoreView.setTextColor(0);
-        scoreView.setTextSize(22);
+    private void newRow(){
+        tableRow=new TableRow(context);
+    }
 
-        addView(userView);
-        addView(dateView);
-        addView(scoreView);
+    private void newCell(){
+        txtCell = new TextView(context);
+        txtCell.setGravity(Gravity.CENTER);
+        txtCell.setPadding(4,4,4,4);
+        txtCell.setTextSize(25);
+    }
+
+    private void CreateHeader(){
+        indexC=0;
+        newRow();
+        while(indexC < header.length){
+            newCell();
+            txtCell.setText(header[indexC++]);
+            txtCell.setBackgroundColor(Color.BLUE);
+            tableRow.addView(txtCell,newTableRowParams());
+            tableRow.setBackgroundColor(Color.BLACK);
+            tableRow.setPadding(5,5,5,10);
+        }
+        tableLayout.addView(tableRow);
+    }
+
+    private void createDataTable(){
+        String info;
+        for(indexR = 1; indexR <= data.size(); indexR++){
+            //Log.d("TAG", "createData " +indexR +" adasda :" + data.size());
+            newRow();
+            for (indexC=0;indexC <= header.length;indexC++){
+                newCell();
+                String[] colums=data.get(indexR-1);
+                info = (indexC<colums.length)?colums[indexC]:"";
+                txtCell.setText(info);
+                txtCell.setBackgroundColor(Color.WHITE);
+                tableRow.addView(txtCell,newTableRowParams());
+                tableRow.setBackgroundColor(Color.BLACK);
+                tableRow.setPadding(5,5,5,5);
+            }
+            tableLayout.addView(tableRow);
+        }
+    }
+
+    private TableRow.LayoutParams newTableRowParams(){
+        TableRow.LayoutParams params = new TableRow.LayoutParams();
+        params.setMargins(1,1,1,1);
+        params.weight=1;
+        return  params;
     }
 }
-
 
 
 

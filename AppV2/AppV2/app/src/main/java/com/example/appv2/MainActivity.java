@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager2 = findViewById(R.id.view_pager);
         MyViewPagerAdapter = new MyViewPagerAdapter(this);
         viewPager2.setAdapter(MyViewPagerAdapter);
-
+        viewPager2.setUserInputEnabled(false);
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {

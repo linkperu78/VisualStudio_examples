@@ -89,34 +89,14 @@ public class Scan extends Fragment {
         super.onResume();
 
         if(!file_path.equals("")) {
-            Context my_table_context = this.getActivity();
-
-            TableRow row = new TableRow(my_table_context);
+            Context context = this.getActivity();
             table_data.invalidate();
             table_data.removeAllViews();
-            table_data.setOrientation(LinearLayout.HORIZONTAL);
-            row.setBackgroundColor(Color.BLACK);
-            row.setPadding(10,10,10,10);
 
-            for (int i = 0; i < Headers_table.length; i++) {
-                TextView txt = new TextView(my_table_context);
-                txt.setGravity(Gravity.CENTER);
-                txt.setTextColor(Color.BLACK);
-                txt.setBackgroundColor(Color.RED);
-                txt.setTextSize(30);
-                txt.setText(Headers_table[i]);
-                txt.setPadding(20,20,20,20);
+            tableDinamic = new TableDinamic(table_data,context);
+            tableDinamic.addHeader(Headers_table);
+            tableDinamic.addData(dataArray);
 
-                TableRow.LayoutParams params =new TableRow.LayoutParams();
-                params.setMargins(4,4,4,4);
-                params.weight=1;
-                row.addView(txt,params);
             }
-            table_data.addView(row);
         }
-    }
-
-
-
-
 }
