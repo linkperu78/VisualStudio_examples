@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textSize="20dp"
+            android:text="Select"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textSize="20dp"
+            android:text="Reset"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textSize="20dp"
+            android:text="Clear"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_nonFiles"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingStart="20dp"
+        android:gravity="center|start"
+        android:text="HOLA MUNDO"
+        android:textAlignment="center"
+        android:background="@color/gray"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/blue1"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/setting_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/read_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="2dp"
+        android:background="@color/gray"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        android:visibility="visible" />
+
+</LinearLayout>

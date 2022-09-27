@@ -1,0 +1,4 @@
+#Tue Sep 27 17:31:10 COT 2022
+base.0=C\:\\Users\\Diego\\Downloads\\funcional_demo\\demo2\\uhf-uart-demo\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
