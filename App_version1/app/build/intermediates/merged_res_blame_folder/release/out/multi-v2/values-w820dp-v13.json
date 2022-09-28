@@ -4,7 +4,7 @@
             "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Diego\\Downloads\\funcional_demo\\demo2\\uhf-uart-demo\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\Github\\Android_examples\\App_version1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

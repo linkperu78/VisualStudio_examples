@@ -5775,6 +5775,8 @@ com.example.uhf.R$styleable
 com.example.uhf.R$xml
 com.example.uhf.R
 com.example.uhf.UhfInfo:
+    private java.lang.String selectItem
+    private java.util.List tempDatas
     private long time
     public int getCount()
     public int getSelectIndex()
@@ -5783,27 +5785,29 @@ com.example.uhf.UhfInfo:
     public int getTagNumber()
     public java.util.List getTempDatas()
     public long getTime()
+    public void setCount(int)
+    public void setSelectIndex(int)
+    public void setSelectItem(java.lang.String)
+    public void setTagList(java.util.ArrayList)
+    public void setTagNumber(int)
+    public void setTempDatas(java.util.List)
     public void setTime(long)
 com.example.uhf.activity.BaseTabFragmentActivity:
     public boolean vailHexInput(java.lang.String)
 com.example.uhf.activity.UHFMainActivity:
     private static final java.lang.String TAG
-    public void LogD(java.lang.String)
+    public void popup_all_files_permission()
 com.example.uhf.adapter.MyRvAdapter:
     public java.lang.String getFile_path()
 com.example.uhf.adapter.ViewPagerAdapter
 com.example.uhf.fragment.SettingFragment:
     private static final java.lang.String TAG
-com.example.uhf.fragment.UHFReadFragment$1
-com.example.uhf.fragment.UHFReadFragment$2
-com.example.uhf.fragment.UHFReadFragment
+com.example.uhf.fragment.UHFReadTagFragment$ViewHolder
 com.example.uhf.fragment.UHFReadTagFragment:
     private static final java.lang.String TAG
-    public static final java.lang.String TAG_COUNT
-    public static final java.lang.String TAG_EPC
-    public static final java.lang.String TAG_EPC_TID
-    public static final java.lang.String TAG_RSSI
+    static final java.lang.String codigo_empresa
     public java.lang.String[] header_from_file
+    private java.util.HashMap map_real
 com.example.uhf.tools.NumberTool:
     public void <init>()
     public static double getPointDouble(int,int)
@@ -5818,6 +5822,7 @@ com.example.uhf.tools.StringUtils:
     public static boolean isHexNumber(java.lang.String)
     public static java.lang.Boolean isIP(java.lang.String)
     public static java.lang.Boolean isInt(java.lang.String)
+    public static boolean isNotEmpty(java.lang.CharSequence)
     public static java.lang.String replaceUrlWithPlus(java.lang.String)
     public static boolean toBool(java.lang.String)
     public static double toDouble(java.lang.String)

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [DeviceAPI_ver20220518_release.aar] C:\Users\Diego\.gradle\caches\transforms-3\4b619a2e78729c6fec4793cbf09c267e\transformed\jetified-DeviceAPI_ver20220518_release\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Diego\.gradle\caches\transforms-3\b19421c8ef219f5689d34108756c496a\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Diego\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
@@ -32,39 +32,39 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Diego\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Diego\.gradle\caches\transforms-3\39156f8221bbf5baef7142862eb30f66\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Diego\.gradle\caches\transforms-3\fd1b545579ee6fe17065c14f79977cf0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Diego\.gradle\caches\transforms-3\9958f828f7dc6d72061e45d6dfdd6ac1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:6:5-30
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:9:5-82
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:9:5-82
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:9:22-79
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:9:22-79
 application
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:10:5-35:19
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:10:5-35:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Diego\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Diego\.gradle\caches\transforms-3\709ad52284287fdc85d7934d58bb9017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Diego\.gradle\caches\transforms-3\689e6c4053f8e17b8ab078eb73c72382\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -76,53 +76,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Di
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\Diego\.gradle\caches\transforms-3\15f9ae95f63a306a8c4443d7c0b3061d\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:14:9-43
 activity#com.example.uhf.activity.UHFMainActivity
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:15:9-26:20
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:15:9-26:20
 	android:screenOrientation
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:17:13-49
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:17:13-49
 	android:label
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:19:13-45
 	android:exported
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:20:13-36
 	android:configChanges
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:18:13-59
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:18:13-59
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:16:13-68
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:16:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:24:27-74
 receiver#com.example.uhf.BootBroadcastReceiver
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:27:9-33:20
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:exported
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:27:19-71
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:27:19-71
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:29:13-32:29
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:29:13-32:29
 	android:priority
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:29:28-51
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:29:28-51
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:30:17-79
+ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:30:17-79
 	android:name
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml:30:25-76
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml:30:25-76
 uses-sdk
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 MERGED from [DeviceAPI_ver20220518_release.aar] C:\Users\Diego\.gradle\caches\transforms-3\4b619a2e78729c6fec4793cbf09c267e\transformed\jetified-DeviceAPI_ver20220518_release\AndroidManifest.xml:7:5-9:41
 MERGED from [DeviceAPI_ver20220518_release.aar] C:\Users\Diego\.gradle\caches\transforms-3\4b619a2e78729c6fec4793cbf09c267e\transformed\jetified-DeviceAPI_ver20220518_release\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Diego\.gradle\caches\transforms-3\b19421c8ef219f5689d34108756c496a\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -179,16 +179,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Diego\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Diego\.gradle\caches\transforms-3\fd1b545579ee6fe17065c14f79977cf0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Diego\.gradle\caches\transforms-3\9958f828f7dc6d72061e45d6dfdd6ac1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Diego\.gradle\caches\transforms-3\9958f828f7dc6d72061e45d6dfdd6ac1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Android_examples\App_version1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [DeviceAPI_ver20220518_release.aar] C:\Users\Diego\.gradle\caches\transforms-3\4b619a2e78729c6fec4793cbf09c267e\transformed\jetified-DeviceAPI_ver20220518_release\AndroidManifest.xml:11:5-79
 	android:name

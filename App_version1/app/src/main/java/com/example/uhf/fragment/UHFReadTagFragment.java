@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.example.uhf.R;
@@ -35,32 +36,32 @@ import java.util.List;
 public class UHFReadTagFragment extends KeyDwonFragment {
     private static final String TAG = "UHFReadTagFragment";
     private boolean loopFlag = false;
+
+
     private List<String> tempDatas = new ArrayList<>();
-    private List<String> tempData_realEPC = new ArrayList<>();
-    MyAdapter adapter;
+
+    private ArrayList<HashMap<String, String>> tagList;
+    private ArrayList<String> EPC_numbers;
+    final static String codigo_empresa = "3034";
+
+    SimpleAdapter adapter;
     Button BtClear;
     TextView tvTime;
     TextView tv_count;
     TextView tv_total;
-    RadioButton RbInventorySingle;
-    RadioButton RbInventoryLoop;
-
     Button BtInventory;
     ListView LvTags;
     private UHFMainActivity mContext;
     private HashMap<String, String> map;
+    private HashMap<String, String> map_real;
 
-    private int total;
+
     private long time;
 
 
     private String[] estado_lector = {"Start","Stop","Clear"};
     private int estado_int;
 
-    public static final String TAG_EPC = "tagEPC";
-    public static final String TAG_EPC_TID = "tagEpcTID";
-    public static final String TAG_COUNT = "tagCount";
-    public static final String TAG_RSSI = "tagRssi";
 
     public ArrayList<String[]> data_from_file = new ArrayList<>();
     public String[] header_from_file;
@@ -70,7 +71,9 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         @Override
         public void handleMessage(Message msg) {
             UHFTAGInfo info = (UHFTAGInfo) msg.obj;
-            addDataToList(info.getEPC(),EPC_norm(info.getEPC()), info.getRssi());
+            if(info.getEPC().substring(0,4).equals(codigo_empresa)) {
+                addDataToList(info.getEPC(), EPC_norm(info.getEPC()), info.getRssi());
+            }
             setTotalTime();
         }
     };
@@ -89,6 +92,8 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         estado_int=0;
         mContext = (UHFMainActivity) getActivity();
         mContext.currentFragment=this;
+        tagList = new ArrayList<HashMap<String, String>>();
+        EPC_numbers = new ArrayList<String>();
         BtClear = (Button) getView().findViewById(R.id.BtClear);
         tvTime = (TextView) getView().findViewById(R.id.tvTime);
         tvTime.setText("0s");
@@ -98,22 +103,21 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         BtInventory = (Button) getView().findViewById(R.id.BtInventory);
 
         LvTags = (ListView) getView().findViewById(R.id.LvTags);
-        adapter=new MyAdapter(mContext);
-        LvTags.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                adapter.setSelectItem(position);
-                adapter.notifyDataSetInvalidated();
-            }
-        });
+
+        adapter = new SimpleAdapter(mContext, tagList, R.layout.listtag_items,
+                new String[]{"tagUii", "tagLen", "tagCount", "tagRssi"},
+                new int[]{R.id.TvTagUii, R.id.TvTagLen, R.id.TvTagCount,
+                        R.id.TvTagRssi});
         LvTags.setAdapter(adapter);
+
+
         BtClear.setOnClickListener(new BtClearClickListener());
         BtInventory.setOnClickListener(new BtInventoryClickListener());
 
 
         //clearData();
         tv_count.setText(mContext.tagList.size()+"");
-        tv_total.setText(total+"");
+        tv_total.setText(""+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
     }
 
@@ -122,47 +126,42 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     public void onPause() {
         Log.i(TAG, "UHFReadTagFragment.onPause");
         super.onPause();
-
-        // 停止识别
         stopInventory();
     }
 
     /**
      * En esta funcion se guardan los datos en el diccionario "map"
-     * y luego se agregan a tempData
+     * y luego se agregan a  "tagList"
      *
      */
     private void addDataToList(String epc,String epcAndTidUser, String rssi) {
-        if (StringUtils.isNotEmpty(epc)) {
-            String epc_tag = epc.substring(4,19);
-            int index = checkIsExist(epc,tempDatas);
-            int index_2 = checkIsExist(epc_tag,tempData_realEPC);
+        if (!TextUtils.isEmpty(epc)) {
+            String epc_tag = EPC_norm(epc);
+
+            int index = checkIsExist(epc_tag);
+
             map = new HashMap<String, String>();
-            map.put(TAG_EPC, epc);
-            map.put(TAG_EPC_TID, epcAndTidUser);
-            map.put(TAG_COUNT, String.valueOf(1));
-            map.put(TAG_RSSI, rssi);
-            if (index   ==  -1) {
-                mContext.tagList.add(map);
-                tempDatas.add(epc);
-                tv_count.setText(String.valueOf(adapter.getCount()));
-                if(index_2  ==  -1) {
-                    tempData_realEPC.add(epc_tag);
-                }else{
-                    int tagCount = Integer.parseInt(mContext.tagList.get(index).get(TAG_COUNT), 10) + 1;
-                    map.put(TAG_COUNT, String.valueOf(tagCount));
-                    map.put(TAG_EPC_TID, epcAndTidUser);
-                    mContext.tagList.set(index, map);
+            map.put("tagUii", epc_tag);
+            map.put("tagCount", String.valueOf(0));
+
+
+            if(index == -1){
+                tagList.add(map);
+                LvTags.setAdapter(adapter);
+                tv_count.setText("" + adapter.getCount());
+
+            }else{
+                boolean index2 = EPC_numbers.contains(epc);
+                if(!index2){
+                    EPC_numbers.add(epc);
+                    int tagcount = Integer.parseInt(tagList.get(index).get("tagCount"), 10) + 1;
+                    map.put("tagCount", String.valueOf(tagcount));
+                    tagList.set(index, map);
                 }
+
             }
-            tv_total.setText(String.valueOf(++total));
             adapter.notifyDataSetChanged();
 
-            //----------
-            mContext.uhfInfo.setTempDatas(tempDatas);
-            mContext.uhfInfo.setTagList(mContext.tagList);
-            mContext.uhfInfo.setCount(total);
-            mContext.uhfInfo.setTagNumber(adapter.getCount());
         }
     }
 
@@ -178,12 +177,9 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
     private void clearData() {
         tv_count.setText("0");
-        tv_total.setText("0");
-        tvTime.setText("0s");
-        total = 0;
-        mContext.tagList.clear();
-        tempDatas.clear();
-        tempData_realEPC.clear();
+        tagList.clear();
+        EPC_numbers.clear();
+        Log.i("MY", "tagList.size " + tagList.size());
         adapter.notifyDataSetChanged();
     }
 
@@ -197,16 +193,14 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     }
 
     private void readTag() {
-
         switch (estado_int) {
             case 0: // Se presiona una vez el gatillo, comienza la lectura
                 if (mContext.mReader.startInventoryTag()) {
                     loopFlag = true;
-                    setViewEnabled(false);
                     time = System.currentTimeMillis();
                     new TagThread().start(); // Se inicia la lectura de los RFIDS en segundo plano
                     } else {
-                    stopInventory();
+                    mContext.mReader.stopInventory();
                     UIHelper.ToastMessage(mContext, R.string.uhf_msg_inventory_open_fail);
                 }
                 break;
@@ -222,7 +216,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             default:
                 break;
         }
-
         estado_int++; estado_int = estado_int%3;
         BtInventory.setText(estado_lector[estado_int]);
     }
@@ -237,19 +230,12 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         tvTime.setText(NumberTool.getPointDouble(1, useTime) + "s");
     }
 
-    private void setViewEnabled(boolean enabled) {
-        RbInventorySingle.setEnabled(enabled);
-        RbInventoryLoop.setEnabled(enabled);
-        BtClear.setEnabled(enabled);
-    }
-
     /**
      * 停止识别
      */
     private void stopInventory() {
         if (loopFlag) {
             loopFlag = false;
-            setViewEnabled(true);
             if (mContext.mReader.stopInventory()) {
                 BtInventory.setText(mContext.getString(R.string.btInventory));
             } else {
@@ -260,55 +246,24 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
     /**
      * 判断EPC是否在列表中
-     *
-     * @param epc 索引
      * @return
      */
-    public int checkIsExist(String epc, List<String> ListString_input) {
-        if (StringUtils.isEmpty(epc)) {
-            return -1;
+    public int checkIsExist(String strEPC) {
+        int existFlag = -1;
+        if (StringUtils.isEmpty(strEPC)) {
+            return existFlag;
         }
-        return binarySearch(ListString_input, epc);
-    }
-
-    /**
-     * 二分查找，找到该值在数组中的下标，否则为-1
-     */
-    static int binarySearch(List<String> array, String src) {
-        int left = 0;
-        int right = array.size() - 1;
-        // 这里必须是 <=
-        while (left <= right) {
-            if (compareString(array.get(left), src)) {
-                return left;
-            } else if (left != right) {
-                if (compareString(array.get(right), src))
-                    return right;
+        String tempStr = "";
+        for (int i = 0; i < tagList.size(); i++) {
+            HashMap<String, String> temp = new HashMap<String, String>();
+            temp = tagList.get(i);
+            tempStr = temp.get("tagUii");
+            if (strEPC.equals(tempStr)) {
+                existFlag = i;
+                break;
             }
-            left++;
-            right--;
         }
-        return -1;
-    }
-
-
-
-    static boolean compareString(String str1, String str2) {
-        if (str1.length() != str2.length()) {
-            return false;
-        } else if (str1.hashCode() != str2.hashCode()) {
-            return false;
-        } else {
-            char[] value1 = str1.toCharArray();
-            char[] value2 = str2.toCharArray();
-            int size = value1.length;
-            for (int k = 0; k < size; k++) {
-                if (value1[k] != value2[k]) {
-                    return false;
-                }
-            }
-            return true;
-        }
+        return existFlag;
     }
 
     class TagThread extends Thread {
@@ -332,7 +287,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
      */
     private String EPC_norm(String epc) {
-        String data=epc;             // El numero EPC
+        String data=epc.substring(0,15);             // El numero EPC
         return  data;
     }
 
@@ -354,64 +309,5 @@ public class UHFReadTagFragment extends KeyDwonFragment {
      * ESTA CLASS ES LA QUE INGRESA DATOS AL LISTVIEW.
      * adapter = new MyAdapter(Context context);
      */
-
-    public class MyAdapter extends BaseAdapter {
-        private LayoutInflater mInflater;
-        public MyAdapter(Context context) {
-            this.mInflater = LayoutInflater.from(context);
-        }
-        public int getCount() {
-            // TODO Auto-generated method stub
-            return mContext.tagList.size();
-        }
-        public Object getItem(int arg0) {
-            // TODO Auto-generated method stub
-            return mContext.tagList.get(arg0);
-        }
-        public long getItemId(int arg0) {
-            // TODO Auto-generated method stub
-            return arg0;
-        }
-        public View getView(int position, View convertView, ViewGroup parent) {
-            ViewHolder holder = null;
-            if (convertView == null) {
-                holder = new ViewHolder();
-                convertView = mInflater.inflate(R.layout.listtag_items, null);
-                holder.tvEPCTID = (TextView) convertView.findViewById(R.id.TvTagUii);
-                holder.tvTagCount = (TextView) convertView.findViewById(R.id.TvTagCount);
-                holder.tvTagRssi = (TextView) convertView.findViewById(R.id.TvTagRssi);
-                convertView.setTag(holder);
-            } else {
-                holder = (ViewHolder) convertView.getTag();
-            }
-
-            holder.tvEPCTID.setText((String) mContext.tagList.get(position).get(TAG_EPC_TID));
-            holder.tvTagCount.setText((String) mContext.tagList.get(position).get(TAG_COUNT));
-            holder.tvTagRssi.setText((String) mContext.tagList.get(position).get(TAG_RSSI));
-
-            if (position == selectItem) {
-                convertView.setBackgroundColor(mContext.getResources().getColor(R.color.lfile_colorPrimary));
-            }
-            else {
-                convertView.setBackgroundColor(Color.TRANSPARENT);
-            }
-            return convertView;
-        }
-        public  void setSelectItem(int select) {
-            if(selectItem==select){
-                selectItem=-1;
-                mContext.uhfInfo.setSelectItem("");
-                mContext.uhfInfo.setSelectIndex(selectItem);
-            }else {
-                selectItem = select;
-                mContext.uhfInfo.setSelectItem(mContext.tagList.get(select).get(TAG_EPC));
-                mContext.uhfInfo.setSelectIndex(selectItem);
-            }
-
-        }
-    }
-
-
-
 
 }

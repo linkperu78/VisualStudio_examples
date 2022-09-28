@@ -1,46 +1,45 @@
-Marking menu:main:2131558400 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:UHF_ver:2131296291 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:action_uhf_ver:2131689543 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:webtext:2131230853 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:close:2131689700 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking raw:barcodebeep:2131623936 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking raw:serror:2131623937 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:realtabcontent:2131296506 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_tab_scan:2131690439 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_setting_fragment:2131690448 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:activity_main:2131492892 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:app_name:2131689563 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:read_file:2131296505 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_clear:2131296373 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_reset:2131296375 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_select:2131296376 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:setting_rv:2131296528 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_nonFiles:2131296572 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:setting_fragment:2131492911 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:file_name_text_view:2131296431 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:icon_view:2131296442 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_baseline_folder_24:2131230831 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_baseline_insert_drive_file_24:2131230832 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:reclycer_item:2131492907 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:BtClear:2131296257 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tvTime:2131296570 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_count:2131296571 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_total:2131296574 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:BtInventory:2131296259 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:LvTags:2131296277 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_inventory_open_fail:2131690409 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:btInventory:2131689643 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_inventory_stop_fail:2131690410 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:uhf_readtag_fragment:2131492916 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:listtag_items:2131492899 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:TvTagUii:2131296290 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:TvTagCount:2131296287 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:TvTagRssi:2131296289 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking color:lfile_colorPrimary:2131099726 reachable: referenced from C:\Users\Diego\Downloads\funcional_demo\demo2\uhf-uart-demo\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking menu:main:2131558400 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:UHF_ver:2131296291 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:action_uhf_ver:2131689543 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:webtext:2131230853 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:close:2131689700 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking raw:barcodebeep:2131623936 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking raw:serror:2131623937 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:realtabcontent:2131296506 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_tab_scan:2131690439 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_setting_fragment:2131690448 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:activity_main:2131492892 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:app_name:2131689563 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:read_file:2131296505 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_clear:2131296373 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_reset:2131296375 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_select:2131296376 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:setting_rv:2131296528 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_nonFiles:2131296572 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:setting_fragment:2131492911 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:file_name_text_view:2131296431 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:icon_view:2131296442 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_baseline_folder_24:2131230831 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_baseline_insert_drive_file_24:2131230832 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:reclycer_item:2131492907 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:BtClear:2131296257 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tvTime:2131296570 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_count:2131296571 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_total:2131296574 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:BtInventory:2131296259 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:LvTags:2131296277 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:listtag_items:2131492899 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:TvTagUii:2131296290 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:TvTagLen:2131296288 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:TvTagCount:2131296287 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:TvTagRssi:2131296289 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_inventory_open_fail:2131690409 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:btInventory:2131689643 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_inventory_stop_fail:2131690410 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:uhf_readtag_fragment:2131492916 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
-android.settings.MANAGE_APP_ALL_FILES...
 suggest_intent_data
 ro.cw.model
 androidx.activity.result.contract.ext...
@@ -219,6 +218,7 @@ androidx.view.accessibility.Accessibi...
 6765
 DynamiteLoaderClassLoader.class
 ADDING
+3034
 LoaderManager
 C75_6765
 NavUtils
@@ -249,6 +249,7 @@ read
 cmdInfo
 ERR_FP_DRY_FINGER
 MenuItemWrapper
+MY
 android.permission.MANAGE_EXTERNAL_ST...
 ReadStatus:
 Transparent
@@ -448,7 +449,6 @@ android.intent.action.GET_CONTENT
 KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
 group
 qualcomm
-package
 ValueFile
 android.speech.extra.RESULTS_PENDINGI...
 ??????111
@@ -533,7 +533,6 @@ C4000_6577
 Mifare_ProX
 androidx.view.accessibility.Accessibi...
 ToggleButton
-tagEPC
 computeFitSystemWindows
 DETACH
 Agosto
@@ -561,7 +560,6 @@ BLEService
 ERR_FP_NOT_DETECTED
 androidx.transition.FragmentTransitio...
 70S
-tagEpcTID
 UHFProtocolParseBase
 android.speech.extra.MAX_RESULTS
 ???????:
@@ -612,6 +610,7 @@ model
 eraseData
 EditText
 init
+tagUii
 ........getHardwareVersion..........
 ????startInventoryTag
 arch_disk_io_%d
@@ -861,6 +860,7 @@ power
 enableTXNotification
 RFIDWithUHFNetworkAx
 HCE600
+tagLen
 suggest_intent_data_id
 nullLayouts
 A11yActionCompat
@@ -1864,7 +1864,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @color/highlighted_text_material_dark : reachable=false
 @color/highlighted_text_material_light : reachable=false
 @color/lemonyellow : reachable=false
-@color/lfile_colorPrimary : reachable=true
+@color/lfile_colorPrimary : reachable=false
 @color/lightblue : reachable=false
 @color/lightblue2 : reachable=false
 @color/listitem_black : reachable=false
@@ -2423,7 +2423,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/SpinnerMode : reachable=true
 @id/SpinnerOption_Read : reachable=true
 @id/TvTagCount : reachable=true
-@id/TvTagLen : reachable=false
+@id/TvTagLen : reachable=true
 @id/TvTagRssi : reachable=true
 @id/TvTagUii : reachable=true
 @id/UHF_ver : reachable=true
@@ -5895,7 +5895,6 @@ The root reachable resources are:
  color:androidx_core_ripple_material_light:2131099674
  color:androidx_core_secondary_text_default_material_light:2131099675
  color:contents_text:2131099697
- color:lfile_colorPrimary:2131099726
  color:share_text:2131099781
  color:viewfinder_frame:2131099799
  color:viewfinder_laser:2131099800
@@ -5989,6 +5988,7 @@ The root reachable resources are:
  id:SpinnerMode:2131296285
  id:SpinnerOption_Read:2131296286
  id:TvTagCount:2131296287
+ id:TvTagLen:2131296288
  id:TvTagRssi:2131296289
  id:TvTagUii:2131296290
  id:UHF_ver:2131296291

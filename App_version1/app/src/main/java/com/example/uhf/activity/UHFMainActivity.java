@@ -146,9 +146,8 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
 
     public boolean check_all_files_permission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            boolean per1 = Environment.isExternalStorageManager();
             int per2 = checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE);
-            if(per1 && (per2 >=0)){
+            if(per2 >=0){
                 Toast.makeText(getApplicationContext(),"PERMISSION ALREADY GRANTED",Toast.LENGTH_SHORT).show();
                 return true;
             }else{ return false;}
@@ -180,16 +179,13 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
     }
 
     public void popup_permissions(){
-            popup_all_files_permission();
+            //popup_all_files_permission();
             popup_request();
     }
      /**
       * -------------------------------------------------------------------------------------------
       * */
 
-    public void LogD(String mensaje){
-        String par1 = String.valueOf(getBaseContext());
-        Log.d(TAG, par1 + " --------------------- : " + mensaje );
-    }
+
 
 }

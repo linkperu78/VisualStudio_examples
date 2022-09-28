@@ -46,7 +46,6 @@ public class SettingFragment extends KeyDwonFragment{
     private RecyclerView setting_rv;
     private ActivityResultLauncher<Intent> resultLauncher;
 
-
     private Intent data;
     public String defaul_folder_path = Environment.getExternalStorageDirectory().getAbsolutePath()+"/";
     public String my_actual_file_path;
@@ -54,6 +53,9 @@ public class SettingFragment extends KeyDwonFragment{
 
     public String[] data_header;
     public ArrayList<String[]> data_list = new ArrayList<>();
+    MyRvAdapter rv_adapter;
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -126,22 +128,18 @@ public class SettingFragment extends KeyDwonFragment{
     @Override
     public void onResume() {
         super.onResume();
-        refresh_reciclerview();
+        rv_adapter = new MyRvAdapter(getContext(),folder_path_fixed,SettingFragment.this);
+        refresh_reciclerview(folder_path_fixed);
+
         Log.d(TAG, "onResume: " + my_actual_file_path);
-    }
-
-    @Override
-    public void onSaveInstanceState(@NonNull Bundle outState) {
-        super.onSaveInstanceState(outState);
-
 
     }
 
-
-    public void refresh_reciclerview(){
-        tv_folder_path.setText(folder_path_fixed);
+    public void refresh_reciclerview(String folder_path){
+        tv_folder_path.setText(folder_path);
         setting_rv.setLayoutManager(new LinearLayoutManager(getContext()));
-        setting_rv.setAdapter(new MyRvAdapter(getContext(),folder_path_fixed,SettingFragment.this));
+        setting_rv.setAdapter(rv_adapter);
+
     }
 
     private String fix_path(String bug_path){
@@ -162,6 +160,8 @@ public class SettingFragment extends KeyDwonFragment{
         Log.d(TAG, "fix_folder_path: " + data_file_name);
         return  data_file_name;
     }
+
+
 
 
 }
