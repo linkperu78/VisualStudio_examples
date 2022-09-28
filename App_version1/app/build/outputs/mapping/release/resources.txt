@@ -440,7 +440,6 @@ TAG
 /dev/ttyHSL1
 KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
 Unknow
-UHFReadTagFragment.onPause
 AppCompatViewInflater
 P80_8953_90
 com.nordicsemi.nrfUART.ACTION_DATA_AV...

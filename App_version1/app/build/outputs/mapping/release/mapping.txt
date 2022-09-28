@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: d29d5d2
-# pg_map_hash: SHA-256 d29d5d2758410b2ea087e3ead92c3c888de20b3b68b3f225ace37cfeca8a4835
+# pg_map_id: a5754eb
+# pg_map_hash: SHA-256 a5754eb18bbf3d6dd71217556b3a847d617d5b0dfb617a9463b275b9a1cf56d5
 a.a.a -> a.a:
     a.a.a j -> f
     boolean b(java.lang.String,java.lang.String,java.lang.String) -> c
@@ -8161,18 +8161,19 @@ com.example.uhf.fragment.SettingFragment$3 -> o0.b$c:
     com.example.uhf.fragment.SettingFragment this$0 -> b
 com.example.uhf.fragment.UHFReadTagFragment -> o0.c:
     java.util.ArrayList data_from_file -> r0
+    java.lang.String[] header_from_file -> s0
     boolean loopFlag -> b0
-    android.os.Handler handler -> s0
     java.util.HashMap map -> n0
+    android.os.Handler handler -> t0
     com.example.uhf.activity.UHFMainActivity mContext -> m0
     java.lang.String[] estado_lector -> p0
     android.widget.SimpleAdapter adapter -> f0
     long time -> o0
-    int selectItem -> t0
     android.widget.Button BtClear -> g0
     java.util.ArrayList tagList -> d0
     int estado_int -> q0
     java.util.ArrayList EPC_numbers -> e0
+    int selectItem -> u0
     android.widget.TextView tv_total -> j0
     android.widget.TextView tv_count -> i0
     android.widget.TextView tvTime -> h0

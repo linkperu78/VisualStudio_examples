@@ -5810,7 +5810,6 @@ com.example.uhf.fragment.UHFReadTagFragment$ViewHolder
 com.example.uhf.fragment.UHFReadTagFragment:
     private static final java.lang.String TAG
     static final java.lang.String codigo_empresa
-    public java.lang.String[] header_from_file
 com.example.uhf.tools.NumberTool:
     public void <init>()
     public static double getPointDouble(int,int)

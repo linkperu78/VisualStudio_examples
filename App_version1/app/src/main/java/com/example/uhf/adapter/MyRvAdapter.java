@@ -70,6 +70,8 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
                 if(!selectedFile.isDirectory()){
                     Log.d("TAG", "onClick: " + selectedFile.getAbsolutePath());
                     my_data_from_file = new Data_from_file(selectedFile.getAbsolutePath());
+                    mysetting_fragment.data_list=my_data_from_file.data;
+                    mysetting_fragment.data_header=my_data_from_file.header;
                     UHFMainActivity.data = my_data_from_file.data;
                     UHFMainActivity.header =my_data_from_file.header;
                     Toast.makeText(context, "INFORMACION SUBIDA", Toast.LENGTH_SHORT).show();

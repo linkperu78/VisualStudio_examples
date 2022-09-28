@@ -1,4 +1,4 @@
-#Wed Sep 28 16:51:27 COT 2022
+#Wed Sep 28 18:09:24 COT 2022
 base.0=D\:\\Github\\Android_examples\\App_version1\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

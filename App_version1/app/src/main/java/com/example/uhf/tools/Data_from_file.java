@@ -104,12 +104,12 @@ public class Data_from_file {
        // Log.d("TAG", "EPC_generate: -------------------  " + value_UPC);
 
         int UPC_high = 4*Integer.parseInt(value_UPC.substring(0,6));
-        int UPC_low = 4*Integer.parseInt(value_UPC.substring(7,11));
+        int UPC_low = 4*Integer.parseInt(value_UPC.substring(6,11));
 
         String UPC_high_text = Integer.toHexString(UPC_high);
         String UPC_low_text = Integer.toHexString(UPC_low);
 
-        String EPC = UPC_high_text+"0"+UPC_low_text;
+        String EPC ="3034"+ UPC_high_text+""+UPC_low_text;
         EPC = EPC.toUpperCase(Locale.ROOT);
 
         data_with_EPC = Arrays.copyOf(data_without_EPC,len_1+1);

@@ -119,15 +119,14 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         tv_total.setText(""+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
         if(!UHFMainActivity.data.isEmpty()) {
-            Log.d(TAG, "Length of Data" + UHFMainActivity.data.size());
-            Log.d(TAG, "Length of Header" + UHFMainActivity.header.length);
+            data_from_file = UHFMainActivity.data;
+            header_from_file = UHFMainActivity.header;
         }
     }
 
 
     @Override
     public void onPause() {
-        Log.i(TAG, "UHFReadTagFragment.onPause");
         super.onPause();
         stopInventory();
     }
