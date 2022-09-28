@@ -49,6 +49,8 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
     public UhfInfo uhfInfo=new UhfInfo();
     public ArrayList<HashMap<String, String>> tagList = new ArrayList<HashMap<String, String>>();
 
+    static public ArrayList<String[]> data=new ArrayList<>();
+    static public String[] header;
 
     /**
      ---------------------------------------------------
@@ -121,6 +123,9 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
         }
     }
 
+
+    //TODO CAMBIAR VOLUMEN MEDIANTE INTERFAZ
+
     /**
      * 播放提示音
      *
@@ -129,7 +134,7 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
     public void playSound(int id) {
         float audioMaxVolume = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC); // 返回当前AudioManager对象的最大音量值
         float audioCurrentVolume = am.getStreamVolume(AudioManager.STREAM_MUSIC);// 返回当前AudioManager对象的音量值
-        volumnRatio = audioCurrentVolume / audioMaxVolume;
+        volumnRatio = (float) 0.001;
         try {
             soundPool.play(soundMap.get(id), volumnRatio, // 左声道音量
                     volumnRatio, // 右声道音量

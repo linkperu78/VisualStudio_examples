@@ -53,7 +53,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     ListView LvTags;
     private UHFMainActivity mContext;
     private HashMap<String, String> map;
-    private HashMap<String, String> map_real;
 
 
     private long time;
@@ -119,6 +118,10 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         tv_count.setText(mContext.tagList.size()+"");
         tv_total.setText(""+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
+        if(!UHFMainActivity.data.isEmpty()) {
+            Log.d(TAG, "Length of Data" + UHFMainActivity.data.size());
+            Log.d(TAG, "Length of Header" + UHFMainActivity.header.length);
+        }
     }
 
 
@@ -137,16 +140,14 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     private void addDataToList(String epc,String epcAndTidUser, String rssi) {
         if (!TextUtils.isEmpty(epc)) {
             String epc_tag = EPC_norm(epc);
-
             int index = checkIsExist(epc_tag);
-
             map = new HashMap<String, String>();
             map.put("tagUii", epc_tag);
-            map.put("tagCount", String.valueOf(0));
-
+            map.put("tagCount", String.valueOf(1));
 
             if(index == -1){
                 tagList.add(map);
+                EPC_numbers.add(epc);
                 LvTags.setAdapter(adapter);
                 tv_count.setText("" + adapter.getCount());
 

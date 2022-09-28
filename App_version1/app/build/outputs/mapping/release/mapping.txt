@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 6134a5e
-# pg_map_hash: SHA-256 6134a5e7cbbeb984e818b25898f3d3331a42465742527cedd6368af325ea3bbd
+# pg_map_id: d29d5d2
+# pg_map_hash: SHA-256 d29d5d2758410b2ea087e3ead92c3c888de20b3b68b3f225ace37cfeca8a4835
 a.a.a -> a.a:
     a.a.a j -> f
     boolean b(java.lang.String,java.lang.String,java.lang.String) -> c
@@ -7170,27 +7170,24 @@ androidx.recyclerview.widget.RecyclerView$Adapter -> androidx.recyclerview.widge
     long getItemId(int) -> e
     int getItemViewType(int) -> f
     boolean hasStableIds() -> g
-    void notifyDataSetChanged() -> h
-    void onAttachedToRecyclerView(androidx.recyclerview.widget.RecyclerView) -> i
-    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> j
-    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List) -> k
-    androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> l
-    void onDetachedFromRecyclerView(androidx.recyclerview.widget.RecyclerView) -> m
-    boolean onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> n
-    void onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> o
-    void onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> p
-    void onViewRecycled(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> q
-    void registerAdapterDataObserver(androidx.recyclerview.widget.RecyclerView$AdapterDataObserver) -> r
-    void unregisterAdapterDataObserver(androidx.recyclerview.widget.RecyclerView$AdapterDataObserver) -> s
+    void onAttachedToRecyclerView(androidx.recyclerview.widget.RecyclerView) -> h
+    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> i
+    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int,java.util.List) -> j
+    androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> k
+    void onDetachedFromRecyclerView(androidx.recyclerview.widget.RecyclerView) -> l
+    boolean onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> m
+    void onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> n
+    void onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> o
+    void onViewRecycled(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> p
+    void registerAdapterDataObserver(androidx.recyclerview.widget.RecyclerView$AdapterDataObserver) -> q
+    void unregisterAdapterDataObserver(androidx.recyclerview.widget.RecyclerView$AdapterDataObserver) -> r
 androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy -> androidx.recyclerview.widget.RecyclerView$h$a:
     androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy ALLOW -> b
     androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy PREVENT_WHEN_EMPTY -> c
     androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy PREVENT -> d
     androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy[] $VALUES -> e
 androidx.recyclerview.widget.RecyclerView$AdapterDataObservable -> androidx.recyclerview.widget.RecyclerView$i:
-    void notifyChanged() -> a
 androidx.recyclerview.widget.RecyclerView$AdapterDataObserver -> androidx.recyclerview.widget.RecyclerView$j:
-    void onChanged() -> a
 androidx.recyclerview.widget.RecyclerView$ChildDrawingOrderCallback -> androidx.recyclerview.widget.RecyclerView$k:
     int onGetChildDrawingOrder(int,int) -> a
 androidx.recyclerview.widget.RecyclerView$EdgeEffectFactory -> androidx.recyclerview.widget.RecyclerView$l:
@@ -7512,7 +7509,6 @@ androidx.recyclerview.widget.RecyclerView$RecyclerListener -> androidx.recyclerv
     void onViewRecycled(androidx.recyclerview.widget.RecyclerView$ViewHolder) -> a
 androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver -> androidx.recyclerview.widget.RecyclerView$y:
     androidx.recyclerview.widget.RecyclerView this$0 -> a
-    void onChanged() -> a
 androidx.recyclerview.widget.RecyclerView$SavedState -> androidx.recyclerview.widget.RecyclerView$z:
     android.os.Parcelable mLayoutState -> d
     void copyFrom(androidx.recyclerview.widget.RecyclerView$SavedState) -> b
@@ -8087,8 +8083,10 @@ com.example.uhf.activity.UHFMainActivity -> com.example.uhf.activity.UHFMainActi
     androidx.fragment.app.FragmentManager fm -> v
     java.util.ArrayList tagList -> x
     java.lang.String[] perms -> t
+    java.lang.String[] header -> D
     android.media.SoundPool soundPool -> z
     float volumnRatio -> A
+    java.util.ArrayList data -> C
     androidx.fragment.app.FragmentTabHost mTabHost -> u
     boolean check_all_files_permission() -> D
     void initSound() -> E
@@ -8106,14 +8104,14 @@ com.example.uhf.adapter.MyRvAdapter -> n0.a:
     android.content.Context context -> d
     com.example.uhf.fragment.SettingFragment mysetting_fragment -> i
     int getItemCount() -> d
-    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> j
-    androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> l
-    com.example.uhf.tools.Data_from_file access$000(com.example.uhf.adapter.MyRvAdapter) -> t
-    com.example.uhf.tools.Data_from_file access$002(com.example.uhf.adapter.MyRvAdapter,com.example.uhf.tools.Data_from_file) -> u
-    com.example.uhf.fragment.SettingFragment access$100(com.example.uhf.adapter.MyRvAdapter) -> v
-    java.lang.String day_month_year(long) -> w
-    void onBindViewHolder(com.example.uhf.adapter.MyRvAdapter$ViewHolder,int) -> x
-    com.example.uhf.adapter.MyRvAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> y
+    void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> i
+    androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> k
+    com.example.uhf.tools.Data_from_file access$000(com.example.uhf.adapter.MyRvAdapter) -> s
+    com.example.uhf.tools.Data_from_file access$002(com.example.uhf.adapter.MyRvAdapter,com.example.uhf.tools.Data_from_file) -> t
+    com.example.uhf.fragment.SettingFragment access$100(com.example.uhf.adapter.MyRvAdapter) -> u
+    java.lang.String day_month_year(long) -> v
+    void onBindViewHolder(com.example.uhf.adapter.MyRvAdapter$ViewHolder,int) -> w
+    com.example.uhf.adapter.MyRvAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> x
 com.example.uhf.adapter.MyRvAdapter$1 -> n0.a$a:
     java.io.File val$selectedFile -> b
     com.example.uhf.adapter.MyRvAdapter this$0 -> c

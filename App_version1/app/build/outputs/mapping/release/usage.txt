@@ -5068,6 +5068,7 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public int findRelativeAdapterPositionIn(androidx.recyclerview.widget.RecyclerView$Adapter,androidx.recyclerview.widget.RecyclerView$ViewHolder,int)
     public final androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy getStateRestorationPolicy()
     public final boolean hasObservers()
+    public final void notifyDataSetChanged()
     public final void notifyItemChanged(int)
     public final void notifyItemChanged(int,java.lang.Object)
     public final void notifyItemInserted(int)
@@ -5081,6 +5082,7 @@ androidx.recyclerview.widget.RecyclerView$Adapter:
     public void setStateRestorationPolicy(androidx.recyclerview.widget.RecyclerView$Adapter$StateRestorationPolicy)
 androidx.recyclerview.widget.RecyclerView$AdapterDataObservable:
     public boolean hasObservers()
+    public void notifyChanged()
     public void notifyItemMoved(int,int)
     public void notifyItemRangeChanged(int,int)
     public void notifyItemRangeChanged(int,int,java.lang.Object)
@@ -5088,6 +5090,7 @@ androidx.recyclerview.widget.RecyclerView$AdapterDataObservable:
     public void notifyItemRangeRemoved(int,int)
     public void notifyStateRestorationPolicyChanged()
 androidx.recyclerview.widget.RecyclerView$AdapterDataObserver:
+    public void onChanged()
     public void onItemRangeChanged(int,int)
     public void onItemRangeChanged(int,int,java.lang.Object)
     public void onItemRangeInserted(int,int)
@@ -5163,6 +5166,7 @@ androidx.recyclerview.widget.RecyclerView$Recycler:
     static final int DEFAULT_CACHE_SIZE
     public void bindViewToPosition(android.view.View,int)
 androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver:
+    public void onChanged()
     public void onItemRangeChanged(int,int,java.lang.Object)
     public void onItemRangeInserted(int,int)
     public void onItemRangeMoved(int,int,int)
@@ -5807,7 +5811,6 @@ com.example.uhf.fragment.UHFReadTagFragment:
     private static final java.lang.String TAG
     static final java.lang.String codigo_empresa
     public java.lang.String[] header_from_file
-    private java.util.HashMap map_real
 com.example.uhf.tools.NumberTool:
     public void <init>()
     public static double getPointDouble(int,int)
