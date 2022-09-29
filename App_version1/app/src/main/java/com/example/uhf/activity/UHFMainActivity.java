@@ -51,7 +51,8 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
 
     static public ArrayList<String[]> data=new ArrayList<>();
     static public String[] header;
-
+    static public String file_name="";
+    static public String folder_path=Environment.getExternalStorageDirectory().getAbsolutePath();
 
 
     /**

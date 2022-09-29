@@ -10,7 +10,18 @@
         android:id="@+id/TvTagUii"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_weight="6"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp" />
+
+
+    <TextView
+        android:id="@+id/TvTagCount"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
         android:paddingTop="3dp"
         android:paddingBottom="2dp" />
 
@@ -18,21 +29,17 @@
         android:id="@+id/TvTagLen"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="1" android:visibility="gone" />
-
-    <TextView
-        android:id="@+id/TvTagCount"
-        android:layout_width="0dip"
-        android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_weight="2"
+        android:layout_weight="6"
         android:paddingTop="3dp"
         android:paddingBottom="2dp" />
-    
+
+
     <TextView
         android:id="@+id/TvTagRssi"
         android:layout_width="0dip"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_weight="2"
         android:paddingTop="3dp"
         android:paddingBottom="2dp" />

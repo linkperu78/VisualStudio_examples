@@ -25,17 +25,10 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:textSize="20dp"
-            android:text="Reset"
+            android:text="Update"
             android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/btn_clear"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/black"
-            android:textSize="20dp"
-            android:text="Clear"
-            android:textColor="@color/white" />
+
 
     </LinearLayout>
 

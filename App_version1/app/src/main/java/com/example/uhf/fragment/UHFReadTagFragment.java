@@ -3,6 +3,7 @@ package com.example.uhf.fragment;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
@@ -40,7 +41,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
 
     private List<String> tempDatas = new ArrayList<>();
-
     private ArrayList<HashMap<String, String>> tagList;
     private ArrayList<HashMap<String, String>> data_matched_hashmap;
     private ArrayList<String> EPC_numbers;
@@ -48,12 +48,14 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     boolean buffer_stop = false;
 
     SimpleAdapter adapter;
-    Button BtClear;
+    TextView BtClear;
     TextView tvTime;
     TextView tv_count;
     TextView tv_total;
     Button BtInventory;
     ListView LvTags;
+
+
     private UHFMainActivity mContext;
     private HashMap<String, String> map;
 
@@ -63,7 +65,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
     private String[] estado_lector = {"Start","Stop","Clear"};
     private int estado_int;
-
+    private int total_items = 0;
 
     static ArrayList<String[]> data_from_file = new ArrayList<>();
     static String[] header_from_file;
@@ -71,7 +73,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     static int pos_colorname = 2;
     static int pos_size = 3;
     static int pos_EPCnumber = -1;
-
 
     Handler handler = new Handler() {
         @Override
@@ -100,11 +101,12 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         mContext.currentFragment=this;
         tagList = new ArrayList<HashMap<String, String>>();
         EPC_numbers = new ArrayList<String>();
-        BtClear = (Button) getView().findViewById(R.id.BtClear);
+        BtClear = (TextView) getView().findViewById(R.id.BtClear);
         tvTime = (TextView) getView().findViewById(R.id.tvTime);
         tvTime.setText("0s");
         tv_count = (TextView) getView().findViewById(R.id.tv_count);
         tv_total = (TextView) getView().findViewById(R.id.tv_total);
+        tv_total.setText(String.valueOf(total_items));
 
         BtInventory = (Button) getView().findViewById(R.id.BtInventory);
 
@@ -123,9 +125,9 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
         clearData();
         tv_count.setText(mContext.tagList.size()+"");
-        tv_total.setText(""+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
          if(!UHFMainActivity.data.isEmpty()) {
+            BtClear.setText(UHFMainActivity.file_name);
             data_from_file = UHFMainActivity.data;
             header_from_file = UHFMainActivity.header;
             pos_EPCnumber = header_from_file.length-1;
@@ -156,12 +158,16 @@ public class UHFReadTagFragment extends KeyDwonFragment {
                 tagList.add(map);
                 EPC_numbers.add(epc);
                 tv_count.setText("" + adapter.getCount());
+                int total = Integer.parseInt((String) tv_total.getText());
+                tv_total.setText(String.valueOf(total+1));
 
             }else{
                 boolean index2 = EPC_numbers.contains(epc);
                 if(!index2){
                     EPC_numbers.add(epc);
                     int tagcount = Integer.parseInt(tagList.get(index).get("tagCount"), 10) + 1;
+                    int total = Integer.parseInt((String) tv_total.getText());
+                    tv_total.setText(String.valueOf(total+1));
                     map.put("tagCount", String.valueOf(tagcount));
                     tagList.set(index, map);
                 }
@@ -185,10 +191,9 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     private void clearData() {
         tv_count.setText("0");
         tagList.clear();
+
         EPC_numbers.clear();
-        if(!data_from_file.isEmpty()){
-        data_matched_hashmap.clear();
-        }
+        tv_total.setText("0");
         adapter.notifyDataSetChanged();
     }
 
@@ -325,22 +330,29 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             Toast.makeText(mContext, "No se encuentra una base de datos", Toast.LENGTH_SHORT).show();
             return;
         }
-        data_matched_hashmap = new ArrayList<>();
         for (int i = 0; i<tagList.size(); i++){
             String EPC_value = tagList.get(i).get("tagUii");
 
             Log.d(TAG, "SE ESTA LEYENDO EL EPC =  " + EPC_value);
+
+            map = new HashMap<String, String>();
+            map.put("tagUii", EPC_value);
+            map.put("tagCount",tagList.get(i).get("tagCount"));
+            map.put("tagRssi","??");
+            map.put("tagLen","??");
             for(int k=0; k<data_from_file.size(); k++){
                 String[] temp = data_from_file.get(k);
-
                 if(temp[pos_EPCnumber].equals(EPC_value)){
-                    map = new HashMap<String, String>();
+                    //map = new HashMap<String, String>();
                     map.put("tagUii", temp[pos_style]);
-                    map.put("tagCount",tagList.get(i).get("tagCount"));
+                    //map.put("tagCount",tagList.get(i).get("tagCount"));
                     map.put("tagRssi",temp[pos_size]);
-                    tagList.set(i,map);
+                    map.put("tagLen",temp[pos_colorname]);
+                    break;
                 }
             }
+
+            tagList.set(i,map);
         }
         LvTags.setAdapter(adapter);
         adapter.notifyDataSetChanged();

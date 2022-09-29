@@ -74,12 +74,10 @@ public class SettingFragment extends KeyDwonFragment{
         mContext = (UHFMainActivity) getActivity();
         mContext.currentFragment = this;
         tv_data= getView().findViewById(R.id.read_file);
-        btn_clear=getView().findViewById(R.id.btn_clear);
         btn_reset=getView().findViewById(R.id.btn_reset);
         btn_select=getView().findViewById(R.id.btn_select);
         setting_rv=getView().findViewById(R.id.setting_rv);
         tv_folder_path=getView().findViewById(R.id.tv_nonFiles);
-
         my_actual_file_path=defaul_folder_path;
         folder_path_fixed=defaul_folder_path;
 
@@ -91,7 +89,7 @@ public class SettingFragment extends KeyDwonFragment{
                             data = result.getData();
                             my_actual_file_path = fix_path(data.getData().getPath());
                             folder_path_fixed = fix_folder_path(my_actual_file_path);
-                            Log.d(TAG, "onActivityResult: " + my_actual_file_path);
+                            UHFMainActivity.folder_path=folder_path_fixed;
 
                         }
                     }
@@ -106,28 +104,13 @@ public class SettingFragment extends KeyDwonFragment{
             }
         });
 
-        btn_reset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String data_show = "";
-                for (int i = 0 ; i < data_list.size(); i++)
-                {   String[] temp = data_list.get(i);
-                    for(int j = 0; j < temp.length; j++){
-                        data_show += temp[j] + " ";
-                    }
-                    data_show+="\n";
-                }
-                tv_data.setText(data_show);
-            }
-        });
-
-
 
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        folder_path_fixed = UHFMainActivity.folder_path;
         rv_adapter = new MyRvAdapter(getContext(),folder_path_fixed,SettingFragment.this);
         refresh_reciclerview(folder_path_fixed);
 

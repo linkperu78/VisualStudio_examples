@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 9fc3ba9
-# pg_map_hash: SHA-256 9fc3ba9154df5b73a082d0bab796057baeeb396ea9d29d9a98f780545c7dbf24
+# pg_map_id: 1a56c52
+# pg_map_hash: SHA-256 1a56c529e234df8f94112269d40890e138a7f66dade4f415c128da33e844b8be
 a.a.a -> a.a:
     a.a.a j -> f
     boolean b(java.lang.String,java.lang.String,java.lang.String) -> c
@@ -8078,16 +8078,18 @@ com.example.uhf.activity.BaseTabFragmentActivity$InitTask -> m0.a$a:
     void onPostExecute(java.lang.Boolean) -> b
 com.example.uhf.activity.UHFMainActivity -> com.example.uhf.activity.UHFMainActivity:
     com.example.uhf.UhfInfo uhfInfo -> w
+    java.lang.String folder_path -> F
+    java.util.ArrayList tagList -> x
+    java.lang.String[] header -> D
+    float volumnRatio -> A
+    java.util.ArrayList data -> C
     java.util.HashMap soundMap -> y
     android.media.AudioManager am -> B
     androidx.fragment.app.FragmentManager fm -> v
-    java.util.ArrayList tagList -> x
     java.lang.String[] perms -> t
-    java.lang.String[] header -> D
     android.media.SoundPool soundPool -> z
-    float volumnRatio -> A
-    java.util.ArrayList data -> C
     androidx.fragment.app.FragmentTabHost mTabHost -> u
+    java.lang.String file_name -> E
     boolean check_all_files_permission() -> D
     void initSound() -> E
     void initViewPageData() -> F
@@ -8124,21 +8126,20 @@ com.example.uhf.adapter.MyRvAdapter$ViewHolder -> n0.a$c:
 com.example.uhf.fragment.KeyDwonFragment -> o0.a:
     void myOnKeyDwon() -> y1
 com.example.uhf.fragment.SettingFragment -> o0.b:
-    com.example.uhf.adapter.MyRvAdapter rv_adapter -> p0
-    java.util.ArrayList data_list -> o0
-    android.widget.Button btn_reset -> g0
+    com.example.uhf.adapter.MyRvAdapter rv_adapter -> o0
+    java.util.ArrayList data_list -> n0
     com.example.uhf.activity.UHFMainActivity mContext -> b0
+    androidx.activity.result.ActivityResultLauncher resultLauncher -> i0
     android.view.View my_setting_view -> c0
-    androidx.activity.result.ActivityResultLauncher resultLauncher -> j0
-    android.widget.Button btn_select -> f0
-    androidx.recyclerview.widget.RecyclerView setting_rv -> i0
-    android.widget.Button btn_clear -> e0
-    android.content.Intent data -> k0
-    android.widget.TextView tv_folder_path -> h0
-    java.lang.String folder_path_fixed -> n0
-    java.lang.String my_actual_file_path -> m0
+    androidx.recyclerview.widget.RecyclerView setting_rv -> h0
+    android.widget.Button btn_reset -> f0
+    android.content.Intent data -> j0
+    android.widget.Button btn_select -> e0
+    android.widget.TextView tv_folder_path -> g0
+    java.lang.String folder_path_fixed -> m0
     android.widget.TextView tv_data -> d0
-    java.lang.String defaul_folder_path -> l0
+    java.lang.String my_actual_file_path -> l0
+    java.lang.String defaul_folder_path -> k0
     void onResume() -> A0
     android.content.Intent access$002(com.example.uhf.fragment.SettingFragment,android.content.Intent) -> A1
     java.lang.String access$100(com.example.uhf.fragment.SettingFragment,java.lang.String) -> B1
@@ -8156,34 +8157,32 @@ com.example.uhf.fragment.SettingFragment$1 -> o0.b$a:
     void onActivityResult(androidx.activity.result.ActivityResult) -> b
 com.example.uhf.fragment.SettingFragment$2 -> o0.b$b:
     com.example.uhf.fragment.SettingFragment this$0 -> b
-com.example.uhf.fragment.SettingFragment$3 -> o0.b$c:
-    com.example.uhf.fragment.SettingFragment this$0 -> b
 com.example.uhf.fragment.UHFReadTagFragment -> o0.c:
-    java.lang.String[] estado_lector -> r0
-    boolean buffer_stop -> g0
+    boolean buffer_stop -> f0
+    java.lang.String[] estado_lector -> q0
     java.util.ArrayList data_from_file -> u0
     boolean loopFlag -> b0
     java.lang.String[] header_from_file -> v0
-    long time -> q0
-    java.util.HashMap map -> p0
+    java.util.HashMap map -> o0
+    long time -> p0
     java.util.ArrayList tagList -> d0
-    android.widget.Button BtClear -> i0
-    java.util.ArrayList EPC_numbers -> f0
-    java.util.ArrayList data_matched_hashmap -> e0
-    android.widget.Button BtInventory -> m0
-    com.example.uhf.activity.UHFMainActivity mContext -> o0
+    java.util.ArrayList EPC_numbers -> e0
+    android.widget.Button BtInventory -> l0
+    com.example.uhf.activity.UHFMainActivity mContext -> n0
     android.os.Handler handler -> t0
-    android.widget.SimpleAdapter adapter -> h0
-    int estado_int -> s0
+    android.widget.SimpleAdapter adapter -> g0
+    int total_items -> s0
+    int estado_int -> r0
     int pos_colorname -> x0
     int pos_style -> w0
-    android.widget.TextView tv_total -> l0
-    android.widget.TextView tv_count -> k0
-    android.widget.TextView tvTime -> j0
+    android.widget.TextView tv_total -> k0
+    android.widget.TextView tv_count -> j0
+    android.widget.TextView tvTime -> i0
+    android.widget.TextView BtClear -> h0
     int pos_EPCnumber -> z0
-    android.widget.ListView LvTags -> n0
     int pos_size -> y0
     java.util.List tempDatas -> c0
+    android.widget.ListView LvTags -> m0
     java.lang.String access$000(com.example.uhf.fragment.UHFReadTagFragment,java.lang.String) -> A1
     void access$100(com.example.uhf.fragment.UHFReadTagFragment,java.lang.String,java.lang.String,java.lang.String) -> B1
     void access$200(com.example.uhf.fragment.UHFReadTagFragment) -> C1

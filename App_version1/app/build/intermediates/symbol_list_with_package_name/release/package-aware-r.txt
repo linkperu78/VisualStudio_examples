@@ -1037,7 +1037,6 @@ id btnSetPower1
 id btnSetQTParams
 id btnSetSession
 id btnWorkWait
-id btn_clear
 id btn_deactivate
 id btn_reset
 id btn_select
@@ -1117,6 +1116,8 @@ id iv_dismissDialog
 id launch_product_query
 id layout12
 id layout4
+id layout5
+id layout6
 id layout_filter
 id left
 id line1

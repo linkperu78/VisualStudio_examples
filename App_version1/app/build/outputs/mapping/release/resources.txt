@@ -5,27 +5,26 @@ Marking drawable:webtext:2131230853 reachable: referenced from D:\Github\Android
 Marking string:close:2131689700 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking raw:barcodebeep:2131623936 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking raw:serror:2131623937 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:realtabcontent:2131296506 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:realtabcontent:2131296507 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:uhf_msg_tab_scan:2131690439 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:uhf_setting_fragment:2131690448 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:activity_main:2131492892 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:app_name:2131689563 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:read_file:2131296505 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_clear:2131296373 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_reset:2131296375 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_select:2131296376 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:setting_rv:2131296528 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_nonFiles:2131296572 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:read_file:2131296506 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_reset:2131296374 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_select:2131296375 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:setting_rv:2131296529 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_nonFiles:2131296573 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:setting_fragment:2131492911 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:file_name_text_view:2131296431 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:icon_view:2131296442 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:file_name_text_view:2131296430 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:icon_view:2131296441 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:ic_baseline_folder_24:2131230831 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking drawable:ic_baseline_insert_drive_file_24:2131230832 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:reclycer_item:2131492907 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:BtClear:2131296257 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tvTime:2131296570 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_count:2131296571 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:tv_total:2131296574 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tvTime:2131296571 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_count:2131296572 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_total:2131296575 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:BtInventory:2131296259 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:LvTags:2131296277 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:listtag_items:2131492899 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -940,7 +939,7 @@ Marking string:gps_title_Longitude:2131689900 used because it matches string poo
 Marking string:gps_title_SatelliteCount:2131689901 used because it matches string pool constant gps
 Marking string:gps_title_Time:2131689902 used because it matches string pool constant gps
 Marking string:gps_title_tip:2131689903 used because it matches string pool constant gps
-Marking id:read_file:2131296505 used because it matches string pool constant read
+Marking id:read_file:2131296506 used because it matches string pool constant read
 Marking id:accessibility_action_clickable_span:2131296292 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131296293 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131296294 used because it matches string pool constant accessibility
@@ -980,14 +979,14 @@ Marking id:SpinnerBank_Read:2131296283 used because it matches string pool const
 Marking id:SpinnerBank_Write:2131296284 used because it matches string pool constant Spinner
 Marking id:SpinnerMode:2131296285 used because it matches string pool constant Spinner
 Marking id:SpinnerOption_Read:2131296286 used because it matches string pool constant Spinner
-Marking id:dimensions:2131296408 used because it matches string pool constant dimen
+Marking id:dimensions:2131296407 used because it matches string pool constant dimen
 Marking attr:viewInflaterClass:2130968925 used because it matches string pool constant view
 Marking color:viewfinder_frame:2131099799 used because it matches string pool constant view
 Marking color:viewfinder_laser:2131099800 used because it matches string pool constant view
 Marking color:viewfinder_mask:2131099801 used because it matches string pool constant view
-Marking id:view_tree_lifecycle_owner:2131296579 used because it matches string pool constant view
-Marking id:view_tree_saved_state_registry_owner:2131296580 used because it matches string pool constant view
-Marking id:view_tree_view_model_store_owner:2131296581 used because it matches string pool constant view
+Marking id:view_tree_lifecycle_owner:2131296580 used because it matches string pool constant view
+Marking id:view_tree_saved_state_registry_owner:2131296581 used because it matches string pool constant view
+Marking id:view_tree_view_model_store_owner:2131296582 used because it matches string pool constant view
 Marking color:androidx_core_ripple_material_light:2131099674 used because it matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2131099675 used because it matches string pool constant android
 Marking attr:windowActionBar:2130968927 used because it matches string pool constant window
@@ -1004,23 +1003,23 @@ Marking attr:itemPadding:2130968752 used because it matches string pool constant
 Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131165287 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165288 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131165289 used because it matches string pool constant item
-Marking id:item_touch_helper_previous_elevation:2131296448 used because it matches string pool constant item
+Marking id:item_touch_helper_previous_elevation:2131296447 used because it matches string pool constant item
 Marking layout:item_text1:2131492898 used because it matches string pool constant item
-Marking id:group_divider:2131296435 used because it matches string pool constant group
-Marking id:groups:2131296436 used because it matches string pool constant group
+Marking id:group_divider:2131296434 used because it matches string pool constant group
+Marking id:groups:2131296435 used because it matches string pool constant group
 Marking attr:searchHintIcon:2130968854 used because it matches string pool constant search
 Marking attr:searchIcon:2130968855 used because it matches string pool constant search
 Marking attr:searchViewStyle:2130968856 used because it matches string pool constant search
-Marking id:search_badge:2131296517 used because it matches string pool constant search
-Marking id:search_bar:2131296518 used because it matches string pool constant search
-Marking id:search_button:2131296519 used because it matches string pool constant search
-Marking id:search_close_btn:2131296520 used because it matches string pool constant search
-Marking id:search_edit_frame:2131296521 used because it matches string pool constant search
-Marking id:search_go_btn:2131296522 used because it matches string pool constant search
-Marking id:search_mag_icon:2131296523 used because it matches string pool constant search
-Marking id:search_plate:2131296524 used because it matches string pool constant search
-Marking id:search_src_text:2131296525 used because it matches string pool constant search
-Marking id:search_voice_btn:2131296526 used because it matches string pool constant search
+Marking id:search_badge:2131296518 used because it matches string pool constant search
+Marking id:search_bar:2131296519 used because it matches string pool constant search
+Marking id:search_button:2131296520 used because it matches string pool constant search
+Marking id:search_close_btn:2131296521 used because it matches string pool constant search
+Marking id:search_edit_frame:2131296522 used because it matches string pool constant search
+Marking id:search_go_btn:2131296523 used because it matches string pool constant search
+Marking id:search_mag_icon:2131296524 used because it matches string pool constant search
+Marking id:search_plate:2131296525 used because it matches string pool constant search
+Marking id:search_src_text:2131296526 used because it matches string pool constant search
+Marking id:search_voice_btn:2131296527 used because it matches string pool constant search
 Marking string:search_menu_title:2131690194 used because it matches string pool constant search
 Marking attr:font:2130968727 used because it matches string pool constant font
 Marking attr:fontFamily:2130968728 used because it matches string pool constant font
@@ -1050,8 +1049,8 @@ Marking attr:contentPaddingLeft:2130968685 used because it matches string pool c
 Marking attr:contentPaddingRight:2130968686 used because it matches string pool constant content
 Marking attr:contentPaddingTop:2130968687 used because it matches string pool constant content
 Marking color:contents_text:2131099697 used because it matches string pool constant content
-Marking id:content:2131296398 used because it matches string pool constant content
-Marking id:contentPanel:2131296399 used because it matches string pool constant content
+Marking id:content:2131296397 used because it matches string pool constant content
+Marking id:contentPanel:2131296398 used because it matches string pool constant content
 Marking string:contents_contact:2131689703 used because it matches string pool constant content
 Marking string:contents_email:2131689704 used because it matches string pool constant content
 Marking string:contents_location:2131689705 used because it matches string pool constant content
@@ -1064,7 +1063,7 @@ Marking array:fileEndingImage:2130903093 used because it matches string pool con
 Marking array:fileEndingPackage:2130903094 used because it matches string pool constant file
 Marking array:fileEndingVideo:2130903095 used because it matches string pool constant file
 Marking array:fileEndingWebText:2130903096 used because it matches string pool constant file
-Marking id:file_name_text_view:2131296431 used because it matches string pool constant file
+Marking id:file_name_text_view:2131296430 used because it matches string pool constant file
 Marking string:file_btn_cancel:2131689811 used because it matches string pool constant file
 Marking string:file_btn_confirm:2131689812 used because it matches string pool constant file
 Marking string:file_msg_cancel:2131689813 used because it matches string pool constant file
@@ -1087,16 +1086,16 @@ Marking attr:showText:2130968862 used because it matches string pool constant sh
 Marking attr:showTitle:2130968863 used because it matches string pool constant sh
 Marking color:share_text:2131099781 used because it matches string pool constant sh
 Marking dimen:shadow_width:2131165316 used because it matches string pool constant sh
-Marking id:shortcut:2131296529 used because it matches string pool constant sh
-Marking id:showCustom:2131296530 used because it matches string pool constant sh
-Marking id:showHome:2131296531 used because it matches string pool constant sh
-Marking id:showTitle:2131296532 used because it matches string pool constant sh
+Marking id:shortcut:2131296530 used because it matches string pool constant sh
+Marking id:showCustom:2131296531 used because it matches string pool constant sh
+Marking id:showHome:2131296532 used because it matches string pool constant sh
+Marking id:showTitle:2131296533 used because it matches string pool constant sh
 Marking string:share:2131690202 used because it matches string pool constant sh
 Marking string:share_name:2131690203 used because it matches string pool constant sh
 Marking string:sharing:2131690204 used because it matches string pool constant sh
 Marking string:setQTParams_fail:2131690200 used because it matches string pool constant setQTPara
 Marking string:setQTParams_succ:2131690201 used because it matches string pool constant setQTPara
-Marking id:up:2131296577 used because it matches string pool constant up
+Marking id:up:2131296578 used because it matches string pool constant up
 Marking string:up_msg_avg_speed:2131690472 used because it matches string pool constant up
 Marking string:up_msg_file_not_exist:2131690473 used because it matches string pool constant up
 Marking string:up_msg_file_size:2131690474 used because it matches string pool constant up
@@ -1127,7 +1126,7 @@ Marking animator:fragment_fade_enter:2130837506 used because it matches string p
 Marking animator:fragment_fade_exit:2130837507 used because it matches string pool constant fragment_
 Marking animator:fragment_open_enter:2130837508 used because it matches string pool constant fragment_
 Marking animator:fragment_open_exit:2130837509 used because it matches string pool constant fragment_
-Marking id:fragment_container_view_tag:2131296433 used because it matches string pool constant fragment_
+Marking id:fragment_container_view_tag:2131296432 used because it matches string pool constant fragment_
 Marking layout:fragment_blank:2131492895 used because it matches string pool constant fragment_
 Marking layout:fragment_deactivate:2131492896 used because it matches string pool constant fragment_
 Marking layout:fragment_main:2131492897 used because it matches string pool constant fragment_
@@ -1165,7 +1164,7 @@ Marking animator:fragment_fade_enter:2130837506 used because it matches string p
 Marking animator:fragment_fade_exit:2130837507 used because it matches string pool constant fragment
 Marking animator:fragment_open_enter:2130837508 used because it matches string pool constant fragment
 Marking animator:fragment_open_exit:2130837509 used because it matches string pool constant fragment
-Marking id:fragment_container_view_tag:2131296433 used because it matches string pool constant fragment
+Marking id:fragment_container_view_tag:2131296432 used because it matches string pool constant fragment
 Marking layout:fragment_blank:2131492895 used because it matches string pool constant fragment
 Marking layout:fragment_deactivate:2131492896 used because it matches string pool constant fragment
 Marking layout:fragment_main:2131492897 used because it matches string pool constant fragment
@@ -2505,7 +2504,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/btnSetQTParams : reachable=false
 @id/btnSetSession : reachable=false
 @id/btnWorkWait : reachable=false
-@id/btn_clear : reachable=true
 @id/btn_deactivate : reachable=false
 @id/btn_reset : reachable=true
 @id/btn_select : reachable=true
@@ -2585,6 +2583,8 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/launch_product_query : reachable=false
 @id/layout12 : reachable=false
 @id/layout4 : reachable=false
+@id/layout5 : reachable=false
+@id/layout6 : reachable=false
 @id/layout_filter : reachable=false
 @id/left : reachable=false
 @id/line1 : reachable=false
@@ -3031,12 +3031,9 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @drawable/button_bg
     @string/btInventory
     @color/white
-    @string/btClear
+    @color/black
     @string/time_d_s
-    @string/tvTagUii
     @color/red1
-    @string/tvTagLen
-    @string/tvTagCount
 @layout/uhf_write_fragment : reachable=false
     @string/uhf_title_filter
     @drawable/rectangle_bg
@@ -6033,72 +6030,71 @@ The root reachable resources are:
  id:action_mode_close_button:2131296343
  id:add:2131296348
  id:alertTitle:2131296349
- id:btn_clear:2131296373
- id:btn_reset:2131296375
- id:btn_select:2131296376
- id:buttonPanel:2131296377
- id:content:2131296398
- id:contentPanel:2131296399
- id:custom:2131296400
- id:customPanel:2131296401
- id:decor_content_parent:2131296405
- id:dimensions:2131296408
- id:edit_query:2131296411
- id:file_name_text_view:2131296431
- id:fragment_container_view_tag:2131296433
- id:group_divider:2131296435
- id:groups:2131296436
- id:icon_view:2131296442
- id:item_touch_helper_previous_elevation:2131296448
- id:message:2131296464
- id:parentPanel:2131296477
- id:read_file:2131296505
- id:realtabcontent:2131296506
- id:scrollIndicatorDown:2131296514
- id:scrollIndicatorUp:2131296515
- id:scrollView:2131296516
- id:search_badge:2131296517
- id:search_bar:2131296518
- id:search_button:2131296519
- id:search_close_btn:2131296520
- id:search_edit_frame:2131296521
- id:search_go_btn:2131296522
- id:search_mag_icon:2131296523
- id:search_plate:2131296524
- id:search_src_text:2131296525
- id:search_voice_btn:2131296526
- id:setting_rv:2131296528
- id:shortcut:2131296529
- id:showCustom:2131296530
- id:showHome:2131296531
- id:showTitle:2131296532
- id:spacer:2131296537
- id:special_effects_controller_view_tag:2131296538
- id:split_action_bar:2131296540
- id:submenuarrow:2131296548
- id:submit_area:2131296549
- id:tag_accessibility_actions:2131296551
- id:tag_accessibility_clickable_spans:2131296552
- id:tag_accessibility_heading:2131296553
- id:tag_accessibility_pane_title:2131296554
- id:tag_screen_reader_focusable:2131296555
- id:tag_unhandled_key_event_manager:2131296557
- id:tag_unhandled_key_listeners:2131296558
- id:textSpacerNoButtons:2131296561
- id:textSpacerNoTitle:2131296562
- id:title:2131296564
- id:titleDividerNoCustom:2131296565
- id:title_template:2131296566
- id:topPanel:2131296568
- id:tvTime:2131296570
- id:tv_count:2131296571
- id:tv_nonFiles:2131296572
- id:tv_total:2131296574
- id:up:2131296577
- id:view_tree_lifecycle_owner:2131296579
- id:view_tree_saved_state_registry_owner:2131296580
- id:view_tree_view_model_store_owner:2131296581
- id:visible_removing_fragment_view_tag:2131296582
+ id:btn_reset:2131296374
+ id:btn_select:2131296375
+ id:buttonPanel:2131296376
+ id:content:2131296397
+ id:contentPanel:2131296398
+ id:custom:2131296399
+ id:customPanel:2131296400
+ id:decor_content_parent:2131296404
+ id:dimensions:2131296407
+ id:edit_query:2131296410
+ id:file_name_text_view:2131296430
+ id:fragment_container_view_tag:2131296432
+ id:group_divider:2131296434
+ id:groups:2131296435
+ id:icon_view:2131296441
+ id:item_touch_helper_previous_elevation:2131296447
+ id:message:2131296465
+ id:parentPanel:2131296478
+ id:read_file:2131296506
+ id:realtabcontent:2131296507
+ id:scrollIndicatorDown:2131296515
+ id:scrollIndicatorUp:2131296516
+ id:scrollView:2131296517
+ id:search_badge:2131296518
+ id:search_bar:2131296519
+ id:search_button:2131296520
+ id:search_close_btn:2131296521
+ id:search_edit_frame:2131296522
+ id:search_go_btn:2131296523
+ id:search_mag_icon:2131296524
+ id:search_plate:2131296525
+ id:search_src_text:2131296526
+ id:search_voice_btn:2131296527
+ id:setting_rv:2131296529
+ id:shortcut:2131296530
+ id:showCustom:2131296531
+ id:showHome:2131296532
+ id:showTitle:2131296533
+ id:spacer:2131296538
+ id:special_effects_controller_view_tag:2131296539
+ id:split_action_bar:2131296541
+ id:submenuarrow:2131296549
+ id:submit_area:2131296550
+ id:tag_accessibility_actions:2131296552
+ id:tag_accessibility_clickable_spans:2131296553
+ id:tag_accessibility_heading:2131296554
+ id:tag_accessibility_pane_title:2131296555
+ id:tag_screen_reader_focusable:2131296556
+ id:tag_unhandled_key_event_manager:2131296558
+ id:tag_unhandled_key_listeners:2131296559
+ id:textSpacerNoButtons:2131296562
+ id:textSpacerNoTitle:2131296563
+ id:title:2131296565
+ id:titleDividerNoCustom:2131296566
+ id:title_template:2131296567
+ id:topPanel:2131296569
+ id:tvTime:2131296571
+ id:tv_count:2131296572
+ id:tv_nonFiles:2131296573
+ id:tv_total:2131296575
+ id:up:2131296578
+ id:view_tree_lifecycle_owner:2131296580
+ id:view_tree_saved_state_registry_owner:2131296581
+ id:view_tree_view_model_store_owner:2131296582
+ id:visible_removing_fragment_view_tag:2131296583
  integer:google_play_services_version:2131361796
  layout:abc_action_bar_title_item:2131492864
  layout:abc_action_menu_item_layout:2131492866

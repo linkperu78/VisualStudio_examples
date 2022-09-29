@@ -5807,10 +5807,12 @@ com.example.uhf.adapter.MyRvAdapter:
 com.example.uhf.adapter.ViewPagerAdapter
 com.example.uhf.fragment.SettingFragment:
     private static final java.lang.String TAG
+    public android.widget.Button btn_clear
     public java.lang.String[] data_header
 com.example.uhf.fragment.UHFReadTagFragment:
     private static final java.lang.String TAG
     static final java.lang.String codigo_empresa
+    private java.util.ArrayList data_matched_hashmap
 com.example.uhf.tools.NumberTool:
     public void <init>()
     public static double getPointDouble(int,int)

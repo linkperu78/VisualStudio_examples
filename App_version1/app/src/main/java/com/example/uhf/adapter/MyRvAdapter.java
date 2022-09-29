@@ -75,6 +75,7 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
                     data_file = my_data_from_file.data;
                     UHFMainActivity.data = data_file;
                     UHFMainActivity.header =header_file;
+                    UHFMainActivity.file_name = "Archivo seleccionado:\n" + selectedFile.getName();
                     Toast.makeText(context, "INFORMACION SUBIDA", Toast.LENGTH_SHORT).show();
 
                 }

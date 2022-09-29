@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -38,51 +39,19 @@
             android:text="@string/btInventory"
             android:textColor="@color/white" />
 
-        <Button
+        <TextView
             android:id="@+id/BtClear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/button_bg"
-            android:text="@string/btClear"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
-    </LinearLayout>
-
-    <!--
-    <LinearLayout
-        android:id="@+id/layout0"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tvCountOfTags"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/tv_count"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="0"
+            android:layout_weight="1.25"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"
             android:textSize="15sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/BtClear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btClear"
-            android:textColor="@color/white"
-            android:textSize="15sp"
-            android:background="@drawable/button_bg"
-            android:layout_marginRight="5dp" />
+            tools:ignore="RtlHardcoded" />
     </LinearLayout>
-    -->
 
     <View
         android:layout_width="match_parent"
@@ -120,65 +89,114 @@
 
     <LinearLayout
         android:id="@+id/layout4"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingBottom="5dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="5dp">
+        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="0dip"
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/tvTagUii"
-            android:textSize="15sp" />
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="# Modelos: "
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="0"
+                android:textColor="@color/red1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="Total: "
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="0"
+                android:textColor="@color/red1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tv_count"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="0"
-            android:textColor="@color/red1"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tv_total"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="0"
-            android:textColor="@color/red1"
-            android:textSize="16sp"
-            android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="0dip"
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/tvTagLen"
-            android:visibility="gone" />
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
 
-        <TextView
-            android:layout_width="0dip"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/tvTagCount"
-            android:textSize="15sp" />
 
-        <TextView
-            android:layout_width="0dip"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="RSSI"
-            android:textSize="15sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="6"
+                android:text="Estilo"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="#"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="6"
+                android:text="Color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:text="Talla"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 
     <View
