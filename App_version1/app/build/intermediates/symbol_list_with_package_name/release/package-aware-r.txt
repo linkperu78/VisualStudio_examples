@@ -1038,7 +1038,6 @@ id btnSetQTParams
 id btnSetSession
 id btnWorkWait
 id btn_deactivate
-id btn_reset
 id btn_select
 id buttonPanel
 id cbAccess
@@ -1237,6 +1236,7 @@ id topPanel
 id tv
 id tvTime
 id tv_count
+id tv_date_modified
 id tv_nonFiles
 id tv_normal_set
 id tv_total
@@ -1299,6 +1299,7 @@ layout custom_dialog
 layout fragment_blank
 layout fragment_deactivate
 layout fragment_main
+layout item_list_popup
 layout item_text1
 layout listtag_items
 layout notification_action

@@ -48,6 +48,8 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     boolean buffer_stop = false;
 
     SimpleAdapter adapter;
+
+
     TextView BtClear;
     TextView tvTime;
     TextView tv_count;
@@ -121,6 +123,15 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
         BtClear.setOnClickListener(new BtClearClickListener());
         BtInventory.setOnClickListener(new BtInventoryClickListener());
+
+        LvTags.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getContext(), "D= " + String.valueOf(position), Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+
 
 
         clearData();

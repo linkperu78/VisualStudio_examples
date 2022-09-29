@@ -41,7 +41,7 @@ public class SettingFragment extends KeyDwonFragment{
     public TextView tv_data;
     public Button btn_clear;
     private Button btn_select;
-    private Button btn_reset;
+    public TextView tv_modified;
     private TextView tv_folder_path;
     private RecyclerView setting_rv;
     private ActivityResultLauncher<Intent> resultLauncher;
@@ -74,7 +74,7 @@ public class SettingFragment extends KeyDwonFragment{
         mContext = (UHFMainActivity) getActivity();
         mContext.currentFragment = this;
         tv_data= getView().findViewById(R.id.read_file);
-        btn_reset=getView().findViewById(R.id.btn_reset);
+        tv_modified = getView().findViewById(R.id.tv_date_modified);
         btn_select=getView().findViewById(R.id.btn_select);
         setting_rv=getView().findViewById(R.id.setting_rv);
         tv_folder_path=getView().findViewById(R.id.tv_nonFiles);
@@ -113,7 +113,6 @@ public class SettingFragment extends KeyDwonFragment{
         folder_path_fixed = UHFMainActivity.folder_path;
         rv_adapter = new MyRvAdapter(getContext(),folder_path_fixed,SettingFragment.this);
         refresh_reciclerview(folder_path_fixed);
-
         Log.d(TAG, "onResume: " + my_actual_file_path);
 
     }

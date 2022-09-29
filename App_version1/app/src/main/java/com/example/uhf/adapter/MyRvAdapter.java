@@ -40,11 +40,13 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
     String[] header_file;
     ArrayList<String[]> data_file;
     private Data_from_file my_data_from_file;
+    private SettingFragment settingFragment;
 
 
     public MyRvAdapter(Context context, String path, SettingFragment a){
         this.context = context;
         this.default_path=path;
+        this.settingFragment=a;
         files = new File(default_path);
         this.filesAndFolders = files.listFiles();
     }
@@ -69,19 +71,17 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
             @Override
             public void onClick(View v) {
                 if(!selectedFile.isDirectory()){
-                    Log.d("TAG", "onClick: " + selectedFile.getAbsolutePath());
+                    Log.d("TAG", "onClick: " + selectedFile.getName());
                     my_data_from_file = new Data_from_file(selectedFile.getAbsolutePath());
                     header_file = my_data_from_file.header;
                     data_file = my_data_from_file.data;
                     UHFMainActivity.data = data_file;
                     UHFMainActivity.header =header_file;
                     UHFMainActivity.file_name = "Archivo seleccionado:\n" + selectedFile.getName();
+                    Long last_modified = selectedFile.lastModified();
+                    String mensaje_date = selectedFile.getName() + "\n"+ day_month_year(last_modified);
+                    settingFragment.tv_modified.setText(mensaje_date);
                     Toast.makeText(context, "INFORMACION SUBIDA", Toast.LENGTH_SHORT).show();
-
-                }
-                else{
-                    file_path= selectedFile.getAbsolutePath();
-                    Log.d("TAG", "onClick: " + selectedFile.getAbsolutePath());
 
                 }
             }
