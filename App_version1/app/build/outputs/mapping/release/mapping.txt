@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: a5754eb
-# pg_map_hash: SHA-256 a5754eb18bbf3d6dd71217556b3a847d617d5b0dfb617a9463b275b9a1cf56d5
+# pg_map_id: 9fc3ba9
+# pg_map_hash: SHA-256 9fc3ba9154df5b73a082d0bab796057baeeb396ea9d29d9a98f780545c7dbf24
 a.a.a -> a.a:
     a.a.a j -> f
     boolean b(java.lang.String,java.lang.String,java.lang.String) -> c
@@ -8099,19 +8099,19 @@ com.example.uhf.adapter.MyRvAdapter -> n0.a:
     java.lang.String default_path -> g
     java.io.File[] filesAndFolders -> f
     java.lang.String file_path -> h
+    java.lang.String[] header_file -> i
     java.io.File files -> e
-    com.example.uhf.tools.Data_from_file my_data_from_file -> j
+    java.util.ArrayList data_file -> j
+    com.example.uhf.tools.Data_from_file my_data_from_file -> k
     android.content.Context context -> d
-    com.example.uhf.fragment.SettingFragment mysetting_fragment -> i
     int getItemCount() -> d
     void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> i
     androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> k
     com.example.uhf.tools.Data_from_file access$000(com.example.uhf.adapter.MyRvAdapter) -> s
     com.example.uhf.tools.Data_from_file access$002(com.example.uhf.adapter.MyRvAdapter,com.example.uhf.tools.Data_from_file) -> t
-    com.example.uhf.fragment.SettingFragment access$100(com.example.uhf.adapter.MyRvAdapter) -> u
-    java.lang.String day_month_year(long) -> v
-    void onBindViewHolder(com.example.uhf.adapter.MyRvAdapter$ViewHolder,int) -> w
-    com.example.uhf.adapter.MyRvAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> x
+    java.lang.String day_month_year(long) -> u
+    void onBindViewHolder(com.example.uhf.adapter.MyRvAdapter$ViewHolder,int) -> v
+    com.example.uhf.adapter.MyRvAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> w
 com.example.uhf.adapter.MyRvAdapter$1 -> n0.a$a:
     java.io.File val$selectedFile -> b
     com.example.uhf.adapter.MyRvAdapter this$0 -> c
@@ -8124,9 +8124,8 @@ com.example.uhf.adapter.MyRvAdapter$ViewHolder -> n0.a$c:
 com.example.uhf.fragment.KeyDwonFragment -> o0.a:
     void myOnKeyDwon() -> y1
 com.example.uhf.fragment.SettingFragment -> o0.b:
-    com.example.uhf.adapter.MyRvAdapter rv_adapter -> q0
-    java.lang.String[] data_header -> o0
-    java.util.ArrayList data_list -> p0
+    com.example.uhf.adapter.MyRvAdapter rv_adapter -> p0
+    java.util.ArrayList data_list -> o0
     android.widget.Button btn_reset -> g0
     com.example.uhf.activity.UHFMainActivity mContext -> b0
     android.view.View my_setting_view -> c0
@@ -8160,38 +8159,43 @@ com.example.uhf.fragment.SettingFragment$2 -> o0.b$b:
 com.example.uhf.fragment.SettingFragment$3 -> o0.b$c:
     com.example.uhf.fragment.SettingFragment this$0 -> b
 com.example.uhf.fragment.UHFReadTagFragment -> o0.c:
-    java.util.ArrayList data_from_file -> r0
-    java.lang.String[] header_from_file -> s0
+    java.lang.String[] estado_lector -> r0
+    boolean buffer_stop -> g0
+    java.util.ArrayList data_from_file -> u0
     boolean loopFlag -> b0
-    java.util.HashMap map -> n0
-    android.os.Handler handler -> t0
-    com.example.uhf.activity.UHFMainActivity mContext -> m0
-    java.lang.String[] estado_lector -> p0
-    android.widget.SimpleAdapter adapter -> f0
-    long time -> o0
-    android.widget.Button BtClear -> g0
+    java.lang.String[] header_from_file -> v0
+    long time -> q0
+    java.util.HashMap map -> p0
     java.util.ArrayList tagList -> d0
-    int estado_int -> q0
-    java.util.ArrayList EPC_numbers -> e0
-    int selectItem -> u0
-    android.widget.TextView tv_total -> j0
-    android.widget.TextView tv_count -> i0
-    android.widget.TextView tvTime -> h0
+    android.widget.Button BtClear -> i0
+    java.util.ArrayList EPC_numbers -> f0
+    java.util.ArrayList data_matched_hashmap -> e0
+    android.widget.Button BtInventory -> m0
+    com.example.uhf.activity.UHFMainActivity mContext -> o0
+    android.os.Handler handler -> t0
+    android.widget.SimpleAdapter adapter -> h0
+    int estado_int -> s0
+    int pos_colorname -> x0
+    int pos_style -> w0
+    android.widget.TextView tv_total -> l0
+    android.widget.TextView tv_count -> k0
+    android.widget.TextView tvTime -> j0
+    int pos_EPCnumber -> z0
+    android.widget.ListView LvTags -> n0
+    int pos_size -> y0
     java.util.List tempDatas -> c0
-    android.widget.Button BtInventory -> k0
-    android.widget.ListView LvTags -> l0
     java.lang.String access$000(com.example.uhf.fragment.UHFReadTagFragment,java.lang.String) -> A1
     void access$100(com.example.uhf.fragment.UHFReadTagFragment,java.lang.String,java.lang.String,java.lang.String) -> B1
     void access$200(com.example.uhf.fragment.UHFReadTagFragment) -> C1
     void access$300(com.example.uhf.fragment.UHFReadTagFragment) -> D1
     void onViewCreated(android.view.View,android.os.Bundle) -> E0
-    int access$402(com.example.uhf.fragment.UHFReadTagFragment,int) -> E1
-    com.example.uhf.activity.UHFMainActivity access$500(com.example.uhf.fragment.UHFReadTagFragment) -> F1
-    void access$600(com.example.uhf.fragment.UHFReadTagFragment) -> G1
-    boolean access$700(com.example.uhf.fragment.UHFReadTagFragment) -> H1
-    void addDataToList(java.lang.String,java.lang.String,java.lang.String) -> I1
-    int checkIsExist(java.lang.String) -> J1
-    void clearData() -> K1
+    com.example.uhf.activity.UHFMainActivity access$400(com.example.uhf.fragment.UHFReadTagFragment) -> E1
+    void access$500(com.example.uhf.fragment.UHFReadTagFragment) -> F1
+    boolean access$600(com.example.uhf.fragment.UHFReadTagFragment) -> G1
+    void addDataToList(java.lang.String,java.lang.String,java.lang.String) -> H1
+    int checkIsExist(java.lang.String) -> I1
+    void clearData() -> J1
+    void match_UPC_EPC_data(java.util.ArrayList) -> K1
     void readTag() -> L1
     void setTotalTime() -> M1
     void stopInventory() -> N1

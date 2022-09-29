@@ -26,6 +26,7 @@ import com.example.uhf.fragment.UHFReadTagFragment;
 import com.example.uhf.tools.Data_from_file;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -36,14 +37,14 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
     File[] filesAndFolders;
     String default_path;
     String file_path;
-    private SettingFragment mysetting_fragment;
+    String[] header_file;
+    ArrayList<String[]> data_file;
     private Data_from_file my_data_from_file;
 
 
     public MyRvAdapter(Context context, String path, SettingFragment a){
         this.context = context;
         this.default_path=path;
-        this.mysetting_fragment =a;
         files = new File(default_path);
         this.filesAndFolders = files.listFiles();
     }
@@ -70,10 +71,10 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
                 if(!selectedFile.isDirectory()){
                     Log.d("TAG", "onClick: " + selectedFile.getAbsolutePath());
                     my_data_from_file = new Data_from_file(selectedFile.getAbsolutePath());
-                    mysetting_fragment.data_list=my_data_from_file.data;
-                    mysetting_fragment.data_header=my_data_from_file.header;
-                    UHFMainActivity.data = my_data_from_file.data;
-                    UHFMainActivity.header =my_data_from_file.header;
+                    header_file = my_data_from_file.header;
+                    data_file = my_data_from_file.data;
+                    UHFMainActivity.data = data_file;
+                    UHFMainActivity.header =header_file;
                     Toast.makeText(context, "INFORMACION SUBIDA", Toast.LENGTH_SHORT).show();
 
                 }
@@ -131,5 +132,18 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
                           "Agosto","Setiembre","Octubre","Noviembre","Diciembre"};
         date = (day) + "/" + meses[month]+"/"+year;
         return date;
+    }
+
+    private int get_pos_string(String[] dataset, String name){
+        int j=0;
+        for (int i =0; i < dataset.length; i++){
+            if(dataset[i].equals(name)){
+                j =i;
+            }
+            else{
+                j=-1;
+            }
+        }
+        return j;
     }
 }

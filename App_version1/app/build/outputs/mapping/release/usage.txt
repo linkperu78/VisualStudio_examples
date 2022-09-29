@@ -5803,10 +5803,11 @@ com.example.uhf.activity.UHFMainActivity:
     public void popup_all_files_permission()
 com.example.uhf.adapter.MyRvAdapter:
     public java.lang.String getFile_path()
+    private int get_pos_string(java.lang.String[],java.lang.String)
 com.example.uhf.adapter.ViewPagerAdapter
 com.example.uhf.fragment.SettingFragment:
     private static final java.lang.String TAG
-com.example.uhf.fragment.UHFReadTagFragment$ViewHolder
+    public java.lang.String[] data_header
 com.example.uhf.fragment.UHFReadTagFragment:
     private static final java.lang.String TAG
     static final java.lang.String codigo_empresa

@@ -64,7 +64,6 @@ public class Data_from_file {
         String[] data_filtered;
         int l = a.length;
         int len_data_filtered = l;
-
         for(int i=0; i<l;i++){
             String[] b = a[i].split("\t");
             if(b.length ==0)
@@ -72,10 +71,7 @@ public class Data_from_file {
                 len_data_filtered--;
             }
         }
-
         data_filtered = new String[len_data_filtered];
-
-
         int j = 0;
         for(int i=0; i<l;i++){
             String[] b = a[i].split("\t");
@@ -85,10 +81,9 @@ public class Data_from_file {
                 j++;
             }
         }
-        Log.d("TAG", "filt_null: " + String.valueOf(j));
-
         return data_filtered;
     }
+
 
     private String[] EPC_generate(String[] data_without_EPC, String[] header_example){
         String[] data_with_EPC;

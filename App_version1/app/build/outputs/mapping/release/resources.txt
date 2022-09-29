@@ -34,7 +34,6 @@ Marking id:TvTagLen:2131296288 reachable: referenced from D:\Github\Android_exam
 Marking id:TvTagCount:2131296287 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:TvTagRssi:2131296289 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:uhf_msg_inventory_open_fail:2131690409 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:btInventory:2131689643 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:uhf_msg_inventory_stop_fail:2131690410 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:uhf_readtag_fragment:2131492916 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
@@ -249,7 +248,6 @@ read
 cmdInfo
 ERR_FP_DRY_FINGER
 MenuItemWrapper
-MY
 android.permission.MANAGE_EXTERNAL_ST...
 ReadStatus:
 Transparent
@@ -3235,7 +3233,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/btErase : reachable=false
 @string/btGetFre : reachable=false
 @string/btGetPrar : reachable=false
-@string/btInventory : reachable=true
+@string/btInventory : reachable=false
 @string/btKill : reachable=false
 @string/btLock : reachable=false
 @string/btRead : reachable=false
@@ -6156,7 +6154,6 @@ The root reachable resources are:
  string:bluetooth_msg_not_supp:2131689625
  string:bluetooth_title_file:2131689626
  string:bluetooth_title_tip:2131689627
- string:btInventory:2131689643
  string:close:2131689700
  string:contents_contact:2131689703
  string:contents_email:2131689704

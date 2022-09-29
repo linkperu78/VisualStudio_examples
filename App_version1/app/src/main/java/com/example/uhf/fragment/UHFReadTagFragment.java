@@ -19,6 +19,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.uhf.R;
 import com.example.uhf.UhfInfo;
@@ -41,8 +42,10 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     private List<String> tempDatas = new ArrayList<>();
 
     private ArrayList<HashMap<String, String>> tagList;
+    private ArrayList<HashMap<String, String>> data_matched_hashmap;
     private ArrayList<String> EPC_numbers;
     final static String codigo_empresa = "3034";
+    boolean buffer_stop = false;
 
     SimpleAdapter adapter;
     Button BtClear;
@@ -62,15 +65,19 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     private int estado_int;
 
 
-    public ArrayList<String[]> data_from_file = new ArrayList<>();
-    public String[] header_from_file;
+    static ArrayList<String[]> data_from_file = new ArrayList<>();
+    static String[] header_from_file;
+    static int pos_style = 0;
+    static int pos_colorname = 2;
+    static int pos_size = 3;
+    static int pos_EPCnumber = -1;
 
 
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             UHFTAGInfo info = (UHFTAGInfo) msg.obj;
-            if(info.getEPC().substring(0,4).equals(codigo_empresa)) {
+            if(info.getEPC().substring(0,4).equals(codigo_empresa) && buffer_stop) {
                 addDataToList(info.getEPC(), EPC_norm(info.getEPC()), info.getRssi());
             }
             setTotalTime();
@@ -114,13 +121,14 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         BtInventory.setOnClickListener(new BtInventoryClickListener());
 
 
-        //clearData();
+        clearData();
         tv_count.setText(mContext.tagList.size()+"");
         tv_total.setText(""+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
-        if(!UHFMainActivity.data.isEmpty()) {
+         if(!UHFMainActivity.data.isEmpty()) {
             data_from_file = UHFMainActivity.data;
             header_from_file = UHFMainActivity.header;
+            pos_EPCnumber = header_from_file.length-1;
         }
     }
 
@@ -147,7 +155,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             if(index == -1){
                 tagList.add(map);
                 EPC_numbers.add(epc);
-                LvTags.setAdapter(adapter);
                 tv_count.setText("" + adapter.getCount());
 
             }else{
@@ -160,6 +167,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
                 }
 
             }
+
             adapter.notifyDataSetChanged();
 
         }
@@ -170,7 +178,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         @Override
         public void onClick(View v) {
             clearData();
-            selectItem=-1;
             mContext.uhfInfo=new UhfInfo();
         }
     }
@@ -179,7 +186,9 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         tv_count.setText("0");
         tagList.clear();
         EPC_numbers.clear();
-        Log.i("MY", "tagList.size " + tagList.size());
+        if(!data_from_file.isEmpty()){
+        data_matched_hashmap.clear();
+        }
         adapter.notifyDataSetChanged();
     }
 
@@ -207,10 +216,10 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             case 1: // Se presiona dos veces el gatillo, se pausa la lectura
                 stopInventory();
                 setTotalTime();
+                match_UPC_EPC_data(tagList);
                 break;
             case 2: // Se presiona tres veces el gatillo, se reinicia la lectura
                 clearData();
-                selectItem=-1;
                 mContext.uhfInfo=new UhfInfo();
                 break;
             default:
@@ -236,11 +245,13 @@ public class UHFReadTagFragment extends KeyDwonFragment {
     private void stopInventory() {
         if (loopFlag) {
             loopFlag = false;
+
             if (mContext.mReader.stopInventory()) {
-                BtInventory.setText(mContext.getString(R.string.btInventory));
+                Toast.makeText(mContext, "Se detuvo correctamente el escáner", Toast.LENGTH_SHORT).show();
             } else {
                 UIHelper.ToastMessage(mContext, R.string.uhf_msg_inventory_stop_fail);
             }
+            buffer_stop = false;
         }
     }
 
@@ -271,6 +282,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             UHFTAGInfo uhftagInfo;
             Message msg;
             while (loopFlag) {
+                buffer_stop = true;
                 uhftagInfo = mContext.mReader.readTagFromBuffer();
                 if (uhftagInfo != null) {
                     msg = handler.obtainMessage();
@@ -298,16 +310,40 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
 
     //-----------------------------
-    private int  selectItem=-1;
-    public final class ViewHolder {
-        public TextView tvEPCTID;
-        public TextView tvTagCount;
-        public TextView tvTagRssi;
-    }
 
     /**
      * ESTA CLASS ES LA QUE INGRESA DATOS AL LISTVIEW.
      * adapter = new MyAdapter(Context context);
      */
+
+    private void match_UPC_EPC_data(ArrayList<HashMap<String,String>> data_EPC){
+        while (buffer_stop){
+
+        }
+        if(data_from_file.isEmpty())
+        {
+            Toast.makeText(mContext, "No se encuentra una base de datos", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        data_matched_hashmap = new ArrayList<>();
+        for (int i = 0; i<tagList.size(); i++){
+            String EPC_value = tagList.get(i).get("tagUii");
+
+            Log.d(TAG, "SE ESTA LEYENDO EL EPC =  " + EPC_value);
+            for(int k=0; k<data_from_file.size(); k++){
+                String[] temp = data_from_file.get(k);
+
+                if(temp[pos_EPCnumber].equals(EPC_value)){
+                    map = new HashMap<String, String>();
+                    map.put("tagUii", temp[pos_style]);
+                    map.put("tagCount",tagList.get(i).get("tagCount"));
+                    map.put("tagRssi",temp[pos_size]);
+                    tagList.set(i,map);
+                }
+            }
+        }
+        LvTags.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+    }
 
 }
