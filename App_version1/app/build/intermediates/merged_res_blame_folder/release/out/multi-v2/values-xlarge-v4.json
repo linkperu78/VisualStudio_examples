@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.uhf.app-mergeReleaseResources-16:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Diego\\.gradle\\caches\\transforms-3\\b19421c8ef219f5689d34108756c496a\\transformed\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

@@ -4,6 +4,7 @@ package com.example.uhf.activity;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -11,6 +12,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.text.Editable;
 import android.util.Log;
@@ -49,15 +51,16 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
 
     private FragmentTabHost mTabHost;
     private FragmentManager fm;
+
     public UhfInfo uhfInfo=new UhfInfo();
     public ArrayList<HashMap<String, String>> tagList = new ArrayList<HashMap<String, String>>();
+
+
 
     static public ArrayList<String[]> data=new ArrayList<>();
     static public String[] header;
     static public String file_name="";
     static public String folder_path=Environment.getExternalStorageDirectory().getAbsolutePath();
-
-
 
 
     /**
@@ -71,6 +74,9 @@ public class UHFMainActivity extends BaseTabFragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         PackageManager pm =  getPackageManager();
+
+
+
 
         if(!check_all_files_permission()){
             popup_permissions();

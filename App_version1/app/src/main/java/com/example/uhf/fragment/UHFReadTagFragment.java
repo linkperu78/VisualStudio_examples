@@ -13,24 +13,33 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.PopupMenu;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import com.example.uhf.R;
 import com.example.uhf.UhfInfo;
 import com.example.uhf.activity.UHFMainActivity;
+import com.example.uhf.adapter.ListView_model;
 import com.example.uhf.tools.NumberTool;
 import com.example.uhf.tools.StringUtils;
 import com.example.uhf.tools.UIHelper;
 import com.rscja.deviceapi.entity.UHFTAGInfo;
+import com.rscja.team.qcom.deviceapi.P;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -42,21 +51,20 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
     private List<String> tempDatas = new ArrayList<>();
     private ArrayList<HashMap<String, String>> tagList;
-    private ArrayList<HashMap<String, String>> data_matched_hashmap;
     private ArrayList<String> EPC_numbers;
     final static String codigo_empresa = "3034";
     boolean buffer_stop = false;
 
     SimpleAdapter adapter;
 
-
     TextView BtClear;
     TextView tvTime;
     TextView tv_count;
     TextView tv_total;
     Button BtInventory;
-    ListView LvTags;
 
+    ListView LvTags;
+    ListView LvPopmenu;
 
     private UHFMainActivity mContext;
     private HashMap<String, String> map;
@@ -102,6 +110,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         mContext = (UHFMainActivity) getActivity();
         mContext.currentFragment=this;
         tagList = new ArrayList<HashMap<String, String>>();
+
         EPC_numbers = new ArrayList<String>();
         BtClear = (TextView) getView().findViewById(R.id.BtClear);
         tvTime = (TextView) getView().findViewById(R.id.tvTime);
@@ -113,6 +122,7 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         BtInventory = (Button) getView().findViewById(R.id.BtInventory);
 
         LvTags = (ListView) getView().findViewById(R.id.LvTags);
+        LvPopmenu = (ListView) getView().findViewById(R.id.lv_popup_menu);
 
         adapter = new SimpleAdapter(mContext, tagList, R.layout.listtag_items,
                 new String[]{"tagUii", "tagLen", "tagCount", "tagRssi"},
@@ -124,15 +134,36 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         BtClear.setOnClickListener(new BtClearClickListener());
         BtInventory.setOnClickListener(new BtInventoryClickListener());
 
+        /*
         LvTags.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getContext(), "D= " + String.valueOf(position), Toast.LENGTH_SHORT).show();
+                ArrayList<HashMap<String,String>> popmenu_hashmap = new ArrayList<>();
+                HashMap<String,String> item_popup = new HashMap<>();
+                for(int i = 0; i < header_from_file.length;i++) {
+                    HashMap<String,String> pop_data = tagList.get(position);
+                    String header_i = header_from_file[i];
+                    String value_i = pop_data.get(header_i);
+                    item_popup.put(header_i,value_i);
+                }
+                popmenu_hashmap.add(item_popup);
+
+                adapter_popup_menu = new SimpleAdapter(mContext,popmenu_hashmap,R.layout.item_list_popup,
+                        header_from_file,1);
+                LvPopmenu.setAdapter(adapter_popup_menu);
+                adapter_popup_menu.notifyDataSetChanged();
+
+
+                PopupMenu popupMenu = new PopupMenu(getContext(),view);
+                popupMenu.inflate(R.layout.popup_menu_listview);
+                popupMenu.show();
+
+
+
                 return true;
             }
         });
-
-
+        */
 
         clearData();
         tv_count.setText(mContext.tagList.size()+"");
@@ -184,7 +215,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
                 }
 
             }
-
             adapter.notifyDataSetChanged();
 
         }
@@ -333,6 +363,8 @@ public class UHFReadTagFragment extends KeyDwonFragment {
      */
 
     private void match_UPC_EPC_data(ArrayList<HashMap<String,String>> data_EPC){
+
+
         while (buffer_stop){
 
         }
@@ -341,32 +373,171 @@ public class UHFReadTagFragment extends KeyDwonFragment {
             Toast.makeText(mContext, "No se encuentra una base de datos", Toast.LENGTH_SHORT).show();
             return;
         }
-        for (int i = 0; i<tagList.size(); i++){
-            String EPC_value = tagList.get(i).get("tagUii");
 
-            Log.d(TAG, "SE ESTA LEYENDO EL EPC =  " + EPC_value);
+        ArrayList<String[]> data_leida=new ArrayList<>();
+        int cantidad_leidos = tagList.size();
 
-            map = new HashMap<String, String>();
-            map.put("tagUii", EPC_value);
-            map.put("tagCount",tagList.get(i).get("tagCount"));
-            map.put("tagRssi","??");
-            map.put("tagLen","??");
-            for(int k=0; k<data_from_file.size(); k++){
-                String[] temp = data_from_file.get(k);
-                if(temp[pos_EPCnumber].equals(EPC_value)){
-                    //map = new HashMap<String, String>();
-                    map.put("tagUii", temp[pos_style]);
-                    //map.put("tagCount",tagList.get(i).get("tagCount"));
-                    map.put("tagRssi",temp[pos_size]);
-                    map.put("tagLen",temp[pos_colorname]);
+
+
+        for (int i = 0; i<cantidad_leidos; i++){
+            String EPC_code_looking = tagList.get(i).get("tagUii");
+            for(int k = 0; k<data_from_file.size();k++){
+                String[] temp_data_from_list = data_from_file.get(k);
+                String EPC_code_data_list = temp_data_from_list[pos_EPCnumber];
+                if(EPC_code_looking.equals(EPC_code_data_list)){
+                    int size = temp_data_from_list.length;
+                    temp_data_from_list=Arrays.copyOf(temp_data_from_list,size+2);
+                    temp_data_from_list[size] = tagList.get(i).get("tagCount");
+                    temp_data_from_list[size+1] = String.valueOf(k);
+                    data_leida.add(temp_data_from_list);
                     break;
                 }
+            }
+        }
+
+        for (int i = 0; i<data_leida.size(); i++){
+            mensaje_string(data_leida.get(i));
+        }
+
+        ordenar_arraystring(data_leida);
+
+
+        /*
+
+        for (int i = 0; i<posiciones_data_from_file.length; i++){
+            int posicion_actual = posiciones_data_from_file[i];
+            map = new HashMap<String, String>();
+
+            checkout_taglist();
+
+            if(posicion_actual > -1){
+                String[] temp_data = data_from_file.get(posicion_actual);
+                map.put("tagRssi",temp_data[pos_size]);
+                map.put("tagLen",temp_data[pos_colorname]);
+                map.put("tagUii",temp_data[pos_style]);
+                String cantidad = "0";
+
+
+                for(int k =0; k<tagList.size(); k++){
+                    Log.d(TAG, "actual_evaluate: ------------------------------- START");
+                    Log.d(TAG, "actual_evaluate: " + tagList.size());
+                    String actual_evaluate_EPC = tagList.get(k).get("tagUii");
+                    String actual_looking_EPC = temp_data[pos_EPCnumber];
+                    Log.d(TAG, "actual_evaluate: " + actual_evaluate_EPC);
+                    Log.d(TAG, "actual_looking: " + actual_looking_EPC);
+                    if(actual_evaluate_EPC.equals(actual_looking_EPC)){
+                        cantidad = tagList.get(k).get("tagCount");
+                        Log.d(TAG, "cantidad: " + cantidad);
+                        continue;
+                    }
+                    Log.d(TAG, "actual_evaluate: ------------------------------- END");
+                }
+                map.put("tagCount",cantidad);
+            }
+
+            else{
+                map.put("tagRssi","??");
+                map.put("tagLen","??");
+                map.put("tagUii", tagList.get(-posicion_actual).get("tagUii"));
+                map.put("tagCount",tagList.get(-posicion_actual).get("tagCount"));
             }
 
             tagList.set(i,map);
         }
+
         LvTags.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+
+        */
     }
+
+
+    public void mensaje_int (int[] data_int){
+        if(!(data_int.length>0)){
+            return;
+        }
+        String mensaje = " = ";
+        int i =0;
+        while (i<data_int.length-1){
+        mensaje += data_int[i] + ",\t";
+        i++;
+        }
+        mensaje += data_int[data_int.length-1];
+
+        Log.d(TAG, "mensaje_int: " + mensaje);
+    }
+
+    public void mensaje_string(String[] data_int){
+        if(!(data_int.length>0)){
+            return;
+        }
+        String mensaje = " = ";
+        int i =0;
+        while (i<data_int.length-1){
+            mensaje += data_int[i] + ",\t";
+            i++;
+        }
+        mensaje += data_int[data_int.length-1];
+
+        Log.d(TAG, "mensaje_int: " + mensaje);
+    }
+
+    public void checkout_taglist(){
+        String mensaje = "";
+        for (int i = 0; i<tagList.size(); i++){
+            mensaje += " " + tagList.get(i).get("tagUii");
+        }
+        Log.d(TAG, "match_UPC_EPC_data: @@@@@@@@@@@ " + mensaje);
+    }
+
+    private void ordenar_arraystring(ArrayList<String[]> data_a_ordenar){
+        if(data_a_ordenar.isEmpty()){
+            Log.d(TAG, "ordenar_arraystring: " + "DATA VACIA");
+            return;}
+
+        ArrayList<String[]> data_ordenada = new ArrayList<>();
+
+        int orden[] = {};
+        int valor_mas_bajo = 0;
+
+        orden = add_array_value(orden,99,0);
+        orden = add_array_value(orden,99,1);
+
+        mensaje_int(orden);
+
+        /*
+        int i = 1;
+        while(i<data_a_ordenar.size()){
+            String[] temp_values = data_a_ordenar.get(i);
+            int valor_actual = Integer.parseInt(temp_values[temp_values.length -1]);
+        }
+        */
+
+    }
+
+    public int[] add_array_value(int[] array_int, int add_data, int pos){
+        int len = array_int.length;
+
+        if(pos > len){return array_int;}
+
+        int[] new_array_int;
+        new_array_int = Arrays.copyOf(array_int,len+1);
+        int position = 0;
+        Log.d(TAG, "add_array_value: " + String.valueOf(new_array_int.length));
+        if(new_array_int.length==1){
+            new_array_int[0]=add_data;
+            return new_array_int;
+        }
+        for(int i = 0 ; i < array_int.length; i++){
+            if(i == pos){
+                new_array_int[position]=add_data;
+                position++;
+            }
+            new_array_int[position] = array_int[i];
+            position++;
+        }
+        return new_array_int;
+    }
+
 
 }

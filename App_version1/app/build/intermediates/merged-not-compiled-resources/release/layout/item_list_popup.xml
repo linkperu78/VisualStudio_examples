@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/example_data_popup"
+    android:layout_width="200dp"
+    android:orientation="horizontal"
+    android:padding="3dp"
     android:layout_height="wrap_content"
-    android:background="#62def8">
+    android:background="@color/gray2">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="30dp"
-        android:textSize="22sp"
-        android:text="This is a popup window."/>
+        android:id="@+id/header_data"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginRight="1.5dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#6600BB00"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/value_data"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginLeft="1.5dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="" />
 
 </LinearLayout>

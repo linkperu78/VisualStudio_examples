@@ -89,8 +89,7 @@ public class SettingFragment extends KeyDwonFragment{
                             data = result.getData();
                             my_actual_file_path = fix_path(data.getData().getPath());
                             folder_path_fixed = fix_folder_path(my_actual_file_path);
-                            UHFMainActivity.folder_path=folder_path_fixed;
-
+                            UHFMainActivity.folder_path = folder_path_fixed;
                         }
                     }
                 });

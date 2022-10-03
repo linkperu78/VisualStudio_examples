@@ -15,8 +15,8 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:textSize="20dp"
-            android:text="Select"
+            android:textSize="15dp"
+            android:text="Seleccionar\nBase de datos"
             android:textColor="@color/white" />
 
         <TextView
@@ -25,8 +25,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="5dp"
-            android:textSize="18dp"
-            android:text="Update"
+            android:textSize="15dp"
+            android:text="No se ha seleccionado base de datos"
             android:textColor="@color/blue" />
 
 

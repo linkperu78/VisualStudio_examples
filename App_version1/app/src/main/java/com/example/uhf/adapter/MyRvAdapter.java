@@ -71,7 +71,6 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
             @Override
             public void onClick(View v) {
                 if(!selectedFile.isDirectory()){
-                    Log.d("TAG", "onClick: " + selectedFile.getName());
                     my_data_from_file = new Data_from_file(selectedFile.getAbsolutePath());
                     header_file = my_data_from_file.header;
                     data_file = my_data_from_file.data;
@@ -122,7 +121,7 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
         return file_path;
     }
 
-    public String day_month_year(long Unix_value){
+    private String day_month_year(long Unix_value){
         String date = "No date detected";
         Calendar cal = Calendar.getInstance();
         cal.setTime(new Date(Unix_value));
