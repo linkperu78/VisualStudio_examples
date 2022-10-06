@@ -1,45 +1,46 @@
+Marking drawable:ic_baseline_folder_24:2131230831 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_baseline_insert_drive_file_24:2131230832 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:reclycer_item:2131492904 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking raw:barcodebeep:2131623936 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking raw:serror:2131623937 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:read_file:2131296414 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_set_pwm_succ:2131690439 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_write_fail:2131690448 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:realtabcontent:2131296414 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_tab_scan:2131690439 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_setting_fragment:2131690448 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking layout:activity_main:2131492892 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:app_name:2131689563 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:radio:2131296413 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:titleDividerNoCustom:2131296473 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:btn_select:2131296334 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:search_voice_btn:2131296435 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:title_template:2131296474 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:preference_category_material:2131492908 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:file_name_text_view:2131296361 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:icon_group:2131296373 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_arrow_down_24dp:2131230831 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_baseline_folder_24:2131230832 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:notification_template_part_time:2131492904 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:close:2131689700 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:BtClear:2131296257 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:time:2131296471 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tvTime:2131296471 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_count:2131296472 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_total:2131296476 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:BtInventory:2131296258 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:LvTags:2131296261 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking id:list_item:2131296393 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:image_frame:2131492896 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:lv_popup_menu:2131296393 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:listtag_items:2131492896 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:TvTagUii:2131296268 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:TvTagLen:2131296266 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:TvTagCount:2131296265 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:TvTagRssi:2131296267 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_filter_addr_must_decimal:2131690409 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:uhf_msg_filter_len_must_decimal:2131690410 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking layout:preference_dropdown_material:2131492911 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking string:close:2131689700 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_inventory_open_fail:2131690409 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking string:uhf_msg_inventory_stop_fail:2131690410 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:uhf_readtag_fragment:2131492911 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:file_name_text_view:2131296361 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:icon_view:2131296373 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking menu:main:2131558400 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking id:UHF_ver:2131296269 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:action_uhf_ver:2131689543 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:tooltip_frame_dark:2131230853 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:webtext:2131230853 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:read_file:2131296413 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_date_modified:2131296473 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:btn_select:2131296334 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:setting_rv:2131296435 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking id:tv_nonFiles:2131296474 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking layout:setting_fragment:2131492908 reachable: referenced from D:\Github\Android_examples\App_version1\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
 suggest_intent_data
 ro.cw.model
-androidx.activity.result.contract.ext...
 writeData
 nRF52832
 UHF
@@ -47,12 +48,11 @@ A4
 sys/devices/platform/soc/soc:msmgpio_...
 Octubre
 api_log.txt
-A8
 androidx.view.accessibility.Accessibi...
+A8
 BARCODE_2D_H
 i760
 android.speech.extra.RESULTS_PENDINGI...
-androidx.activity.result.contract.act...
 C66_8953
 ????:
 getGen2
@@ -65,33 +65,32 @@ B2
 1
 2
 3
-stop
 4
+stop
 5
-left
 6
 7
-onMenuKeyEvent
 8
+onMenuKeyEvent
 A55A000AE10000EB0D0A
 SocketTcpIp
 UhfUartUtils
 removeItemAt
-com.rscja.uhf_power_status
 android.intent.extra.PROCESS_TEXT_REA...
+com.rscja.uhf_power_status
 ?????:
 U
 addFontWeightStyle
 _
 a
 b
-user_query
 /sys/class/leds/scan_led/trigger
+user_query
 ACTION_CLEAR_ACCESSIBILITY_FOCUS
 d
 e
-g
 RKURA4Gpio
+g
 k
 m
 ERR_DUPLICATION_ID
@@ -100,23 +99,23 @@ PAPERFINISH
 s
 androidx.lifecycle.BundlableSavedStat...
 GridLayoutManager
-HARDWARE
 TypefaceCompatApi26Impl
+HARDWARE
 v
-x
 ????
+x
 Loaders:
-CW_API_
 Junio
-C6000_8909
+CW_API_
 Start
+C6000_8909
 lockMem
 H100
 ........getVersion..........
 isTagEnabled
 qcm2150
-EM4033
 ACTION_SET_PROGRESS
+EM4033
 ERR_INVALID_BUFFER_ID
 usb??
 Marzo
@@ -125,14 +124,13 @@ ACTION_SCROLL_FORWARD
 ALLOW
 add
 JAN8_EAN8
-/storage/
 gps
 RadioButton
 ERR_FAlL
 C6000_6735
 UNSET_PRIMARY_NAV
-A55A000AE40301EC0D0A
 TypefaceCompatUtil
+A55A000AE40301EC0D0A
 mUnthemedEntries
 success
 CheckBox
@@ -140,9 +138,9 @@ getRFLink
 GONE
 CANCELPAPER
 androidx.view.accessibility.Accessibi...
-H100Q
-UHFReadTagFragment.onCreateView
 ACTION_CLEAR_FOCUS
+UHFReadTagFragment.onCreateView
+H100Q
 ACTION_SCROLL_BACKWARD
 android.permission.WRITE_EXTERNAL_STO...
 RFIDWithUHFAxBase
@@ -164,12 +162,12 @@ SearchView
 6735
 ERR_INVALID_TMPL_DATA
 40006582
+/sys/devices/platform/misc_power_en/u...
 6737
 /sys/devices/platform/misc_power_en/u...
 /sys/devices/platform/misc_power_en/u...
 /sys/devices/platform/misc_power_en/u...
 ????:
-/sys/devices/platform/misc_power_en/u...
 SocketManage
 setExclusiveCheckable
 release
@@ -182,9 +180,9 @@ write
 ?????:
 6762
 6761
+android.content.res.ThemedResourceCache
 cw.model:
 6763
-android.content.res.ThemedResourceCache
 C75_6735
 ????
 sm6115
@@ -211,7 +209,6 @@ suggest_text_2
 V4.
 androidx.view.accessibility.Accessibi...
 ACTION_PAGE_UP
-top
 mNextServedView
 androidx.view.accessibility.Accessibi...
 6765
@@ -220,8 +217,8 @@ ADDING
 3034
 LoaderManager
 C75_6765
-NavUtils
 40508909
+NavUtils
 C6000_6762
 tagCount
 android.intent.action.TIME_TICK
@@ -229,8 +226,8 @@ DESTROYED
 CONNECTED
 NORMAL
 MD5
-upgrade_result
 mMainThread
+upgrade_result
 setPwm
 android.intent.action.TIME_SET
 CW_C90_6762_ScanLed
@@ -263,7 +260,6 @@ FingerprintWithTLK1NC
 A55A000AE40300ED0D0A
 Mifare_Pro
 6582
-androidx.activity.result.contract.ext...
 setRFLink
 android.intent.action.SEARCH
 BITMAP
@@ -271,17 +267,16 @@ DISCONNECTED
 ATTACH
 android:user_visible_hint
 setValue
-uart
 layout_inflater
+uart
 /proc/self/fd/
 UNKNOWN
-RestrictedApi
 com.rscja.scanner.action.YID_STATUS_C...
+RestrictedApi
 accessibility
 TypeDes
 suggest_intent_extra_data
 A4_8953_90
-AppCompatCustomView
 suggest_flags
 Noviembre
 A55A0008EBE30D0A
@@ -292,8 +287,8 @@ androidx.appcompat.app.ActionBar$Tab
 ACTION_SCROLL_DOWN
 smd450
 C72_6735
-cpuType:
 CODABAR_NW_7
+cpuType:
 SupportMenuInflater
 getEthernetIpConfig
 TaskStackBuilder
@@ -319,8 +314,8 @@ GPIO1
 C71
 BackupDataFile
 C70
-C72
 ACTION_SELECT
+C72
 C75
 getVersion
 C76
@@ -331,8 +326,8 @@ C72_6763
 RecyclerView
 usb????.
 ID:
-????????:
 C76_6735
+????????:
 dimen
 cardConsumeConfirm
 performStopActivity
@@ -342,26 +337,26 @@ AppCompatDelegate
 view
 iIDENTIFICATION
 com.rscja.action.UHF_POWER_OFF
-NewApi
 ViewCompat
-C90
+NewApi
 androidx.recyclerview.widget.Recycler...
 androidx.view.accessibility.Accessibi...
+C90
 REPLACE
 zp_add
 markState
 setFastID
 suggest_intent_query
-DeviceAPI_BLE
 search_suggest_query
+DeviceAPI_BLE
 P80_SMD450
 FragmentManager
 Class
 NestedScrollView
 readyUpgradeTcpService
 N/A
-bool
 font_variation_settings
+bool
 android
 VISIBLE
 status_bar_height
@@ -370,8 +365,8 @@ setCW
 /sys/devices/soc.0/msmgpio_ctrl.71/op...
 killTag
 com.rscja.p80.customized
-SHOW
 UhfLocation
+SHOW
 /dev/ttyHS0
 com.rscja.scanner
 /dev/ttyHS1
@@ -384,6 +379,7 @@ A55A0009E402EF0D0A
 PAPERSTUCK
 window
 A4_RK_3568_110
+.tsv
 ACCESSIBILITY_CLICKABLE_SPAN_ID
 CODE93
 inventorySingleTag
@@ -392,9 +388,9 @@ in_progress
 UNLEISURED
 font_ttc_index
 ??????
+ACTION_SHOW_ON_SCREEN
 SocketManageAx
 Failure
-ACTION_SHOW_ON_SCREEN
 getAndroidDeviceHardwareVersion
 item
 /sys/class/leds/scan_led/brightness
@@ -405,13 +401,12 @@ ERR_INVALLD_PARAM
 com.chengwei.scanled.statuschanged
 BARCODE_1D
 Setiembre
-INVISIBLE
 ScanLed
-SeekBarPreference
+INVISIBLE
 /dev/ttyHSL0
 FragmentManager:
-com.nordicsemi.nrfUART.EXTRA_DATA
 ISO_FMC_NORMAL
+com.nordicsemi.nrfUART.EXTRA_DATA
 P80
 ViewConfigCompat
 /sys/class/gpio/gpio88/value
@@ -429,20 +424,20 @@ ANT4
 ANT1
 FingerprintWithZAZ
 INITIALIZED
-60008909
 ANT2
+60008909
 mToken
 REMOVE
 ANSI
 /sys/class/gpio/gpio89/value
 com.rscja.action.UHF_POWER_ON
+TAG
 /dev/ttyHSL1
 KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
 Unknow
 AppCompatViewInflater
 P80_8953_90
 com.nordicsemi.nrfUART.ACTION_DATA_AV...
-android.intent.action.GET_CONTENT
 .txt
 KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
 group
@@ -454,7 +449,6 @@ getPower
 WrongConstant
 setEPCAndTIDMode
 res/
-PreferenceGroup
 getWifiIpConfig
 AUTOMATIC_ADAPTATION
 NUll_
@@ -474,18 +468,18 @@ addFontFromAssetManager
 doBeforeTextChanged
 ensureImeVisible
 20151118
-androidx.lifecycle.savedstate.vm.tag
 Mayo
+androidx.lifecycle.savedstate.vm.tag
 C60_QCM2150_100
 WindowInsetsCompat
 android.intent.action.PROCESS_TEXT
 ????:
 mIsChildViewEnabled
-C4050_6582
 mResourcesImpl
+C4050_6582
 Diciembre
-??????
 Stop
+??????
 Enero
 Success
 P80_8953
@@ -506,15 +500,15 @@ setGen2
 traceCounter
 ON_PAUSE
 web_search
-FIRMWARE
 c:
+FIRMWARE
 ACTION_CLICK
 TraceCompat
 RKURAxDevice
 android.speech.extra.LANGUAGE_MODEL
 DeviceAPI_
-C70_6735
 RFIDBase
+C70_6735
 getResPackage
 LEISURE
 C4000_6582
@@ -530,9 +524,8 @@ REMOVING
 /sys/class/leds/blue_scan/trigger
 C4000_6577
 Mifare_ProX
-ToggleButton
 androidx.view.accessibility.Accessibi...
-right
+ToggleButton
 computeFitSystemWindows
 DETACH
 Agosto
@@ -540,10 +533,10 @@ android.os.SystemProperties
 getScaledScrollFactor
 setEPCMode
 InlinedApi
-cw.model2:
 ACTION_NEXT_AT_MOVEMENT_GRANULARITY
-android.support.PARENT_ACTIVITY
+cw.model2:
 com.rscja.deviceapi
+android.support.PARENT_ACTIVITY
 ERR_ALL_TMPL_EMPTY
 font
 ADD
@@ -565,15 +558,14 @@ android.speech.extra.MAX_RESULTS
 ???????:
 A8_8909
 SyntheticAccessor
-3568
 getEPCAndTIDUserMode
+3568
 info:
 UsbSerialPortImpl
 C66P_SM6115_110
 tagRssi
 ??????:
 ACTION_ACCESSIBILITY_FOCUS
-_preferences
 font_weight
 ACTION_LONG_CLICK
 ACTION_SET_SELECTION
@@ -581,8 +573,8 @@ LACKOFPAPER
 android.speech.extra.LANGUAGE
 /dev/ttyS3
 /dev/ttyS9
-timeout
 content
+timeout
 stopInventory
 ListPopupWindow
 /dev/ttyS1
@@ -595,8 +587,8 @@ permission
 getProtocol
 SOFTWARE
 TypeB
-H100_8953
 JAN13_EAN13
+H100_8953
 ACTION_MOVE_WINDOW
 TypeA
 DeviceAPI_Fingerprint
@@ -642,19 +634,19 @@ ACTION_PAGE_RIGHT
 menu
 DeviceAPI_USBUtil
 ACTION_HIDE_TOOLTIP
-H100_6735
 com.android.internal.view.menu.MenuBu...
+H100_6735
 /dev/ttyMSM2
 Febrero
 /dev/ttyMSM1
 mH
-??????
 RESUMED
+??????
 C61P_SM6115_110
 /sys/class/leds/blue/brightness
 usb
-KEY_COMPONENT_ACTIVITY_PENDING_RESULT
 RxUsb
+KEY_COMPONENT_ACTIVITY_PENDING_RESULT
 android.speech.action.RECOGNIZE_SPEECH
 mDrawableCache
 ANT12
@@ -671,14 +663,13 @@ ANT10
 ANT11
 NULL
 ERR_MEMORY
-androidx.fragment.extra.ACTIVITY_OPTI...
 mv
 ???
 zz_pp
 null
-255.255.255.0
-StringUtility
 font_italic
+StringUtility
+255.255.255.0
 android.hardware.usb.action.USB_DEVIC...
 nm
 LambdaLast
@@ -697,10 +688,9 @@ VisibleForTests
 C70_6765
 B11
 B12
-C70_6763
 MenuItemCompat
+C70_6763
 android.app.ActivityThread
-ListPreference
 ResourceManagerInternal
 GetWifiInfo
 Trace
@@ -713,7 +703,6 @@ _LifecycleAdapter
 Completed
 ERR_TMPL_NOT_EMPTY
 mOnKeyListener
-thumbPos
 android.permission.READ_EXTERNAL_STORAGE
 ACTION_PASTE
 android.graphics.FontFamily
@@ -735,15 +724,15 @@ A55A0009E401EC0D0A
 UPC_E
 startInventoryThread
 ACTION_NEXT_HTML_ELEMENT
-6000
 readData
+6000
 setUpgradeTcpServiceData
 Decoder.java
 ??usb????
 ERR_TMPL_EMPTY
-setFilter
-S50
 ACTION_COLLAPSE
+S50
+setFilter
 .wsq
 input_method
 DeviceAPI_15693
@@ -751,7 +740,6 @@ android.hardware.usb.action.USB_DEVIC...
 setCurrentState
 rm
 device
-androidx.activity.result.contract.ext...
 0s
 RESULT_CANCELED
 TI2048
@@ -797,11 +785,10 @@ RFIDWithUHFBLEN51
 000000
 ResourcesCompat
 query
-TypefaceCompatApi21Impl
 android.resource
+TypefaceCompatApi21Impl
 setEPCAndTIDUserMode
 action_key
-fragment_
 failure
 ????
 StartActivityForResult
@@ -813,15 +800,15 @@ ViewParentCompat
 ChiponeICNT7183
 android:menu:actionviewstates
 UHFNetwork
-/sys/devices/platform/misc_power_en/l...
 setClipToScreenEnabled
+/sys/devices/platform/misc_power_en/l...
 72
 text/plain
 android.intent.action.TIMEZONE_CHANGED
 ??cw.model:
 MenuPopupWindow
-View
 UHFUrAxDataHandle
+View
 gbk
 ??usb????
 Mifare_plus_4k
@@ -838,8 +825,8 @@ NONE
 getTextDirectionHeuristic
 ERR_BROKEN_ID_NOEXIST
 config_showMenuShortcutsWhenKeyboardP...
-onDescriptorWrite
 CONSUMED
+onDescriptorWrite
 C66_SMD450_90
 ERR_INVALID_TMPL_NO
 A55A00088C840D0A
@@ -852,7 +839,6 @@ PREVENT_WHEN_EMPTY
 DeviceAPI
 result_code
 ACTION_FOCUS
-getOpticalInsets
 StandardDataFile
 createFromFamiliesWithDefault
 ActivityResultRegistry
@@ -871,9 +857,8 @@ A11yActionCompat
 RFIDWithISO1443A
 ACTION_SET_TEXT
 URI_MASKABLE
-init...
 ON_CREATE
-android.widget.Switch
+init...
 ON_RESUME
 OP_SET_MAX_LIFECYCLE
 Printer
@@ -887,15 +872,13 @@ ver20220518
 setFreHop
 android.speech.extra.PROMPT
 mtk
-bottom
-DrawableUtils
 ACTION_COPY
 failed
 ActivityRecreator
 C71_6765
 DATA
-C71_6763
 file_id
+C71_6763
 ScanerLedLight
 send
 calling_package
@@ -921,39 +904,35 @@ ON_STOP
 /sys/devices/platform/misc_power_en/u...
 fragment
 /sys/devices/platform/misc_power_en/u...
-DeviceAPI_Module
 DES
-/sys/devices/platform/misc_power_en/u...
 CyclicRecordFile
+/sys/devices/platform/misc_power_en/u...
+DeviceAPI_Module
 bluetooth
-androidx.activity.result.contract.act...
 C4000
 uhfJump2Boot
 Marking id:UHF_ver:2131296269 used because it matches string pool constant UHF
 Marking array:i760cls:2130903097 used because it matches string pool constant i760
 Marking array:i760icon:2130903098 used because it matches string pool constant i760
 Marking array:i760name:2130903099 used because it matches string pool constant i760
-Marking string:stop_location:2131690215 used because it matches string pool constant stop
-Marking id:left:2131296388 used because it matches string pool constant left
+Marking string:stop_location:2131690211 used because it matches string pool constant stop
 Marking id:add:2131296326 used because it matches string pool constant add
-Marking string:gps_btn_no:2131689891 used because it matches string pool constant gps
-Marking string:gps_btn_yes:2131689892 used because it matches string pool constant gps
-Marking string:gps_msg_Locate_stop:2131689893 used because it matches string pool constant gps
-Marking string:gps_msg_Locate_succ:2131689894 used because it matches string pool constant gps
-Marking string:gps_msg_Locateing:2131689895 used because it matches string pool constant gps
-Marking string:gps_msg_gps_not_open:2131689896 used because it matches string pool constant gps
-Marking string:gps_msg_open_gps:2131689897 used because it matches string pool constant gps
-Marking string:gps_msg_title_satellite_signal:2131689898 used because it matches string pool constant gps
-Marking string:gps_title_Altitude:2131689899 used because it matches string pool constant gps
-Marking string:gps_title_GpsStatus:2131689900 used because it matches string pool constant gps
-Marking string:gps_title_Latitude:2131689901 used because it matches string pool constant gps
-Marking string:gps_title_Longitude:2131689902 used because it matches string pool constant gps
-Marking string:gps_title_SatelliteCount:2131689903 used because it matches string pool constant gps
-Marking string:gps_title_Time:2131689904 used because it matches string pool constant gps
-Marking string:gps_title_tip:2131689905 used because it matches string pool constant gps
-Marking id:top:2131296475 used because it matches string pool constant top
-Marking id:topPanel:2131296476 used because it matches string pool constant top
-Marking id:read_file:2131296414 used because it matches string pool constant read
+Marking string:gps_btn_no:2131689889 used because it matches string pool constant gps
+Marking string:gps_btn_yes:2131689890 used because it matches string pool constant gps
+Marking string:gps_msg_Locate_stop:2131689891 used because it matches string pool constant gps
+Marking string:gps_msg_Locate_succ:2131689892 used because it matches string pool constant gps
+Marking string:gps_msg_Locateing:2131689893 used because it matches string pool constant gps
+Marking string:gps_msg_gps_not_open:2131689894 used because it matches string pool constant gps
+Marking string:gps_msg_open_gps:2131689895 used because it matches string pool constant gps
+Marking string:gps_msg_title_satellite_signal:2131689896 used because it matches string pool constant gps
+Marking string:gps_title_Altitude:2131689897 used because it matches string pool constant gps
+Marking string:gps_title_GpsStatus:2131689898 used because it matches string pool constant gps
+Marking string:gps_title_Latitude:2131689899 used because it matches string pool constant gps
+Marking string:gps_title_Longitude:2131689900 used because it matches string pool constant gps
+Marking string:gps_title_SatelliteCount:2131689901 used because it matches string pool constant gps
+Marking string:gps_title_Time:2131689902 used because it matches string pool constant gps
+Marking string:gps_title_tip:2131689903 used because it matches string pool constant gps
+Marking id:read_file:2131296413 used because it matches string pool constant read
 Marking id:accessibility_action_clickable_span:2131296270 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_0:2131296271 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_1:2131296272 used because it matches string pool constant accessibility
@@ -988,77 +967,74 @@ Marking id:accessibility_custom_action_7:2131296300 used because it matches stri
 Marking id:accessibility_custom_action_8:2131296301 used because it matches string pool constant accessibility
 Marking id:accessibility_custom_action_9:2131296302 used because it matches string pool constant accessibility
 Marking id:dimensions:2131296353 used because it matches string pool constant dimen
-Marking attr:viewInflaterClass:2130968981 used because it matches string pool constant view
-Marking color:viewfinder_frame:2131099800 used because it matches string pool constant view
-Marking color:viewfinder_laser:2131099801 used because it matches string pool constant view
-Marking color:viewfinder_mask:2131099802 used because it matches string pool constant view
-Marking id:view_tree_lifecycle_owner:2131296488 used because it matches string pool constant view
-Marking id:view_tree_saved_state_registry_owner:2131296489 used because it matches string pool constant view
-Marking id:view_tree_view_model_store_owner:2131296490 used because it matches string pool constant view
+Marking attr:viewInflaterClass:2130968925 used because it matches string pool constant view
+Marking color:viewfinder_frame:2131099799 used because it matches string pool constant view
+Marking color:viewfinder_laser:2131099800 used because it matches string pool constant view
+Marking color:viewfinder_mask:2131099801 used because it matches string pool constant view
+Marking id:view_tree_lifecycle_owner:2131296482 used because it matches string pool constant view
+Marking id:view_tree_saved_state_registry_owner:2131296483 used because it matches string pool constant view
+Marking id:view_tree_view_model_store_owner:2131296484 used because it matches string pool constant view
 Marking color:androidx_core_ripple_material_light:2131099674 used because it matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2131099675 used because it matches string pool constant android
-Marking attr:windowActionBar:2130968984 used because it matches string pool constant window
-Marking attr:windowActionBarOverlay:2130968985 used because it matches string pool constant window
-Marking attr:windowActionModeOverlay:2130968986 used because it matches string pool constant window
-Marking attr:windowFixedHeightMajor:2130968987 used because it matches string pool constant window
-Marking attr:windowFixedHeightMinor:2130968988 used because it matches string pool constant window
-Marking attr:windowFixedWidthMajor:2130968989 used because it matches string pool constant window
-Marking attr:windowFixedWidthMinor:2130968990 used because it matches string pool constant window
-Marking attr:windowMinWidthMajor:2130968991 used because it matches string pool constant window
-Marking attr:windowMinWidthMinor:2130968992 used because it matches string pool constant window
-Marking attr:windowNoTitle:2130968993 used because it matches string pool constant window
-Marking attr:itemPadding:2130968775 used because it matches string pool constant item
+Marking attr:windowActionBar:2130968927 used because it matches string pool constant window
+Marking attr:windowActionBarOverlay:2130968928 used because it matches string pool constant window
+Marking attr:windowActionModeOverlay:2130968929 used because it matches string pool constant window
+Marking attr:windowFixedHeightMajor:2130968930 used because it matches string pool constant window
+Marking attr:windowFixedHeightMinor:2130968931 used because it matches string pool constant window
+Marking attr:windowFixedWidthMajor:2130968932 used because it matches string pool constant window
+Marking attr:windowFixedWidthMinor:2130968933 used because it matches string pool constant window
+Marking attr:windowMinWidthMajor:2130968934 used because it matches string pool constant window
+Marking attr:windowMinWidthMinor:2130968935 used because it matches string pool constant window
+Marking attr:windowNoTitle:2130968936 used because it matches string pool constant window
+Marking attr:itemPadding:2130968752 used because it matches string pool constant item
 Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131165287 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165288 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131165289 used because it matches string pool constant item
-Marking id:item_touch_helper_previous_elevation:2131296380 used because it matches string pool constant item
-Marking layout:item_list_popup:2131492897 used because it matches string pool constant item
+Marking id:item_touch_helper_previous_elevation:2131296379 used because it matches string pool constant item
+Marking layout:item_list_popup:2131492895 used because it matches string pool constant item
 Marking id:group_divider:2131296365 used because it matches string pool constant group
 Marking id:groups:2131296366 used because it matches string pool constant group
-Marking attr:searchHintIcon:2130968895 used because it matches string pool constant search
-Marking attr:searchIcon:2130968896 used because it matches string pool constant search
-Marking attr:searchViewStyle:2130968897 used because it matches string pool constant search
-Marking id:search_badge:2131296426 used because it matches string pool constant search
-Marking id:search_bar:2131296427 used because it matches string pool constant search
-Marking id:search_button:2131296428 used because it matches string pool constant search
-Marking id:search_close_btn:2131296429 used because it matches string pool constant search
-Marking id:search_edit_frame:2131296430 used because it matches string pool constant search
-Marking id:search_go_btn:2131296431 used because it matches string pool constant search
-Marking id:search_mag_icon:2131296432 used because it matches string pool constant search
-Marking id:search_plate:2131296433 used because it matches string pool constant search
-Marking id:search_src_text:2131296434 used because it matches string pool constant search
-Marking id:search_voice_btn:2131296435 used because it matches string pool constant search
-Marking string:search_menu_title:2131690198 used because it matches string pool constant search
-Marking id:right:2131296419 used because it matches string pool constant right
-Marking id:right_icon:2131296420 used because it matches string pool constant right
-Marking id:right_side:2131296421 used because it matches string pool constant right
-Marking attr:font:2130968746 used because it matches string pool constant font
-Marking attr:fontFamily:2130968747 used because it matches string pool constant font
-Marking attr:fontProviderAuthority:2130968748 used because it matches string pool constant font
-Marking attr:fontProviderCerts:2130968749 used because it matches string pool constant font
-Marking attr:fontProviderFetchStrategy:2130968750 used because it matches string pool constant font
-Marking attr:fontProviderFetchTimeout:2130968751 used because it matches string pool constant font
-Marking attr:fontProviderPackage:2130968752 used because it matches string pool constant font
-Marking attr:fontProviderQuery:2130968753 used because it matches string pool constant font
-Marking attr:fontStyle:2130968754 used because it matches string pool constant font
-Marking attr:fontVariationSettings:2130968755 used because it matches string pool constant font
-Marking attr:fontWeight:2130968756 used because it matches string pool constant font
-Marking string:fontGrayScaleRange:2131689885 used because it matches string pool constant font
-Marking string:fontGrayscaleName:2131689886 used because it matches string pool constant font
-Marking string:font_size:2131689887 used because it matches string pool constant font
-Marking attr:content:2130968680 used because it matches string pool constant content
-Marking attr:contentDescription:2130968681 used because it matches string pool constant content
-Marking attr:contentInsetEnd:2130968682 used because it matches string pool constant content
-Marking attr:contentInsetEndWithActions:2130968683 used because it matches string pool constant content
-Marking attr:contentInsetLeft:2130968684 used because it matches string pool constant content
-Marking attr:contentInsetRight:2130968685 used because it matches string pool constant content
-Marking attr:contentInsetStart:2130968686 used because it matches string pool constant content
-Marking attr:contentInsetStartWithNavigation:2130968687 used because it matches string pool constant content
-Marking attr:contentPadding:2130968688 used because it matches string pool constant content
-Marking attr:contentPaddingBottom:2130968689 used because it matches string pool constant content
-Marking attr:contentPaddingLeft:2130968690 used because it matches string pool constant content
-Marking attr:contentPaddingRight:2130968691 used because it matches string pool constant content
-Marking attr:contentPaddingTop:2130968692 used because it matches string pool constant content
+Marking attr:searchHintIcon:2130968854 used because it matches string pool constant search
+Marking attr:searchIcon:2130968855 used because it matches string pool constant search
+Marking attr:searchViewStyle:2130968856 used because it matches string pool constant search
+Marking id:search_badge:2131296424 used because it matches string pool constant search
+Marking id:search_bar:2131296425 used because it matches string pool constant search
+Marking id:search_button:2131296426 used because it matches string pool constant search
+Marking id:search_close_btn:2131296427 used because it matches string pool constant search
+Marking id:search_edit_frame:2131296428 used because it matches string pool constant search
+Marking id:search_go_btn:2131296429 used because it matches string pool constant search
+Marking id:search_mag_icon:2131296430 used because it matches string pool constant search
+Marking id:search_plate:2131296431 used because it matches string pool constant search
+Marking id:search_src_text:2131296432 used because it matches string pool constant search
+Marking id:search_voice_btn:2131296433 used because it matches string pool constant search
+Marking string:search_menu_title:2131690194 used because it matches string pool constant search
+Marking attr:font:2130968727 used because it matches string pool constant font
+Marking attr:fontFamily:2130968728 used because it matches string pool constant font
+Marking attr:fontProviderAuthority:2130968729 used because it matches string pool constant font
+Marking attr:fontProviderCerts:2130968730 used because it matches string pool constant font
+Marking attr:fontProviderFetchStrategy:2130968731 used because it matches string pool constant font
+Marking attr:fontProviderFetchTimeout:2130968732 used because it matches string pool constant font
+Marking attr:fontProviderPackage:2130968733 used because it matches string pool constant font
+Marking attr:fontProviderQuery:2130968734 used because it matches string pool constant font
+Marking attr:fontStyle:2130968735 used because it matches string pool constant font
+Marking attr:fontVariationSettings:2130968736 used because it matches string pool constant font
+Marking attr:fontWeight:2130968737 used because it matches string pool constant font
+Marking string:fontGrayScaleRange:2131689883 used because it matches string pool constant font
+Marking string:fontGrayscaleName:2131689884 used because it matches string pool constant font
+Marking string:font_size:2131689885 used because it matches string pool constant font
+Marking attr:content:2130968675 used because it matches string pool constant content
+Marking attr:contentDescription:2130968676 used because it matches string pool constant content
+Marking attr:contentInsetEnd:2130968677 used because it matches string pool constant content
+Marking attr:contentInsetEndWithActions:2130968678 used because it matches string pool constant content
+Marking attr:contentInsetLeft:2130968679 used because it matches string pool constant content
+Marking attr:contentInsetRight:2130968680 used because it matches string pool constant content
+Marking attr:contentInsetStart:2130968681 used because it matches string pool constant content
+Marking attr:contentInsetStartWithNavigation:2130968682 used because it matches string pool constant content
+Marking attr:contentPadding:2130968683 used because it matches string pool constant content
+Marking attr:contentPaddingBottom:2130968684 used because it matches string pool constant content
+Marking attr:contentPaddingLeft:2130968685 used because it matches string pool constant content
+Marking attr:contentPaddingRight:2130968686 used because it matches string pool constant content
+Marking attr:contentPaddingTop:2130968687 used because it matches string pool constant content
 Marking color:contents_text:2131099697 used because it matches string pool constant content
 Marking id:content:2131296343 used because it matches string pool constant content
 Marking id:contentPanel:2131296344 used because it matches string pool constant content
@@ -1068,86 +1044,72 @@ Marking string:contents_location:2131689705 used because it matches string pool 
 Marking string:contents_phone:2131689706 used because it matches string pool constant content
 Marking string:contents_sms:2131689707 used because it matches string pool constant content
 Marking string:contents_text:2131689708 used because it matches string pool constant content
-Marking attr:initialActivityCount:2130968771 used because it matches string pool constant init
-Marking attr:initialExpandedChildrenCount:2130968772 used because it matches string pool constant init
+Marking attr:initialActivityCount:2130968750 used because it matches string pool constant init
 Marking array:fileEndingAudio:2130903092 used because it matches string pool constant file
 Marking array:fileEndingImage:2130903093 used because it matches string pool constant file
 Marking array:fileEndingPackage:2130903094 used because it matches string pool constant file
 Marking array:fileEndingVideo:2130903095 used because it matches string pool constant file
 Marking array:fileEndingWebText:2130903096 used because it matches string pool constant file
 Marking id:file_name_text_view:2131296361 used because it matches string pool constant file
-Marking string:file_btn_cancel:2131689813 used because it matches string pool constant file
-Marking string:file_btn_confirm:2131689814 used because it matches string pool constant file
-Marking string:file_msg_cancel:2131689815 used because it matches string pool constant file
-Marking string:file_title_sel_file:2131689816 used because it matches string pool constant file
-Marking string:file_title_sel_file_confirm:2131689817 used because it matches string pool constant file
-Marking attr:menu:2130968852 used because it matches string pool constant menu
-Marking string:menu_encode_mecard:2131689967 used because it matches string pool constant menu
-Marking string:menu_encode_vcard:2131689968 used because it matches string pool constant menu
-Marking string:menu_help:2131689969 used because it matches string pool constant menu
-Marking string:menu_history:2131689970 used because it matches string pool constant menu
-Marking string:menu_settings:2131689971 used because it matches string pool constant menu
-Marking string:menu_share:2131689972 used because it matches string pool constant menu
-Marking string:getQTParams_fail:2131689889 used because it matches string pool constant getQTPara
-Marking string:getQTParams_succ:2131689890 used because it matches string pool constant getQTPara
+Marking string:file_btn_cancel:2131689811 used because it matches string pool constant file
+Marking string:file_btn_confirm:2131689812 used because it matches string pool constant file
+Marking string:file_msg_cancel:2131689813 used because it matches string pool constant file
+Marking string:file_title_sel_file:2131689814 used because it matches string pool constant file
+Marking string:file_title_sel_file_confirm:2131689815 used because it matches string pool constant file
+Marking attr:menu:2130968826 used because it matches string pool constant menu
+Marking string:menu_encode_mecard:2131689965 used because it matches string pool constant menu
+Marking string:menu_encode_vcard:2131689966 used because it matches string pool constant menu
+Marking string:menu_help:2131689967 used because it matches string pool constant menu
+Marking string:menu_history:2131689968 used because it matches string pool constant menu
+Marking string:menu_settings:2131689969 used because it matches string pool constant menu
+Marking string:menu_share:2131689970 used because it matches string pool constant menu
+Marking string:getQTParams_fail:2131689887 used because it matches string pool constant getQTPara
+Marking string:getQTParams_succ:2131689888 used because it matches string pool constant getQTPara
 Marking string:Clear:2131689476 used because it matches string pool constant Clear
 Marking xml:device_filter:2131886080 used because it matches string pool constant device
-Marking attr:shouldDisableView:2130968904 used because it matches string pool constant sh
-Marking attr:showAsAction:2130968905 used because it matches string pool constant sh
-Marking attr:showDividers:2130968906 used because it matches string pool constant sh
-Marking attr:showSeekBarValue:2130968907 used because it matches string pool constant sh
-Marking attr:showText:2130968908 used because it matches string pool constant sh
-Marking attr:showTitle:2130968909 used because it matches string pool constant sh
-Marking color:share_text:2131099782 used because it matches string pool constant sh
-Marking dimen:shadow_width:2131165321 used because it matches string pool constant sh
-Marking id:shortcut:2131296440 used because it matches string pool constant sh
-Marking id:showCustom:2131296441 used because it matches string pool constant sh
-Marking id:showHome:2131296442 used because it matches string pool constant sh
-Marking id:showTitle:2131296443 used because it matches string pool constant sh
-Marking string:share:2131690206 used because it matches string pool constant sh
-Marking string:share_name:2131690207 used because it matches string pool constant sh
-Marking string:sharing:2131690208 used because it matches string pool constant sh
-Marking string:setQTParams_fail:2131690204 used because it matches string pool constant setQTPara
-Marking string:setQTParams_succ:2131690205 used because it matches string pool constant setQTPara
-Marking attr:updatesContinuously:2130968979 used because it matches string pool constant up
-Marking id:up:2131296485 used because it matches string pool constant up
-Marking string:up_msg_avg_speed:2131690477 used because it matches string pool constant up
-Marking string:up_msg_file_not_exist:2131690478 used because it matches string pool constant up
-Marking string:up_msg_file_size:2131690479 used because it matches string pool constant up
-Marking string:up_msg_net_not_conn:2131690480 used because it matches string pool constant up
-Marking string:up_msg_sel_file:2131690481 used because it matches string pool constant up
-Marking string:up_msg_start_time:2131690482 used because it matches string pool constant up
-Marking string:up_msg_stop_time:2131690483 used because it matches string pool constant up
-Marking string:up_msg_total_time:2131690484 used because it matches string pool constant up
-Marking string:up_one_level:2131690485 used because it matches string pool constant up
-Marking string:update_msg_checking:2131690486 used because it matches string pool constant up
-Marking string:update_msg_curr_new:2131690487 used because it matches string pool constant up
-Marking string:update_msg_diag_title:2131690488 used because it matches string pool constant up
-Marking string:update_msg_diag_title_two:2131690489 used because it matches string pool constant up
-Marking string:update_msg_unmount:2131690490 used because it matches string pool constant up
-Marking string:update_msg_updateing:2131690491 used because it matches string pool constant up
-Marking string:update_msg_version_info_fail:2131690492 used because it matches string pool constant up
-Marking string:update_title_cancel:2131690493 used because it matches string pool constant up
-Marking string:update_title_ok:2131690494 used because it matches string pool constant up
-Marking string:update_title_update_last:2131690495 used because it matches string pool constant up
-Marking string:update_title_update_now:2131690496 used because it matches string pool constant up
-Marking string:upload_title:2131690497 used because it matches string pool constant up
-Marking attr:queryBackground:2130968887 used because it matches string pool constant query
-Marking attr:queryHint:2130968888 used because it matches string pool constant query
-Marking anim:fragment_fast_out_extra_slow_in:2130771992 used because it matches string pool constant fragment_
-Marking animator:fragment_close_enter:2130837504 used because it matches string pool constant fragment_
-Marking animator:fragment_close_exit:2130837505 used because it matches string pool constant fragment_
-Marking animator:fragment_fade_enter:2130837506 used because it matches string pool constant fragment_
-Marking animator:fragment_fade_exit:2130837507 used because it matches string pool constant fragment_
-Marking animator:fragment_open_enter:2130837508 used because it matches string pool constant fragment_
-Marking animator:fragment_open_exit:2130837509 used because it matches string pool constant fragment_
-Marking id:fragment_container_view_tag:2131296363 used because it matches string pool constant fragment_
-Marking layout:fragment_main:2131492895 used because it matches string pool constant fragment_
-Marking string:location:2131689943 used because it matches string pool constant location
-Marking string:getQTParams_fail:2131689889 used because it matches string pool constant get
-Marking string:getQTParams_succ:2131689890 used because it matches string pool constant get
-Marking id:bottom:2131296333 used because it matches string pool constant bottom
-Marking string:send:2131690201 used because it matches string pool constant send
+Marking attr:showAsAction:2130968860 used because it matches string pool constant sh
+Marking attr:showDividers:2130968861 used because it matches string pool constant sh
+Marking attr:showText:2130968862 used because it matches string pool constant sh
+Marking attr:showTitle:2130968863 used because it matches string pool constant sh
+Marking color:share_text:2131099781 used because it matches string pool constant sh
+Marking dimen:shadow_width:2131165316 used because it matches string pool constant sh
+Marking id:shortcut:2131296436 used because it matches string pool constant sh
+Marking id:showCustom:2131296437 used because it matches string pool constant sh
+Marking id:showHome:2131296438 used because it matches string pool constant sh
+Marking id:showTitle:2131296439 used because it matches string pool constant sh
+Marking string:share:2131690202 used because it matches string pool constant sh
+Marking string:share_name:2131690203 used because it matches string pool constant sh
+Marking string:sharing:2131690204 used because it matches string pool constant sh
+Marking string:setQTParams_fail:2131690200 used because it matches string pool constant setQTPara
+Marking string:setQTParams_succ:2131690201 used because it matches string pool constant setQTPara
+Marking id:up:2131296479 used because it matches string pool constant up
+Marking string:up_msg_avg_speed:2131690472 used because it matches string pool constant up
+Marking string:up_msg_file_not_exist:2131690473 used because it matches string pool constant up
+Marking string:up_msg_file_size:2131690474 used because it matches string pool constant up
+Marking string:up_msg_net_not_conn:2131690475 used because it matches string pool constant up
+Marking string:up_msg_sel_file:2131690476 used because it matches string pool constant up
+Marking string:up_msg_start_time:2131690477 used because it matches string pool constant up
+Marking string:up_msg_stop_time:2131690478 used because it matches string pool constant up
+Marking string:up_msg_total_time:2131690479 used because it matches string pool constant up
+Marking string:up_one_level:2131690480 used because it matches string pool constant up
+Marking string:update_msg_checking:2131690481 used because it matches string pool constant up
+Marking string:update_msg_curr_new:2131690482 used because it matches string pool constant up
+Marking string:update_msg_diag_title:2131690483 used because it matches string pool constant up
+Marking string:update_msg_diag_title_two:2131690484 used because it matches string pool constant up
+Marking string:update_msg_unmount:2131690485 used because it matches string pool constant up
+Marking string:update_msg_updateing:2131690486 used because it matches string pool constant up
+Marking string:update_msg_version_info_fail:2131690487 used because it matches string pool constant up
+Marking string:update_title_cancel:2131690488 used because it matches string pool constant up
+Marking string:update_title_ok:2131690489 used because it matches string pool constant up
+Marking string:update_title_update_last:2131690490 used because it matches string pool constant up
+Marking string:update_title_update_now:2131690491 used because it matches string pool constant up
+Marking string:upload_title:2131690492 used because it matches string pool constant up
+Marking attr:queryBackground:2130968846 used because it matches string pool constant query
+Marking attr:queryHint:2130968847 used because it matches string pool constant query
+Marking string:location:2131689941 used because it matches string pool constant location
+Marking string:getQTParams_fail:2131689887 used because it matches string pool constant get
+Marking string:getQTParams_succ:2131689888 used because it matches string pool constant get
+Marking string:send:2131690197 used because it matches string pool constant send
 Marking dimen:network_list_address_size:2131165292 used because it matches string pool constant network
 Marking dimen:network_list_channel_width:2131165293 used because it matches string pool constant network
 Marking dimen:network_list_default_size:2131165294 used because it matches string pool constant network
@@ -1157,21 +1119,21 @@ Marking dimen:network_list_proxy_size:2131165297 used because it matches string 
 Marking dimen:network_list_small_padding:2131165298 used because it matches string pool constant network
 Marking dimen:network_list_ssid_size:2131165299 used because it matches string pool constant network
 Marking dimen:network_list_state_width:2131165300 used because it matches string pool constant network
-Marking string:network_msg_emergency_only:2131690041 used because it matches string pool constant network
-Marking string:network_msg_in_service:2131690042 used because it matches string pool constant network
-Marking string:network_msg_operator_is_null:2131690043 used because it matches string pool constant network
-Marking string:network_msg_out_of_service:2131690044 used because it matches string pool constant network
-Marking string:network_msg_power_off:2131690045 used because it matches string pool constant network
-Marking string:network_msg_sim_not_exist:2131690046 used because it matches string pool constant network
-Marking string:network_msg_title_mobile:2131690047 used because it matches string pool constant network
-Marking string:network_msg_wifi_conn:2131690048 used because it matches string pool constant network
-Marking string:network_msg_wifi_conn_fail:2131690049 used because it matches string pool constant network
-Marking string:network_msg_wifi_conning:2131690050 used because it matches string pool constant network
-Marking string:network_msg_wifi_level:2131690051 used because it matches string pool constant network
-Marking string:network_msg_wifi_not_enable:2131690052 used because it matches string pool constant network
-Marking string:network_msg_wifi_speed:2131690053 used because it matches string pool constant network
-Marking string:network_not_connected:2131690054 used because it matches string pool constant network
-Marking id:value_data:2131296487 used because it matches string pool constant value
+Marking string:network_msg_emergency_only:2131690039 used because it matches string pool constant network
+Marking string:network_msg_in_service:2131690040 used because it matches string pool constant network
+Marking string:network_msg_operator_is_null:2131690041 used because it matches string pool constant network
+Marking string:network_msg_out_of_service:2131690042 used because it matches string pool constant network
+Marking string:network_msg_power_off:2131690043 used because it matches string pool constant network
+Marking string:network_msg_sim_not_exist:2131690044 used because it matches string pool constant network
+Marking string:network_msg_title_mobile:2131690045 used because it matches string pool constant network
+Marking string:network_msg_wifi_conn:2131690046 used because it matches string pool constant network
+Marking string:network_msg_wifi_conn_fail:2131690047 used because it matches string pool constant network
+Marking string:network_msg_wifi_conning:2131690048 used because it matches string pool constant network
+Marking string:network_msg_wifi_level:2131690049 used because it matches string pool constant network
+Marking string:network_msg_wifi_not_enable:2131690050 used because it matches string pool constant network
+Marking string:network_msg_wifi_speed:2131690051 used because it matches string pool constant network
+Marking string:network_not_connected:2131690052 used because it matches string pool constant network
+Marking id:value_data:2131296481 used because it matches string pool constant value
 Marking anim:fragment_fast_out_extra_slow_in:2130771992 used because it matches string pool constant fragment
 Marking animator:fragment_close_enter:2130837504 used because it matches string pool constant fragment
 Marking animator:fragment_close_exit:2130837505 used because it matches string pool constant fragment
@@ -1179,9 +1141,8 @@ Marking animator:fragment_fade_enter:2130837506 used because it matches string p
 Marking animator:fragment_fade_exit:2130837507 used because it matches string pool constant fragment
 Marking animator:fragment_open_enter:2130837508 used because it matches string pool constant fragment
 Marking animator:fragment_open_exit:2130837509 used because it matches string pool constant fragment
-Marking attr:fragment:2130968757 used because it matches string pool constant fragment
 Marking id:fragment_container_view_tag:2131296363 used because it matches string pool constant fragment
-Marking layout:fragment_main:2131492895 used because it matches string pool constant fragment
+Marking layout:fragment_main:2131492894 used because it matches string pool constant fragment
 Marking string:bluetooth_btn_no:2131689621 used because it matches string pool constant bluetooth
 Marking string:bluetooth_btn_yes:2131689622 used because it matches string pool constant bluetooth
 Marking string:bluetooth_msg_connection_failed:2131689623 used because it matches string pool constant bluetooth
@@ -1424,14 +1385,10 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/actionProviderClass : reachable=false
 @attr/actionViewClass : reachable=false
 @attr/activityChooserViewStyle : reachable=false
-@attr/adjustable : reachable=false
 @attr/alertDialogButtonGroupStyle : reachable=false
 @attr/alertDialogCenterButtons : reachable=true
 @attr/alertDialogStyle : reachable=true
 @attr/alertDialogTheme : reachable=true
-@attr/allowDividerAbove : reachable=false
-@attr/allowDividerAfterLastItem : reachable=false
-@attr/allowDividerBelow : reachable=false
 @attr/allowStacking : reachable=false
 @attr/alpha : reachable=false
 @attr/alphabeticModifiers : reachable=false
@@ -1473,7 +1430,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/cardUseCompatPadding : reachable=false
 @attr/cardViewStyle : reachable=false
 @attr/chainUseRtl : reachable=false
-@attr/checkBoxPreferenceStyle : reachable=true
 @attr/checkboxStyle : reachable=true
 @attr/checkedTextViewStyle : reachable=false
 @attr/closeIcon : reachable=false
@@ -1510,17 +1466,9 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/controlBackground : reachable=false
 @attr/customNavigationLayout : reachable=false
 @attr/defaultQueryHint : reachable=false
-@attr/defaultValue : reachable=false
-@attr/dependency : reachable=false
 @attr/dialogCornerRadius : reachable=false
-@attr/dialogIcon : reachable=false
-@attr/dialogLayout : reachable=false
-@attr/dialogMessage : reachable=false
-@attr/dialogPreferenceStyle : reachable=true
 @attr/dialogPreferredPadding : reachable=false
 @attr/dialogTheme : reachable=true
-@attr/dialogTitle : reachable=false
-@attr/disableDependentsState : reachable=false
 @attr/displayOptions : reachable=false
 @attr/divider : reachable=false
 @attr/dividerHorizontal : reachable=false
@@ -1538,17 +1486,11 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/drawerArrowStyle : reachable=false
 @attr/dropDownListViewStyle : reachable=true
 @attr/dropdownListPreferredItemHeight : reachable=false
-@attr/dropdownPreferenceStyle : reachable=true
 @attr/editTextBackground : reachable=false
 @attr/editTextColor : reachable=false
-@attr/editTextPreferenceStyle : reachable=true
 @attr/editTextStyle : reachable=true
 @attr/elevation : reachable=false
 @attr/emptyVisibility : reachable=false
-@attr/enableCopying : reachable=false
-@attr/enabled : reachable=false
-@attr/entries : reachable=false
-@attr/entryValues : reachable=false
 @attr/exampleColor : reachable=false
 @attr/exampleDimension : reachable=false
 @attr/exampleDrawable : reachable=false
@@ -1571,7 +1513,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/fontStyle : reachable=true
 @attr/fontVariationSettings : reachable=true
 @attr/fontWeight : reachable=true
-@attr/fragment : reachable=true
 @attr/gapBetweenBars : reachable=false
 @attr/goIcon : reachable=false
 @attr/height : reachable=false
@@ -1579,18 +1520,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/homeAsUpIndicator : reachable=false
 @attr/homeLayout : reachable=false
 @attr/icon : reachable=false
-@attr/iconSpaceReserved : reachable=false
 @attr/iconTint : reachable=false
 @attr/iconTintMode : reachable=false
 @attr/iconifiedByDefault : reachable=false
 @attr/imageButtonStyle : reachable=true
 @attr/indeterminateProgressStyle : reachable=false
 @attr/initialActivityCount : reachable=true
-@attr/initialExpandedChildrenCount : reachable=true
 @attr/isLightTheme : reachable=false
-@attr/isPreferenceVisible : reachable=false
 @attr/itemPadding : reachable=true
-@attr/key : reachable=false
 @attr/lastBaselineToBottomHeight : reachable=false
 @attr/layout : reachable=false
 @attr/layoutManager : reachable=false
@@ -1663,19 +1600,13 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/logo : reachable=false
 @attr/logoDescription : reachable=false
 @attr/maxButtonHeight : reachable=false
-@attr/maxHeight : reachable=false
-@attr/maxWidth : reachable=false
 @attr/measureWithLargestChild : reachable=false
 @attr/menu : reachable=true
-@attr/min : reachable=false
 @attr/multiChoiceItemLayout : reachable=false
 @attr/navigationContentDescription : reachable=false
 @attr/navigationIcon : reachable=false
 @attr/navigationMode : reachable=false
-@attr/negativeButtonText : reachable=false
 @attr/numericModifiers : reachable=false
-@attr/order : reachable=false
-@attr/orderingFromXml : reachable=false
 @attr/overlapAnchor : reachable=false
 @attr/paddingBottomNoButtons : reachable=false
 @attr/paddingEnd : reachable=false
@@ -1684,20 +1615,9 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/panelBackground : reachable=false
 @attr/panelMenuListTheme : reachable=true
 @attr/panelMenuListWidth : reachable=false
-@attr/persistent : reachable=false
 @attr/popupMenuStyle : reachable=false
 @attr/popupTheme : reachable=false
 @attr/popupWindowStyle : reachable=false
-@attr/positiveButtonText : reachable=false
-@attr/preferenceCategoryStyle : reachable=true
-@attr/preferenceCategoryTitleTextAppearance : reachable=false
-@attr/preferenceFragmentCompatStyle : reachable=false
-@attr/preferenceFragmentListStyle : reachable=false
-@attr/preferenceFragmentStyle : reachable=false
-@attr/preferenceInformationStyle : reachable=false
-@attr/preferenceScreenStyle : reachable=true
-@attr/preferenceStyle : reachable=true
-@attr/preferenceTheme : reachable=false
 @attr/preserveIconSpacing : reachable=false
 @attr/progressBarPadding : reachable=false
 @attr/progressBarStyle : reachable=false
@@ -1712,20 +1632,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/searchHintIcon : reachable=true
 @attr/searchIcon : reachable=true
 @attr/searchViewStyle : reachable=true
-@attr/seekBarIncrement : reachable=false
-@attr/seekBarPreferenceStyle : reachable=true
 @attr/seekBarStyle : reachable=true
-@attr/selectable : reachable=false
 @attr/selectableItemBackground : reachable=false
 @attr/selectableItemBackgroundBorderless : reachable=false
-@attr/shouldDisableView : reachable=true
 @attr/showAsAction : reachable=true
 @attr/showDividers : reachable=true
-@attr/showSeekBarValue : reachable=true
 @attr/showText : reachable=true
 @attr/showTitle : reachable=true
 @attr/singleChoiceItemLayout : reachable=false
-@attr/singleLineTitle : reachable=false
 @attr/spanCount : reachable=false
 @attr/spinBars : reachable=false
 @attr/spinnerDropDownItemStyle : reachable=false
@@ -1741,17 +1655,10 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/subtitleTextColor : reachable=false
 @attr/subtitleTextStyle : reachable=false
 @attr/suggestionRowLayout : reachable=false
-@attr/summary : reachable=false
-@attr/summaryOff : reachable=false
-@attr/summaryOn : reachable=false
 @attr/switchMinWidth : reachable=false
 @attr/switchPadding : reachable=false
-@attr/switchPreferenceCompatStyle : reachable=true
-@attr/switchPreferenceStyle : reachable=true
-@attr/switchStyle : reachable=true
+@attr/switchStyle : reachable=false
 @attr/switchTextAppearance : reachable=false
-@attr/switchTextOff : reachable=false
-@attr/switchTextOn : reachable=false
 @attr/textAllCaps : reachable=false
 @attr/textAppearanceLargePopupMenu : reachable=false
 @attr/textAppearanceListItem : reachable=false
@@ -1793,11 +1700,8 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @attr/trackTint : reachable=false
 @attr/trackTintMode : reachable=false
 @attr/ttcIndex : reachable=false
-@attr/updatesContinuously : reachable=true
-@attr/useSimpleSummaryProvider : reachable=false
 @attr/viewInflaterClass : reachable=true
 @attr/voiceIcon : reachable=false
-@attr/widgetLayout : reachable=false
 @attr/windowActionBar : reachable=true
 @attr/windowActionBarOverlay : reachable=true
 @attr/windowActionModeOverlay : reachable=true
@@ -1811,7 +1715,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @bool/abc_action_bar_embed_tabs : reachable=true
 @bool/abc_allow_stacked_button_bar : reachable=false
 @bool/abc_config_actionMenuItemAllCaps : reachable=false
-@bool/config_materialPreferenceIconSpaceReserved : reachable=false
 @color/abc_background_cache_hint_selector_material_dark : reachable=false
     @color/background_material_dark
 @color/abc_background_cache_hint_selector_material_light : reachable=false
@@ -1955,7 +1858,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @color/orange : reachable=false
 @color/pink : reachable=false
 @color/possible_result_points : reachable=false
-@color/preference_fallback_accent_color : reachable=false
 @color/primary_dark_material_dark : reachable=false
 @color/primary_dark_material_light : reachable=false
     @color/material_grey_600
@@ -2156,11 +2058,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @dimen/notification_subtext_size : reachable=false
 @dimen/notification_top_pad : reachable=false
 @dimen/notification_top_pad_large_text : reachable=false
-@dimen/preference_dropdown_padding_start : reachable=false
-@dimen/preference_icon_minWidth : reachable=false
-@dimen/preference_seekbar_padding_horizontal : reachable=false
-@dimen/preference_seekbar_padding_vertical : reachable=false
-@dimen/preference_seekbar_value_minWidth : reachable=false
 @dimen/shadow_width : reachable=true
 @dimen/slidingmenu_offset : reachable=false
 @dimen/standard_padding : reachable=false
@@ -2420,9 +2317,8 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @color/blue1
     @color/black
 @drawable/close : reachable=false
-@drawable/ic_arrow_down_24dp : reachable=true
 @drawable/ic_baseline_folder_24 : reachable=true
-@drawable/ic_baseline_insert_drive_file_24 : reachable=false
+@drawable/ic_baseline_insert_drive_file_24 : reachable=true
 @drawable/ic_launcher : reachable=true
 @drawable/ic_launcher_background : reachable=false
 @drawable/ic_launcher_foreground : reachable=false
@@ -2451,7 +2347,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @drawable/notification_tile_bg : reachable=false
     @drawable/notify_panel_notification_icon_bg
 @drawable/notify_panel_notification_icon_bg : reachable=false
-@drawable/preference_list_divider_material : reachable=false
 @drawable/rb_bg : reachable=false
     @drawable/card_normal
     @drawable/card_press
@@ -2460,13 +2355,13 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @drawable/rectangle_bg2 : reachable=false
     @color/white
     @color/green
-@drawable/tooltip_frame_dark : reachable=true
+@drawable/tooltip_frame_dark : reachable=false
     @color/tooltip_background_dark
     @dimen/tooltip_corner_radius
 @drawable/tooltip_frame_light : reachable=false
     @color/tooltip_background_light
     @dimen/tooltip_corner_radius
-@drawable/webtext : reachable=false
+@drawable/webtext : reachable=true
 @id/ALT : reachable=false
 @id/BtClear : reachable=true
 @id/BtInventory : reachable=true
@@ -2544,7 +2439,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/barrier : reachable=false
 @id/beginning : reachable=false
 @id/blocking : reachable=false
-@id/bottom : reachable=true
+@id/bottom : reachable=false
 @id/btn_select : reachable=true
 @id/buttonPanel : reachable=true
 @id/cbEPC_Tam : reachable=false
@@ -2583,9 +2478,8 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/home : reachable=false
 @id/homeAsUp : reachable=false
 @id/icon : reachable=false
-@id/icon_frame : reachable=false
-@id/icon_group : reachable=true
-@id/icon_view : reachable=false
+@id/icon_group : reachable=false
+@id/icon_view : reachable=true
 @id/ifRoom : reachable=false
 @id/image : reachable=false
 @id/info : reachable=false
@@ -2599,13 +2493,13 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/layout5 : reachable=false
 @id/layout6 : reachable=false
 @id/layout_filter : reachable=false
-@id/left : reachable=true
+@id/left : reachable=false
 @id/line1 : reachable=false
 @id/line3 : reachable=false
 @id/listMode : reachable=false
 @id/listView_frequency : reachable=false
-@id/list_item : reachable=true
-@id/lv_popup_menu : reachable=false
+@id/list_item : reachable=false
+@id/lv_popup_menu : reachable=true
 @id/message : reachable=true
 @id/middle : reachable=false
 @id/multiply : reachable=false
@@ -2624,15 +2518,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/progress_circular : reachable=false
 @id/progress_horizontal : reachable=false
 @id/quit : reachable=false
-@id/radio : reachable=true
+@id/radio : reachable=false
 @id/read_file : reachable=true
-@id/realtabcontent : reachable=false
-@id/recycler_view : reachable=false
+@id/realtabcontent : reachable=true
 @id/restart_preview : reachable=false
 @id/return_scan_result : reachable=false
-@id/right : reachable=true
-@id/right_icon : reachable=true
-@id/right_side : reachable=true
+@id/right : reachable=false
+@id/right_icon : reachable=false
+@id/right_side : reachable=false
 @id/screen : reachable=false
 @id/scrollIndicatorDown : reachable=true
 @id/scrollIndicatorUp : reachable=true
@@ -2647,17 +2540,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/search_plate : reachable=true
 @id/search_src_text : reachable=true
 @id/search_voice_btn : reachable=true
-@id/seekbar : reachable=false
-@id/seekbar_value : reachable=false
 @id/select_dialog_listview : reachable=false
-@id/setting_rv : reachable=false
+@id/setting_rv : reachable=true
 @id/shortcut : reachable=true
 @id/showCustom : reachable=true
 @id/showHome : reachable=true
 @id/showTitle : reachable=true
 @id/spacer : reachable=true
 @id/special_effects_controller_view_tag : reachable=true
-@id/spinner : reachable=false
 @id/split_action_bar : reachable=true
 @id/spread : reachable=false
 @id/spread_inside : reachable=false
@@ -2668,7 +2558,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/start : reachable=false
 @id/submenuarrow : reachable=true
 @id/submit_area : reachable=true
-@id/switchWidget : reachable=true
 @id/tabMode : reachable=false
 @id/tag_accessibility_actions : reachable=true
 @id/tag_accessibility_clickable_spans : reachable=true
@@ -2682,18 +2571,18 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @id/text2 : reachable=false
 @id/textSpacerNoButtons : reachable=true
 @id/textSpacerNoTitle : reachable=true
-@id/time : reachable=true
+@id/time : reachable=false
 @id/title : reachable=true
 @id/titleDividerNoCustom : reachable=true
 @id/title_template : reachable=true
-@id/top : reachable=true
+@id/top : reachable=false
 @id/topPanel : reachable=true
-@id/tvTime : reachable=false
-@id/tv_count : reachable=false
-@id/tv_date_modified : reachable=false
-@id/tv_nonFiles : reachable=false
+@id/tvTime : reachable=true
+@id/tv_count : reachable=true
+@id/tv_date_modified : reachable=true
+@id/tv_nonFiles : reachable=true
 @id/tv_title_popup_menu : reachable=false
-@id/tv_total : reachable=false
+@id/tv_total : reachable=true
 @id/unchecked : reachable=false
 @id/uniform : reachable=false
 @id/up : reachable=true
@@ -2844,18 +2733,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @attr/tooltipForegroundColor
 @layout/activity_main : reachable=true
 @layout/custom_dialog : reachable=false
-@layout/expand_button : reachable=false
-    @layout/image_frame
-    @style/PreferenceSummaryTextStyle
 @layout/fragment_main : reachable=true
     @dimen/activity_vertical_margin
     @dimen/activity_horizontal_margin
     @string/hello_world
-@layout/image_frame : reachable=true
 @layout/item_list_popup : reachable=true
     @color/gray2
     @color/white
-@layout/listtag_items : reachable=false
+@layout/listtag_items : reachable=true
 @layout/notification_action : reachable=false
     @style/Widget_Compat_NotificationActionContainer
     @dimen/notification_action_icon_size
@@ -2881,47 +2766,14 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @dimen/notification_right_icon_size
 @layout/notification_template_part_chronometer : reachable=false
     @style/TextAppearance_Compat_Notification_Time
-@layout/notification_template_part_time : reachable=true
+@layout/notification_template_part_time : reachable=false
     @style/TextAppearance_Compat_Notification_Time
 @layout/popup_menu_listview : reachable=false
     @color/blue2
     @color/white
     @color/green3
     @color/blue1
-@layout/preference : reachable=true
-@layout/preference_category : reachable=false
-@layout/preference_category_material : reachable=true
-    @layout/image_frame
-    @style/PreferenceCategoryTitleTextStyle
-    @style/PreferenceSummaryTextStyle
-@layout/preference_dialog_edittext : reachable=false
-@layout/preference_dropdown : reachable=false
-@layout/preference_dropdown_material : reachable=true
-    @dimen/preference_dropdown_padding_start
-    @layout/preference_material
-@layout/preference_information : reachable=false
-@layout/preference_information_material : reachable=false
-    @style/PreferenceSummaryTextStyle
-@layout/preference_list_fragment : reachable=false
-@layout/preference_material : reachable=false
-    @layout/image_frame
-    @style/PreferenceSummaryTextStyle
-@layout/preference_recyclerview : reachable=false
-    @attr/preferenceFragmentListStyle
-@layout/preference_widget_checkbox : reachable=false
-@layout/preference_widget_seekbar : reachable=false
-    @dimen/preference_icon_minWidth
-    @dimen/preference_seekbar_padding_horizontal
-    @dimen/preference_seekbar_value_minWidth
-@layout/preference_widget_seekbar_material : reachable=false
-    @layout/image_frame
-    @style/PreferenceSummaryTextStyle
-    @dimen/preference_seekbar_padding_horizontal
-    @dimen/preference_seekbar_padding_vertical
-    @dimen/preference_seekbar_value_minWidth
-@layout/preference_widget_switch : reachable=false
-@layout/preference_widget_switch_compat : reachable=false
-@layout/reclycer_item : reachable=false
+@layout/reclycer_item : reachable=true
     @color/black
     @color/cardview_shadow_start_color
 @layout/select_dialog_item_material : reachable=false
@@ -2940,7 +2792,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
     @attr/dialogPreferredPadding
-@layout/setting_fragment : reachable=false
+@layout/setting_fragment : reachable=true
     @color/white
     @color/blue
     @color/gray
@@ -2954,7 +2806,7 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
     @string/btSetFre
     @color/blue1
     @drawable/close
-@layout/uhf_readtag_fragment : reachable=false
+@layout/uhf_readtag_fragment : reachable=true
     @drawable/rectangle_bg
     @color/gray1
     @drawable/button_bg
@@ -3207,7 +3059,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/contents_phone : reachable=true
 @string/contents_sms : reachable=true
 @string/contents_text : reachable=true
-@string/copy : reachable=false
 @string/current_dir : reachable=false
 @string/default_font_gray_scale : reachable=false
 @string/delete_blog : reachable=false
@@ -3308,7 +3159,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/er_dsoft_tab_set : reachable=false
 @string/erd_title : reachable=false
 @string/exit : reachable=false
-@string/expand_button_title : reachable=false
 @string/fastID : reachable=false
 @string/fastID_off : reachable=false
 @string/file_btn_cancel : reachable=true
@@ -3569,7 +3419,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/none_paired : reachable=false
 @string/normal_set : reachable=false
 @string/not_connected : reachable=false
-@string/not_set : reachable=true
 @string/num : reachable=false
 @string/ok : reachable=false
 @string/ping_msg_background_ping : reachable=false
@@ -3580,7 +3429,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/ping_msg_runing : reachable=false
 @string/ping_title : reachable=false
 @string/please_on : reachable=false
-@string/preference_copied : reachable=false
 @string/preferences_actions_title : reachable=false
 @string/preferences_auto_focus_title : reachable=false
 @string/preferences_bulk_mode_summary : reachable=false
@@ -3721,7 +3569,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/strUpgrade : reachable=false
 @string/strUpload : reachable=false
 @string/submit_report : reachable=false
-@string/summary_collapsed_preference_list : reachable=false
 @string/sure : reachable=false
 @string/switch_cam : reachable=false
 @string/tagFocus : reachable=false
@@ -3907,13 +3754,13 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/uhf_msg_addr_must_decimal : reachable=false
 @string/uhf_msg_addr_must_len8 : reachable=false
 @string/uhf_msg_addr_not_null : reachable=false
-@string/uhf_msg_filter_addr_must_decimal : reachable=true
-@string/uhf_msg_filter_len_must_decimal : reachable=true
+@string/uhf_msg_filter_addr_must_decimal : reachable=false
+@string/uhf_msg_filter_len_must_decimal : reachable=false
 @string/uhf_msg_get_para_fail : reachable=false
 @string/uhf_msg_get_para_succ : reachable=false
 @string/uhf_msg_inventory_fail : reachable=false
-@string/uhf_msg_inventory_open_fail : reachable=false
-@string/uhf_msg_inventory_stop_fail : reachable=false
+@string/uhf_msg_inventory_open_fail : reachable=true
+@string/uhf_msg_inventory_stop_fail : reachable=true
 @string/uhf_msg_len_must_decimal : reachable=false
 @string/uhf_msg_len_not_null : reachable=false
 @string/uhf_msg_r2000_tip : reachable=false
@@ -3937,21 +3784,21 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/uhf_msg_set_protocol_fail : reachable=false
 @string/uhf_msg_set_protocol_succ : reachable=false
 @string/uhf_msg_set_pwm_fail : reachable=false
-@string/uhf_msg_set_pwm_succ : reachable=true
+@string/uhf_msg_set_pwm_succ : reachable=false
 @string/uhf_msg_set_succ : reachable=false
 @string/uhf_msg_tab_kill : reachable=false
 @string/uhf_msg_tab_lock : reachable=false
 @string/uhf_msg_tab_read : reachable=false
-@string/uhf_msg_tab_scan : reachable=false
+@string/uhf_msg_tab_scan : reachable=true
 @string/uhf_msg_tab_set : reachable=false
 @string/uhf_msg_tab_write : reachable=false
 @string/uhf_msg_tag_must_not_null : reachable=false
-@string/uhf_msg_write_fail : reachable=true
+@string/uhf_msg_write_fail : reachable=false
 @string/uhf_msg_write_must_len4 : reachable=false
 @string/uhf_msg_write_must_len4x : reachable=false
 @string/uhf_msg_write_must_not_null : reachable=false
 @string/uhf_msg_write_succ : reachable=false
-@string/uhf_setting_fragment : reachable=false
+@string/uhf_setting_fragment : reachable=true
 @string/uhf_title_access : reachable=false
 @string/uhf_title_dbm : reachable=false
 @string/uhf_title_filter : reachable=false
@@ -3997,8 +3844,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @string/update_title_update_now : reachable=true
 @string/upload_title : reachable=true
 @string/user_area_number : reachable=false
-@string/v7_preference_off : reachable=false
-@string/v7_preference_on : reachable=false
 @string/volum_title_systen : reachable=false
 @string/volum_title_voice_alarm : reachable=false
 @string/volum_title_voice_call : reachable=false
@@ -5331,165 +5176,6 @@ Marking string:bluetooth_title_tip:2131689627 used because it matches string poo
 @style/Platform_V25_AppCompat : reachable=false
 @style/Platform_V25_AppCompat_Light : reachable=false
 @style/Platform_Widget_AppCompat_Spinner : reachable=false
-@style/Preference : reachable=false
-    @layout/preference
-@style/PreferenceCategoryTitleTextStyle : reachable=false
-    @attr/preferenceCategoryTitleTextAppearance
-    @color/preference_fallback_accent_color
-@style/PreferenceFragment : reachable=false
-@style/PreferenceFragmentList : reachable=false
-@style/PreferenceFragmentList_Material : reachable=false
-    @style/PreferenceFragmentList
-@style/PreferenceFragment_Material : reachable=false
-    @style/PreferenceFragment
-    @drawable/preference_list_divider_material
-    @attr/allowDividerAfterLastItem
-@style/PreferenceSummaryTextStyle : reachable=false
-@style/PreferenceThemeOverlay : reachable=false
-    @style/Preference_CheckBoxPreference_Material
-    @attr/checkBoxPreferenceStyle
-    @style/Preference_DialogPreference_Material
-    @attr/dialogPreferenceStyle
-    @style/Preference_DropDown_Material
-    @attr/dropdownPreferenceStyle
-    @style/Preference_DialogPreference_EditTextPreference_Material
-    @attr/editTextPreferenceStyle
-    @style/Preference_Category_Material
-    @attr/preferenceCategoryStyle
-    @style/PreferenceFragment_Material
-    @attr/preferenceFragmentCompatStyle
-    @style/PreferenceFragmentList_Material
-    @attr/preferenceFragmentListStyle
-    @attr/preferenceFragmentStyle
-    @style/Preference_PreferenceScreen_Material
-    @attr/preferenceScreenStyle
-    @style/Preference_Material
-    @attr/preferenceStyle
-    @style/Preference_SeekBarPreference_Material
-    @attr/seekBarPreferenceStyle
-    @style/Preference_SwitchPreferenceCompat_Material
-    @attr/switchPreferenceCompatStyle
-    @style/Preference_SwitchPreference_Material
-    @attr/switchPreferenceStyle
-    @style/TextAppearance_AppCompat_Body2
-    @attr/preferenceCategoryTitleTextAppearance
-@style/PreferenceThemeOverlay_v14 : reachable=false
-    @style/PreferenceThemeOverlay
-@style/PreferenceThemeOverlay_v14_Material : reachable=false
-    @style/PreferenceThemeOverlay_v14
-@style/Preference_Category : reachable=false
-    @style/Preference
-    @layout/preference_category
-@style/Preference_Category_Material : reachable=false
-    @style/Preference_Category
-    @layout/preference_category_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_CheckBoxPreference : reachable=false
-    @style/Preference
-    @layout/preference_widget_checkbox
-@style/Preference_CheckBoxPreference_Material : reachable=false
-    @style/Preference_CheckBoxPreference
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_DialogPreference : reachable=false
-    @style/Preference
-@style/Preference_DialogPreference_EditTextPreference : reachable=false
-    @style/Preference_DialogPreference
-    @layout/preference_dialog_edittext
-@style/Preference_DialogPreference_EditTextPreference_Material : reachable=false
-    @style/Preference_DialogPreference_EditTextPreference
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @attr/singleLineTitle
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_DialogPreference_Material : reachable=false
-    @style/Preference_DialogPreference
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_DropDown : reachable=false
-    @style/Preference
-    @layout/preference_dropdown
-@style/Preference_DropDown_Material : reachable=false
-    @style/Preference_DropDown
-    @layout/preference_dropdown_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_Information : reachable=false
-    @style/Preference
-    @layout/preference_information
-@style/Preference_Information_Material : reachable=false
-    @style/Preference_Information
-    @layout/preference_information_material
-@style/Preference_Material : reachable=false
-    @style/Preference
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @attr/singleLineTitle
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_PreferenceScreen : reachable=false
-    @style/Preference
-@style/Preference_PreferenceScreen_Material : reachable=false
-    @style/Preference_PreferenceScreen
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_SeekBarPreference : reachable=false
-    @style/Preference
-    @layout/preference_widget_seekbar
-    @attr/adjustable
-    @attr/showSeekBarValue
-    @attr/updatesContinuously
-@style/Preference_SeekBarPreference_Material : reachable=false
-    @style/Preference_SeekBarPreference
-    @layout/preference_widget_seekbar_material
-    @attr/adjustable
-    @attr/showSeekBarValue
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_SwitchPreference : reachable=false
-    @style/Preference
-    @layout/preference_widget_switch
-    @string/v7_preference_on
-    @string/v7_preference_off
-@style/Preference_SwitchPreferenceCompat : reachable=false
-    @style/Preference
-    @layout/preference_widget_switch_compat
-    @string/v7_preference_on
-    @string/v7_preference_off
-@style/Preference_SwitchPreferenceCompat_Material : reachable=false
-    @style/Preference_SwitchPreferenceCompat
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
-@style/Preference_SwitchPreference_Material : reachable=false
-    @style/Preference_SwitchPreference
-    @layout/preference_material
-    @attr/allowDividerAbove
-    @attr/allowDividerBelow
-    @attr/singleLineTitle
-    @bool/config_materialPreferenceIconSpaceReserved
-    @attr/iconSpaceReserved
 @style/RtlOverlay_DialogWindowTitle_AppCompat : reachable=false
     @style/Base_DialogWindowTitle_AppCompat
 @style/RtlOverlay_Widget_AppCompat_ActionBar_TitleItem : reachable=false
@@ -5882,95 +5568,79 @@ The root reachable resources are:
  attr:actionModeStyle:2130968603
  attr:actionOverflowButtonStyle:2130968605
  attr:actionOverflowMenuStyle:2130968606
- attr:alertDialogCenterButtons:2130968612
- attr:alertDialogStyle:2130968613
- attr:alertDialogTheme:2130968614
- attr:autoCompleteTextViewStyle:2130968623
- attr:buttonStyle:2130968647
- attr:checkBoxPreferenceStyle:2130968659
- attr:checkboxStyle:2130968660
- attr:colorAccent:2130968667
- attr:colorButtonNormal:2130968669
- attr:colorControlActivated:2130968670
- attr:colorControlHighlight:2130968671
- attr:colorControlNormal:2130968672
- attr:colorSwitchThumbNormal:2130968676
- attr:content:2130968680
- attr:contentDescription:2130968681
- attr:contentInsetEnd:2130968682
- attr:contentInsetEndWithActions:2130968683
- attr:contentInsetLeft:2130968684
- attr:contentInsetRight:2130968685
- attr:contentInsetStart:2130968686
- attr:contentInsetStartWithNavigation:2130968687
- attr:contentPadding:2130968688
- attr:contentPaddingBottom:2130968689
- attr:contentPaddingLeft:2130968690
- attr:contentPaddingRight:2130968691
- attr:contentPaddingTop:2130968692
- attr:dialogPreferenceStyle:2130968702
- attr:dialogTheme:2130968704
- attr:dropDownListViewStyle:2130968722
- attr:dropdownPreferenceStyle:2130968724
- attr:editTextPreferenceStyle:2130968727
- attr:editTextStyle:2130968728
- attr:font:2130968746
- attr:fontFamily:2130968747
- attr:fontProviderAuthority:2130968748
- attr:fontProviderCerts:2130968749
- attr:fontProviderFetchStrategy:2130968750
- attr:fontProviderFetchTimeout:2130968751
- attr:fontProviderPackage:2130968752
- attr:fontProviderQuery:2130968753
- attr:fontStyle:2130968754
- attr:fontVariationSettings:2130968755
- attr:fontWeight:2130968756
- attr:fragment:2130968757
- attr:imageButtonStyle:2130968769
- attr:initialActivityCount:2130968771
- attr:initialExpandedChildrenCount:2130968772
- attr:itemPadding:2130968775
- attr:listMenuViewStyle:2130968837
- attr:menu:2130968852
- attr:panelMenuListTheme:2130968868
- attr:preferenceCategoryStyle:2130968875
- attr:preferenceScreenStyle:2130968881
- attr:preferenceStyle:2130968882
- attr:queryBackground:2130968887
- attr:queryHint:2130968888
- attr:radioButtonStyle:2130968889
- attr:ratingBarStyle:2130968890
- attr:recyclerViewStyle:2130968893
- attr:searchHintIcon:2130968895
- attr:searchIcon:2130968896
- attr:searchViewStyle:2130968897
- attr:seekBarPreferenceStyle:2130968899
- attr:seekBarStyle:2130968900
- attr:shouldDisableView:2130968904
- attr:showAsAction:2130968905
- attr:showDividers:2130968906
- attr:showSeekBarValue:2130968907
- attr:showText:2130968908
- attr:showTitle:2130968909
- attr:spinnerStyle:2130968915
- attr:switchPreferenceCompatStyle:2130968932
- attr:switchPreferenceStyle:2130968933
- attr:switchStyle:2130968934
- attr:textColorSearchUrl:2130968948
- attr:toolbarNavigationButtonStyle:2130968970
- attr:toolbarStyle:2130968971
- attr:updatesContinuously:2130968979
- attr:viewInflaterClass:2130968981
- attr:windowActionBar:2130968984
- attr:windowActionBarOverlay:2130968985
- attr:windowActionModeOverlay:2130968986
- attr:windowFixedHeightMajor:2130968987
- attr:windowFixedHeightMinor:2130968988
- attr:windowFixedWidthMajor:2130968989
- attr:windowFixedWidthMinor:2130968990
- attr:windowMinWidthMajor:2130968991
- attr:windowMinWidthMinor:2130968992
- attr:windowNoTitle:2130968993
+ attr:alertDialogCenterButtons:2130968611
+ attr:alertDialogStyle:2130968612
+ attr:alertDialogTheme:2130968613
+ attr:autoCompleteTextViewStyle:2130968619
+ attr:buttonStyle:2130968643
+ attr:checkboxStyle:2130968655
+ attr:colorAccent:2130968662
+ attr:colorButtonNormal:2130968664
+ attr:colorControlActivated:2130968665
+ attr:colorControlHighlight:2130968666
+ attr:colorControlNormal:2130968667
+ attr:colorSwitchThumbNormal:2130968671
+ attr:content:2130968675
+ attr:contentDescription:2130968676
+ attr:contentInsetEnd:2130968677
+ attr:contentInsetEndWithActions:2130968678
+ attr:contentInsetLeft:2130968679
+ attr:contentInsetRight:2130968680
+ attr:contentInsetStart:2130968681
+ attr:contentInsetStartWithNavigation:2130968682
+ attr:contentPadding:2130968683
+ attr:contentPaddingBottom:2130968684
+ attr:contentPaddingLeft:2130968685
+ attr:contentPaddingRight:2130968686
+ attr:contentPaddingTop:2130968687
+ attr:dialogTheme:2130968693
+ attr:dropDownListViewStyle:2130968709
+ attr:editTextStyle:2130968713
+ attr:font:2130968727
+ attr:fontFamily:2130968728
+ attr:fontProviderAuthority:2130968729
+ attr:fontProviderCerts:2130968730
+ attr:fontProviderFetchStrategy:2130968731
+ attr:fontProviderFetchTimeout:2130968732
+ attr:fontProviderPackage:2130968733
+ attr:fontProviderQuery:2130968734
+ attr:fontStyle:2130968735
+ attr:fontVariationSettings:2130968736
+ attr:fontWeight:2130968737
+ attr:imageButtonStyle:2130968748
+ attr:initialActivityCount:2130968750
+ attr:itemPadding:2130968752
+ attr:listMenuViewStyle:2130968813
+ attr:menu:2130968826
+ attr:panelMenuListTheme:2130968838
+ attr:queryBackground:2130968846
+ attr:queryHint:2130968847
+ attr:radioButtonStyle:2130968848
+ attr:ratingBarStyle:2130968849
+ attr:recyclerViewStyle:2130968852
+ attr:searchHintIcon:2130968854
+ attr:searchIcon:2130968855
+ attr:searchViewStyle:2130968856
+ attr:seekBarStyle:2130968857
+ attr:showAsAction:2130968860
+ attr:showDividers:2130968861
+ attr:showText:2130968862
+ attr:showTitle:2130968863
+ attr:spinnerStyle:2130968868
+ attr:textColorSearchUrl:2130968894
+ attr:toolbarNavigationButtonStyle:2130968916
+ attr:toolbarStyle:2130968917
+ attr:viewInflaterClass:2130968925
+ attr:windowActionBar:2130968927
+ attr:windowActionBarOverlay:2130968928
+ attr:windowActionModeOverlay:2130968929
+ attr:windowFixedHeightMajor:2130968930
+ attr:windowFixedHeightMinor:2130968931
+ attr:windowFixedWidthMajor:2130968932
+ attr:windowFixedWidthMinor:2130968933
+ attr:windowMinWidthMajor:2130968934
+ attr:windowMinWidthMinor:2130968935
+ attr:windowNoTitle:2130968936
  bool:abc_action_bar_embed_tabs:2131034112
  color:abc_input_method_navigation_guard:2131099655
  color:abc_tint_btn_checkable:2131099666
@@ -5982,10 +5652,10 @@ The root reachable resources are:
  color:androidx_core_ripple_material_light:2131099674
  color:androidx_core_secondary_text_default_material_light:2131099675
  color:contents_text:2131099697
- color:share_text:2131099782
- color:viewfinder_frame:2131099800
- color:viewfinder_laser:2131099801
- color:viewfinder_mask:2131099802
+ color:share_text:2131099781
+ color:viewfinder_frame:2131099799
+ color:viewfinder_laser:2131099800
+ color:viewfinder_mask:2131099801
  dimen:abc_action_bar_stacked_max_height:2131165193
  dimen:abc_action_bar_stacked_tab_max_width:2131165194
  dimen:abc_cascading_menus_min_smallest_width:2131165206
@@ -6009,11 +5679,11 @@ The root reachable resources are:
  dimen:network_list_small_padding:2131165298
  dimen:network_list_ssid_size:2131165299
  dimen:network_list_state_width:2131165300
- dimen:shadow_width:2131165321
- dimen:tooltip_precise_anchor_extra_offset:2131165353
- dimen:tooltip_precise_anchor_threshold:2131165354
- dimen:tooltip_y_offset_non_touch:2131165356
- dimen:tooltip_y_offset_touch:2131165357
+ dimen:shadow_width:2131165316
+ dimen:tooltip_precise_anchor_extra_offset:2131165348
+ dimen:tooltip_precise_anchor_threshold:2131165349
+ dimen:tooltip_y_offset_non_touch:2131165351
+ dimen:tooltip_y_offset_touch:2131165352
  drawable:abc_ab_share_pack_mtrl_alpha:2131230721
  drawable:abc_btn_borderless_material:2131230723
  drawable:abc_btn_check_material:2131230724
@@ -6061,10 +5731,10 @@ The root reachable resources are:
  drawable:abc_textfield_search_default_mtrl_alpha:2131230804
  drawable:abc_textfield_search_material:2131230805
  drawable:abc_vector_test:2131230806
- drawable:ic_arrow_down_24dp:2131230831
- drawable:ic_baseline_folder_24:2131230832
- drawable:ic_launcher:2131230834
- drawable:tooltip_frame_dark:2131230853
+ drawable:ic_baseline_folder_24:2131230831
+ drawable:ic_baseline_insert_drive_file_24:2131230832
+ drawable:ic_launcher:2131230833
+ drawable:webtext:2131230853
  id:BtClear:2131296257
  id:BtInventory:2131296258
  id:LvTags:2131296261
@@ -6117,7 +5787,6 @@ The root reachable resources are:
  id:action_mode_close_button:2131296321
  id:add:2131296326
  id:alertTitle:2131296327
- id:bottom:2131296333
  id:btn_select:2131296334
  id:buttonPanel:2131296335
  id:content:2131296343
@@ -6131,61 +5800,60 @@ The root reachable resources are:
  id:fragment_container_view_tag:2131296363
  id:group_divider:2131296365
  id:groups:2131296366
- id:icon_group:2131296373
- id:item_touch_helper_previous_elevation:2131296380
- id:left:2131296388
- id:list_item:2131296393
- id:message:2131296395
- id:parentPanel:2131296408
- id:radio:2131296413
- id:read_file:2131296414
- id:right:2131296419
- id:right_icon:2131296420
- id:right_side:2131296421
- id:scrollIndicatorDown:2131296423
- id:scrollIndicatorUp:2131296424
- id:scrollView:2131296425
- id:search_badge:2131296426
- id:search_bar:2131296427
- id:search_button:2131296428
- id:search_close_btn:2131296429
- id:search_edit_frame:2131296430
- id:search_go_btn:2131296431
- id:search_mag_icon:2131296432
- id:search_plate:2131296433
- id:search_src_text:2131296434
- id:search_voice_btn:2131296435
- id:shortcut:2131296440
- id:showCustom:2131296441
- id:showHome:2131296442
- id:showTitle:2131296443
- id:spacer:2131296444
- id:special_effects_controller_view_tag:2131296445
- id:split_action_bar:2131296447
- id:submenuarrow:2131296455
- id:submit_area:2131296456
- id:switchWidget:2131296457
- id:tag_accessibility_actions:2131296459
- id:tag_accessibility_clickable_spans:2131296460
- id:tag_accessibility_heading:2131296461
- id:tag_accessibility_pane_title:2131296462
- id:tag_screen_reader_focusable:2131296463
- id:tag_unhandled_key_event_manager:2131296465
- id:tag_unhandled_key_listeners:2131296466
- id:textSpacerNoButtons:2131296469
- id:textSpacerNoTitle:2131296470
- id:time:2131296471
- id:title:2131296472
- id:titleDividerNoCustom:2131296473
- id:title_template:2131296474
- id:top:2131296475
- id:topPanel:2131296476
- id:up:2131296485
- id:value_data:2131296487
- id:view_tree_lifecycle_owner:2131296488
- id:view_tree_saved_state_registry_owner:2131296489
- id:view_tree_view_model_store_owner:2131296490
- id:visible_removing_fragment_view_tag:2131296491
+ id:icon_view:2131296373
+ id:item_touch_helper_previous_elevation:2131296379
+ id:lv_popup_menu:2131296393
+ id:message:2131296394
+ id:parentPanel:2131296407
+ id:read_file:2131296413
+ id:realtabcontent:2131296414
+ id:scrollIndicatorDown:2131296421
+ id:scrollIndicatorUp:2131296422
+ id:scrollView:2131296423
+ id:search_badge:2131296424
+ id:search_bar:2131296425
+ id:search_button:2131296426
+ id:search_close_btn:2131296427
+ id:search_edit_frame:2131296428
+ id:search_go_btn:2131296429
+ id:search_mag_icon:2131296430
+ id:search_plate:2131296431
+ id:search_src_text:2131296432
+ id:search_voice_btn:2131296433
+ id:setting_rv:2131296435
+ id:shortcut:2131296436
+ id:showCustom:2131296437
+ id:showHome:2131296438
+ id:showTitle:2131296439
+ id:spacer:2131296440
+ id:special_effects_controller_view_tag:2131296441
+ id:split_action_bar:2131296442
+ id:submenuarrow:2131296450
+ id:submit_area:2131296451
+ id:tag_accessibility_actions:2131296453
+ id:tag_accessibility_clickable_spans:2131296454
+ id:tag_accessibility_heading:2131296455
+ id:tag_accessibility_pane_title:2131296456
+ id:tag_screen_reader_focusable:2131296457
+ id:tag_unhandled_key_event_manager:2131296459
+ id:tag_unhandled_key_listeners:2131296460
+ id:textSpacerNoButtons:2131296463
+ id:textSpacerNoTitle:2131296464
+ id:title:2131296466
+ id:titleDividerNoCustom:2131296467
+ id:title_template:2131296468
+ id:topPanel:2131296470
+ id:tvTime:2131296471
+ id:tv_count:2131296472
+ id:tv_date_modified:2131296473
+ id:tv_nonFiles:2131296474
+ id:tv_total:2131296476
+ id:up:2131296479
+ id:value_data:2131296481
+ id:view_tree_lifecycle_owner:2131296482
+ id:view_tree_saved_state_registry_owner:2131296483
+ id:view_tree_view_model_store_owner:2131296484
+ id:visible_removing_fragment_view_tag:2131296485
  integer:google_play_services_version:2131361796
  layout:abc_action_bar_title_item:2131492864
  layout:abc_action_menu_item_layout:2131492866
@@ -6207,14 +5875,13 @@ The root reachable resources are:
  layout:abc_search_view:2131492889
  layout:abc_tooltip:2131492891
  layout:activity_main:2131492892
- layout:fragment_main:2131492895
- layout:image_frame:2131492896
- layout:item_list_popup:2131492897
- layout:notification_template_part_time:2131492904
- layout:preference:2131492906
- layout:preference_category_material:2131492908
- layout:preference_dropdown_material:2131492911
- layout:support_simple_spinner_dropdown_item:2131492927
+ layout:fragment_main:2131492894
+ layout:item_list_popup:2131492895
+ layout:listtag_items:2131492896
+ layout:reclycer_item:2131492904
+ layout:setting_fragment:2131492908
+ layout:support_simple_spinner_dropdown_item:2131492909
+ layout:uhf_readtag_fragment:2131492911
  menu:main:2131558400
  raw:barcodebeep:2131623936
  raw:serror:2131623937
@@ -6247,90 +5914,89 @@ The root reachable resources are:
  string:contents_phone:2131689706
  string:contents_sms:2131689707
  string:contents_text:2131689708
- string:file_btn_cancel:2131689813
- string:file_btn_confirm:2131689814
- string:file_msg_cancel:2131689815
- string:file_title_sel_file:2131689816
- string:file_title_sel_file_confirm:2131689817
- string:fontGrayScaleRange:2131689885
- string:fontGrayscaleName:2131689886
- string:font_size:2131689887
- string:getQTParams_fail:2131689889
- string:getQTParams_succ:2131689890
- string:gps_btn_no:2131689891
- string:gps_btn_yes:2131689892
- string:gps_msg_Locate_stop:2131689893
- string:gps_msg_Locate_succ:2131689894
- string:gps_msg_Locateing:2131689895
- string:gps_msg_gps_not_open:2131689896
- string:gps_msg_open_gps:2131689897
- string:gps_msg_title_satellite_signal:2131689898
- string:gps_title_Altitude:2131689899
- string:gps_title_GpsStatus:2131689900
- string:gps_title_Latitude:2131689901
- string:gps_title_Longitude:2131689902
- string:gps_title_SatelliteCount:2131689903
- string:gps_title_Time:2131689904
- string:gps_title_tip:2131689905
- string:location:2131689943
- string:menu_encode_mecard:2131689967
- string:menu_encode_vcard:2131689968
- string:menu_help:2131689969
- string:menu_history:2131689970
- string:menu_settings:2131689971
- string:menu_share:2131689972
- string:network_msg_emergency_only:2131690041
- string:network_msg_in_service:2131690042
- string:network_msg_operator_is_null:2131690043
- string:network_msg_out_of_service:2131690044
- string:network_msg_power_off:2131690045
- string:network_msg_sim_not_exist:2131690046
- string:network_msg_title_mobile:2131690047
- string:network_msg_wifi_conn:2131690048
- string:network_msg_wifi_conn_fail:2131690049
- string:network_msg_wifi_conning:2131690050
- string:network_msg_wifi_level:2131690051
- string:network_msg_wifi_not_enable:2131690052
- string:network_msg_wifi_speed:2131690053
- string:network_not_connected:2131690054
- string:not_set:2131690071
- string:search_menu_title:2131690198
- string:send:2131690201
- string:setQTParams_fail:2131690204
- string:setQTParams_succ:2131690205
- string:share:2131690206
- string:share_name:2131690207
- string:sharing:2131690208
- string:stop_location:2131690215
- string:uhf_msg_filter_addr_must_decimal:2131690409
- string:uhf_msg_filter_len_must_decimal:2131690410
- string:uhf_msg_set_pwm_succ:2131690439
- string:uhf_msg_write_fail:2131690448
- string:up_msg_avg_speed:2131690477
- string:up_msg_file_not_exist:2131690478
- string:up_msg_file_size:2131690479
- string:up_msg_net_not_conn:2131690480
- string:up_msg_sel_file:2131690481
- string:up_msg_start_time:2131690482
- string:up_msg_stop_time:2131690483
- string:up_msg_total_time:2131690484
- string:up_one_level:2131690485
- string:update_msg_checking:2131690486
- string:update_msg_curr_new:2131690487
- string:update_msg_diag_title:2131690488
- string:update_msg_diag_title_two:2131690489
- string:update_msg_unmount:2131690490
- string:update_msg_updateing:2131690491
- string:update_msg_version_info_fail:2131690492
- string:update_title_cancel:2131690493
- string:update_title_ok:2131690494
- string:update_title_update_last:2131690495
- string:update_title_update_now:2131690496
- string:upload_title:2131690497
+ string:file_btn_cancel:2131689811
+ string:file_btn_confirm:2131689812
+ string:file_msg_cancel:2131689813
+ string:file_title_sel_file:2131689814
+ string:file_title_sel_file_confirm:2131689815
+ string:fontGrayScaleRange:2131689883
+ string:fontGrayscaleName:2131689884
+ string:font_size:2131689885
+ string:getQTParams_fail:2131689887
+ string:getQTParams_succ:2131689888
+ string:gps_btn_no:2131689889
+ string:gps_btn_yes:2131689890
+ string:gps_msg_Locate_stop:2131689891
+ string:gps_msg_Locate_succ:2131689892
+ string:gps_msg_Locateing:2131689893
+ string:gps_msg_gps_not_open:2131689894
+ string:gps_msg_open_gps:2131689895
+ string:gps_msg_title_satellite_signal:2131689896
+ string:gps_title_Altitude:2131689897
+ string:gps_title_GpsStatus:2131689898
+ string:gps_title_Latitude:2131689899
+ string:gps_title_Longitude:2131689900
+ string:gps_title_SatelliteCount:2131689901
+ string:gps_title_Time:2131689902
+ string:gps_title_tip:2131689903
+ string:location:2131689941
+ string:menu_encode_mecard:2131689965
+ string:menu_encode_vcard:2131689966
+ string:menu_help:2131689967
+ string:menu_history:2131689968
+ string:menu_settings:2131689969
+ string:menu_share:2131689970
+ string:network_msg_emergency_only:2131690039
+ string:network_msg_in_service:2131690040
+ string:network_msg_operator_is_null:2131690041
+ string:network_msg_out_of_service:2131690042
+ string:network_msg_power_off:2131690043
+ string:network_msg_sim_not_exist:2131690044
+ string:network_msg_title_mobile:2131690045
+ string:network_msg_wifi_conn:2131690046
+ string:network_msg_wifi_conn_fail:2131690047
+ string:network_msg_wifi_conning:2131690048
+ string:network_msg_wifi_level:2131690049
+ string:network_msg_wifi_not_enable:2131690050
+ string:network_msg_wifi_speed:2131690051
+ string:network_not_connected:2131690052
+ string:search_menu_title:2131690194
+ string:send:2131690197
+ string:setQTParams_fail:2131690200
+ string:setQTParams_succ:2131690201
+ string:share:2131690202
+ string:share_name:2131690203
+ string:sharing:2131690204
+ string:stop_location:2131690211
+ string:uhf_msg_inventory_open_fail:2131690409
+ string:uhf_msg_inventory_stop_fail:2131690410
+ string:uhf_msg_tab_scan:2131690439
+ string:uhf_setting_fragment:2131690448
+ string:up_msg_avg_speed:2131690472
+ string:up_msg_file_not_exist:2131690473
+ string:up_msg_file_size:2131690474
+ string:up_msg_net_not_conn:2131690475
+ string:up_msg_sel_file:2131690476
+ string:up_msg_start_time:2131690477
+ string:up_msg_stop_time:2131690478
+ string:up_msg_total_time:2131690479
+ string:up_one_level:2131690480
+ string:update_msg_checking:2131690481
+ string:update_msg_curr_new:2131690482
+ string:update_msg_diag_title:2131690483
+ string:update_msg_diag_title_two:2131690484
+ string:update_msg_unmount:2131690485
+ string:update_msg_updateing:2131690486
+ string:update_msg_version_info_fail:2131690487
+ string:update_title_cancel:2131690488
+ string:update_title_ok:2131690489
+ string:update_title_update_last:2131690490
+ string:update_title_update_now:2131690491
+ string:upload_title:2131690492
  style:Animation_AppCompat_Tooltip:2131755014
  style:CustomTheme:2131755177
- style:Theme_AppCompat_CompactMenu:2131755298
- style:Theme_AppCompat_Light:2131755310
+ style:Theme_AppCompat_CompactMenu:2131755267
+ style:Theme_AppCompat_Light:2131755279
  xml:device_filter:2131886080
 Skipped unused resource res/anim/abc_fade_in.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/anim/abc_fade_out.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
@@ -6350,14 +6016,11 @@ Skipped unused resource res/color-v23/abc_btn_colored_text_material.xml: 624 byt
 Skipped unused resource res/drawable/abc_item_background_holo_dark.xml: 2030 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/abc_list_selector_background_transition_holo_dark.xml: 422 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/abc_list_selector_holo_dark.xml: 2120 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/button_bg.xml: 450 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg2.xml: 455 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg3.xml: 455 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/button_bg_down.xml: 1073 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg_down2.xml: 1069 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg_down3.xml: 1077 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg_gray.xml: 1073 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/button_bg_up.xml: 1073 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg_up2.xml: 1069 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/button_bg_up3.xml: 1077 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/card_normal.xml: 808 bytes (replaced with small dummy file of size 9 bytes)
@@ -6367,13 +6030,10 @@ Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced wi
 Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/preference_list_divider_material.xml: 344 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/rb_bg.xml: 523 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/rectangle_bg.xml: 957 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/rectangle_bg2.xml: 883 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/tooltip_frame_light.xml: 471 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/notification_action_background.xml: 2250 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v21/preference_list_divider_material.xml: 480 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png: 207 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 217 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
@@ -6389,10 +6049,8 @@ Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 
 Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/webtext.png: 2216 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png: 209 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png: 236 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_baseline_insert_drive_file_24.png: 356 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/ic_launcher_background.png: 493 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/ic_launcher_foreground.png: 2220 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
@@ -6400,7 +6058,6 @@ Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png:
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v21/ic_baseline_insert_drive_file_24.xml: 797 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-xhdpi-v21/ic_launcher_background.xml: 11718 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-xhdpi-v24/$ic_launcher_foreground__0.xml: 942 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-xhdpi-v24/ic_launcher_foreground.xml: 1792 bytes (replaced with small dummy file of size 9 bytes)
@@ -6410,31 +6067,14 @@ Skipped unused resource res/layout/abc_action_bar_up_container.xml: 588 bytes (r
 Skipped unused resource res/layout/abc_activity_chooser_view.xml: 3884 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/abc_activity_chooser_view_list_item.xml: 2684 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/expand_button.xml: 3958 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/listtag_items.xml: 3024 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_action.xml: 2458 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_action_tombstone.xml: 2919 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 9240 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_template_icon_group.xml: 577 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/popup_menu_listview.xml: 2925 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_category.xml: 495 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_dialog_edittext.xml: 2541 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_dropdown.xml: 5586 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_information.xml: 3898 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_information_material.xml: 4928 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_list_fragment.xml: 1335 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_recyclerview.xml: 759 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_widget_checkbox.xml: 626 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_widget_seekbar.xml: 7176 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_widget_seekbar_material.xml: 8153 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_widget_switch.xml: 634 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/preference_widget_switch_compat.xml: 650 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/reclycer_item.xml: 1942 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/setting_fragment.xml: 4533 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/setting_fragment.xml: 4643 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/uhf_dialog_frequency.xml: 2412 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/uhf_readtag_fragment.xml: 14241 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)

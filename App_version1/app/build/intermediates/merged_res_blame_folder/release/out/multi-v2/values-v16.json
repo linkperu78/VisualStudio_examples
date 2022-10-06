@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uhf.app-mergeReleaseResources-16:/values-v16/values-v16.xml",
+            "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Diego\\.gradle\\caches\\transforms-3\\15f9ae95f63a306a8c4443d7c0b3061d\\transformed\\core-1.3.2\\res\\values-v16\\values-v16.xml",

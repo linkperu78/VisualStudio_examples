@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.fragment.app.FragmentManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.uhf.R;
@@ -27,6 +28,7 @@ import com.example.uhf.tools.Data_from_file;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -49,6 +51,44 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
         this.settingFragment=a;
         files = new File(default_path);
         this.filesAndFolders = files.listFiles();
+        int lon_array=filesAndFolders.length;
+        int[] position_valid_files = new int[lon_array];
+        int[] position_folder = new int[lon_array];
+        int pos_valid_files = 0;
+        int pos_valid_folder = 0;
+        if(filesAndFolders.length>0){
+            for(int i=0; i<lon_array; i++){
+                String extension= "";
+                File ab = filesAndFolders[i];
+                String name = ab.getName();
+                int pos = name.lastIndexOf(".");
+                if(!(pos>0)){
+                    position_folder[pos_valid_folder] =i;
+                    pos_valid_folder++; continue;}
+                extension = name.substring(pos);
+                Log.d("TAG", "MyRvAdapter: " + extension);
+                if(extension.equals(".txt")||extension.equals(".tsv")){
+                    position_valid_files[pos_valid_files]=i;
+                    pos_valid_files++;
+                }
+            }
+        }
+        position_valid_files=Arrays.copyOf(position_valid_files,pos_valid_files);
+        position_folder=Arrays.copyOf(position_folder,pos_valid_folder);
+        File[] temp_files_and_folder = new File[pos_valid_folder+pos_valid_files];
+        int position_temp =0;
+        for(int i =0; i<pos_valid_folder; i++){
+            int lugar = position_folder[i];
+            temp_files_and_folder[position_temp] = filesAndFolders[lugar];
+            position_temp++;
+        }
+        for(int i =0; i<pos_valid_files; i++){
+            int lugar = position_valid_files[i];
+            temp_files_and_folder[position_temp] = filesAndFolders[lugar];
+            position_temp++;
+        }
+        this.filesAndFolders = Arrays.copyOf(temp_files_and_folder,temp_files_and_folder.length);
+
     }
 
 
@@ -72,6 +112,10 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
             public void onClick(View v) {
                 if(!selectedFile.isDirectory()){
                     my_data_from_file = new Data_from_file(selectedFile.getAbsolutePath());
+                    if(!my_data_from_file.correct_lecture){
+                        Toast.makeText(context, "Archivo no valido\nNo hay UPC Number", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
                     header_file = my_data_from_file.header;
                     data_file = my_data_from_file.data;
                     UHFMainActivity.data = data_file;
@@ -82,6 +126,15 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
                     settingFragment.tv_modified.setText(mensaje_date);
                     Toast.makeText(context, "INFORMACION SUBIDA", Toast.LENGTH_SHORT).show();
 
+                }
+                else{
+                    String folder_path = selectedFile.getAbsolutePath();
+                    SettingFragment.rv_adapter = new MyRvAdapter(context,folder_path,settingFragment);
+                    SettingFragment.rv_adapter.notifyDataSetChanged();
+                    SettingFragment.tv_folder_path.setText(folder_path);
+                    UHFMainActivity.folder_path=folder_path;
+                    SettingFragment.setting_rv.setLayoutManager(new LinearLayoutManager(context));
+                    SettingFragment.setting_rv.setAdapter(SettingFragment.rv_adapter);
                 }
             }
         });
@@ -134,16 +187,4 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.ViewHolder>{
         return date;
     }
 
-    private int get_pos_string(String[] dataset, String name){
-        int j=0;
-        for (int i =0; i < dataset.length; i++){
-            if(dataset[i].equals(name)){
-                j =i;
-            }
-            else{
-                j=-1;
-            }
-        }
-        return j;
-    }
 }

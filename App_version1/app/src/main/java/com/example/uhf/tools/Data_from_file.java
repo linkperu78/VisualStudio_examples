@@ -1,7 +1,12 @@
 package com.example.uhf.tools;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
+import androidx.fragment.app.FragmentManager;
+
+import com.example.uhf.fragment.SettingFragment;
 import com.google.android.gms.common.util.Hex;
 
 import java.io.BufferedReader;
@@ -17,10 +22,16 @@ public class Data_from_file {
     public String[] header;
     public ArrayList<String[]>data = new ArrayList<>();
     public String data_raw;
+    public boolean correct_lecture = false;
 
     public Data_from_file(String input_file){
         this.file_path=input_file;
         data_raw = readText(file_path);
+        if(!data_raw.contains("UPC Number")){
+            correct_lecture = false;
+            return;
+        }
+
         header = data_raw.split("\n");
         header= filt_null(header);
 
@@ -38,6 +49,7 @@ public class Data_from_file {
             data_nextline = EPC_generate(data_nextline,header);
             data.add(data_nextline);
         }
+        correct_lecture = true;
     }
 
     private String readText(String input)

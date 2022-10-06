@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uhf.app-mergeReleaseResources-16:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Diego\\.gradle\\caches\\transforms-3\\b19421c8ef219f5689d34108756c496a\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",

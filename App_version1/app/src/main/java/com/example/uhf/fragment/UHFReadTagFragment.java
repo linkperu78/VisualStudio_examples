@@ -134,37 +134,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         BtClear.setOnClickListener(new BtClearClickListener());
         BtInventory.setOnClickListener(new BtInventoryClickListener());
 
-        /*
-        LvTags.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                ArrayList<HashMap<String,String>> popmenu_hashmap = new ArrayList<>();
-                HashMap<String,String> item_popup = new HashMap<>();
-                for(int i = 0; i < header_from_file.length;i++) {
-                    HashMap<String,String> pop_data = tagList.get(position);
-                    String header_i = header_from_file[i];
-                    String value_i = pop_data.get(header_i);
-                    item_popup.put(header_i,value_i);
-                }
-                popmenu_hashmap.add(item_popup);
-
-                adapter_popup_menu = new SimpleAdapter(mContext,popmenu_hashmap,R.layout.item_list_popup,
-                        header_from_file,1);
-                LvPopmenu.setAdapter(adapter_popup_menu);
-                adapter_popup_menu.notifyDataSetChanged();
-
-
-                PopupMenu popupMenu = new PopupMenu(getContext(),view);
-                popupMenu.inflate(R.layout.popup_menu_listview);
-                popupMenu.show();
-
-
-
-                return true;
-            }
-        });
-        */
-
         clearData();
         tv_count.setText(mContext.tagList.size()+"");
         Log.i(TAG, "UHFReadTagFragment.EtCountOfTags=" + tv_count.getText());
@@ -274,11 +243,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         estado_int++; estado_int = estado_int%3;
         BtInventory.setText(estado_lector[estado_int]);
     }
-
-    /*      STOP READ
-            stopInventory();
-            setTotalTime();
-     */
 
     private void setTotalTime() {
         float useTime = (System.currentTimeMillis() - time) / 1000.0F;
@@ -401,54 +365,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
 
         ordenar_arraystring(data_leida);
 
-
-        /*
-
-        for (int i = 0; i<posiciones_data_from_file.length; i++){
-            int posicion_actual = posiciones_data_from_file[i];
-            map = new HashMap<String, String>();
-
-            checkout_taglist();
-
-            if(posicion_actual > -1){
-                String[] temp_data = data_from_file.get(posicion_actual);
-                map.put("tagRssi",temp_data[pos_size]);
-                map.put("tagLen",temp_data[pos_colorname]);
-                map.put("tagUii",temp_data[pos_style]);
-                String cantidad = "0";
-
-
-                for(int k =0; k<tagList.size(); k++){
-                    Log.d(TAG, "actual_evaluate: ------------------------------- START");
-                    Log.d(TAG, "actual_evaluate: " + tagList.size());
-                    String actual_evaluate_EPC = tagList.get(k).get("tagUii");
-                    String actual_looking_EPC = temp_data[pos_EPCnumber];
-                    Log.d(TAG, "actual_evaluate: " + actual_evaluate_EPC);
-                    Log.d(TAG, "actual_looking: " + actual_looking_EPC);
-                    if(actual_evaluate_EPC.equals(actual_looking_EPC)){
-                        cantidad = tagList.get(k).get("tagCount");
-                        Log.d(TAG, "cantidad: " + cantidad);
-                        continue;
-                    }
-                    Log.d(TAG, "actual_evaluate: ------------------------------- END");
-                }
-                map.put("tagCount",cantidad);
-            }
-
-            else{
-                map.put("tagRssi","??");
-                map.put("tagLen","??");
-                map.put("tagUii", tagList.get(-posicion_actual).get("tagUii"));
-                map.put("tagCount",tagList.get(-posicion_actual).get("tagCount"));
-            }
-
-            tagList.set(i,map);
-        }
-
-        LvTags.setAdapter(adapter);
-        adapter.notifyDataSetChanged();
-
-        */
     }
 
 
@@ -504,15 +420,6 @@ public class UHFReadTagFragment extends KeyDwonFragment {
         orden = add_array_value(orden,99,1);
 
         mensaje_int(orden);
-
-        /*
-        int i = 1;
-        while(i<data_a_ordenar.size()){
-            String[] temp_values = data_a_ordenar.get(i);
-            int valor_actual = Integer.parseInt(temp_values[temp_values.length -1]);
-        }
-        */
-
     }
 
     public int[] add_array_value(int[] array_int, int add_data, int pos){

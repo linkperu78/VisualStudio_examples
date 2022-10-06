@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uhf.app-mergeReleaseResources-16:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "D:\\Github\\Android_examples\\App_version1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",

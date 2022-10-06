@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uhf.app-mergeReleaseResources-16:/values-zh/values-zh.xml",
+            "outputFile": "com.example.uhf.app-mergeReleaseResources-15:/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "D:\\Github\\Android_examples\\App_version1\\app\\src\\main\\res\\values-zh\\arrays.xml",
